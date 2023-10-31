@@ -1,0 +1,27 @@
+#image_table img {
+  padding: 2px;
+  max-width: 250px;
+  height: auto;
+}
+#image_table td {
+  border: 1px solid black;
+}
+#image_table td:nth-of-type(2) {
+  border: 3px solid red;
+}
+
+table:nth-of-type(2) tr:nth-of-type(2n) {
+  background-color: gray;
+}
+
+table:nth-of-type(2) tr:nth-of-type(2n+1) {
+  background-color: blue;
+}
+
+ol li {
+  color:blue;
+}
+
+ol li:nth-of-type(4n) {
+  color:red;
+}
