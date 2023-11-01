@@ -1,4 +1,3 @@
-
 class Ellipse {
   constructor(x, y, radiusX, radiusY) {
     this.x = x;
@@ -17,6 +16,15 @@ class Rectangle {
   }
 }
 
+class Line {
+  constructor(x1, y1, x2, y2) {
+    this.x1 = x1;
+    this.y1 = y1;
+    this.x2 = x2;
+    this.y2 = y2;
+  }
+}
+
 const canvas = document.querySelector('#canvas');
 const ctx = canvas.getContext('2d');
 
@@ -30,17 +38,26 @@ let once = true;
 
 const instruments = ['ellipse', 'rectangle', 'line'];
 
-let instrument = 'ellipse';
+let instrument = document.querySelector('#instruments').value ?? 'ellipse';
+
+const changeInstrument = (e) => {
+  instrument = e.target.value;
+  once = true;
+  pivotX = pivotY = undefined;
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  showAllDrawings();
+};
+
+document
+  .querySelector('#instruments')
+  .addEventListener('change', changeInstrument);
 
 // init ui
-(() => {
-
-
-
-})();
+(() => {})();
 
 const showAllDrawings = () => {
   drawings.forEach((d) => {
+    ctx.lineWidth = d.lineWidth;
     ctx.strokeStyle = d.stroke;
     ctx.beginPath();
     switch (d.type) {
@@ -50,13 +67,17 @@ const showAllDrawings = () => {
           d.figure.y,
           d.figure.radiusX,
           d.figure.radiusY,
-          Math.PI / 4,
+          0,
           0,
           2 * Math.PI
         );
         break;
       case 'rectangle':
-        ctx.rectangle(d.figure.x, d.figure.y, d.figure.width, d.figure.height);
+        ctx.rect(d.figure.x, d.figure.y, d.figure.width, d.figure.height);
+        break;
+      case 'line':
+        ctx.moveTo(d.figure.x1, d.figure.y1);
+        ctx.lineTo(d.figure.x2, d.figure.y2);
         break;
     }
     ctx.stroke();
@@ -64,17 +85,29 @@ const showAllDrawings = () => {
 };
 
 const draw = () => {
+  ctx.lineWidth = document.querySelector('#thickness').value ?? 1;
   ctx.strokeStyle = document.querySelector('#color').value ?? 'black';
   ctx.beginPath();
-  ctx.ellipse(
-    pivotX,
-    pivotY,
-    Math.abs(mouseX - pivotX),
-    Math.abs(mouseY - pivotY),
-    Math.PI / 4,
-    0,
-    2 * Math.PI
-  );
+  switch (instrument) {
+    case 'ellipse':
+      ctx.ellipse(
+        pivotX,
+        pivotY,
+        Math.abs(mouseX - pivotX),
+        Math.abs(mouseY - pivotY),
+        0,
+        0,
+        2 * Math.PI
+      );
+      break;
+    case 'rectangle':
+      ctx.rect(pivotX, pivotY, mouseX - pivotX, mouseY - pivotY);
+      break;
+    case 'line':
+      ctx.moveTo(pivotX, pivotY);
+      ctx.lineTo(mouseX, mouseY);
+      break;
+  }
   ctx.stroke();
 };
 
@@ -86,17 +119,34 @@ const preview = () => {
   }
 };
 
+const saveFigure = () => {
+  let figure = null;
+  switch (instrument) {
+    case 'ellipse':
+      figure = new Ellipse(
+        pivotX,
+        pivotY,
+        Math.abs(mouseX - pivotX),
+        Math.abs(mouseY - pivotY)
+      );
+      break;
+    case 'rectangle':
+      figure = new Rectangle(pivotX, pivotY, mouseX - pivotX, mouseY - pivotY);
+      break;
+    case 'line':
+      figure = new Line(pivotX, pivotY, mouseX, mouseY);
+      break;
+  }
+  return figure;
+};
+
 const reset = () => {
   drawings.push({
-    type: 'ellipse',
+    type: instrument,
     fill: '',
+    lineWidth: document.querySelector('#thickness').value ?? 1,
     stroke: document.querySelector('#color').value ?? 'black',
-    figure: new Ellipse(
-      pivotX,
-      pivotY,
-      Math.abs(pivotX - mouseX),
-      Math.abs(pivotY - mouseY)
-    ),
+    figure: saveFigure(),
   });
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   showAllDrawings();
@@ -120,5 +170,3 @@ canvas.addEventListener('mousemove', (e) => {
   mouseY = e.offsetY;
   if (!once) preview();
 });
-
-
