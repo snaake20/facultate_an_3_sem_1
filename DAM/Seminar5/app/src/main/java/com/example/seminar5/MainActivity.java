@@ -7,20 +7,29 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class MainActivity extends AppCompatActivity {
+
+    int sortDirection = 1;
     ListView listView;
+    List<Profil> data = new ArrayList<>();
     List<Profil> users = new ArrayList<Profil>();
     ProfilAdapter adapter;
 
-    private void initUsers() {
-        users.add(new Profil("email1@example.com", "example 1", 1, true, Gen.MASCULIN));
-        users.add(new Profil("email2@example.com", "example 2", 2, false, Gen.FEMININ));
-        users.add(new Profil("email3@example.com", "example 3", 3, true, Gen.INDECIS));
+    Button btn_sort;
+
+    private void initUsers(List<Profil> list) {
+        list.add(new Profil("email1@example.com", "alex", 1, true, Gen.MASCULIN));
+        list.add(new Profil("email2@example.com", "larisa", 2, false, Gen.FEMININ));
+        list.add(new Profil("email3@example.com", "andrei", 3, true, Gen.INDECIS));
     }
 
     @Override
@@ -32,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
         toolbar.setTitle("Users");
         setSupportActionBar(toolbar);
 
-        initUsers();
+        initUsers(data);
+        initUsers(users);
 
         listView = findViewById(R.id.listview);
         adapter = new ProfilAdapter(this, android.R.layout.simple_list_item_1, users);
@@ -52,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
             // adapter.notifyDataSetChanged();
             return true;
         }));
+
+        btn_sort = findViewById(R.id.btn_sortare);
     }
 
     @Override
@@ -77,5 +89,25 @@ public class MainActivity extends AppCompatActivity {
     public void addUser(View v) {
         // deschidem activitatea pentru preluare date
         startActivityForResult(new Intent(this, AddUserActivity.class), 1);
+    }
+
+    public void reset(View v) {
+        users.clear();
+        data.forEach(profil -> {
+            users.add(profil);
+        });
+        adapter.notifyDataSetChanged();
+    }
+
+    public void sort(View v) {
+        String sorting = String.valueOf(btn_sort.getText());
+        users.sort(Comparator.comparing(Profil::getNume));
+        if (sorting.equals("Crescator")) {
+            btn_sort.setText("Descrescator");
+        } else {
+            Collections.reverse(users);
+            btn_sort.setText("Crescator");
+        }
+        adapter.notifyDataSetChanged();
     }
 }

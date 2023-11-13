@@ -1,5 +1,7 @@
 package com.example.seminar5;
 
+import androidx.annotation.NonNull;
+
 import java.io.Serializable;
 
 
@@ -9,7 +11,7 @@ enum Gen {
     INDECIS
 }
 
-public class Profil implements Serializable {
+public class Profil implements Serializable, Cloneable {
     protected String email;
     protected String nume;
     protected int varsta;
@@ -79,5 +81,13 @@ public class Profil implements Serializable {
                 ", eMajor=" + (eMajor ? "da" : "nu") +
                 ", gen=" + gen.toString() +
                 '}';
+    }
+
+
+    @NonNull
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        Profil clona = (Profil) super.clone();
+        return clona;
     }
 }

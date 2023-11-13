@@ -29,25 +29,34 @@ def execute():
     salvare_matrice(r, variabile_numerice, variabile_numerice, 'r.csv');
     
     # corelograma
-    # corelograma()
+    corelograma(r)
+    
     x_std = standardizare_centrare(x);
     salvare_matrice(x_std, nume_judete, variabile_numerice, "x_std.csv");
     x_c = standardizare_centrare(x, False)
     salvare_matrice(x_c, nume_judete, variabile_numerice, "x_c.csv");
     
-    teste = teste_concordanta(x);
-    nume_teste = ["s_shapiro", "p_shapiro", "s_ks", "p_ks", "s_chi2", "p_chi2"];
+    # teste = teste_concordanta(x);
+    # nume_teste = ["s_shapiro", "p_shapiro", "s_ks", "p_ks", "s_chi2", "p_chi2"];
     
-    salvare_matrice(teste, variabile_numerice, nume_teste, "teste.csv");
+    # salvare_matrice(teste, variabile_numerice, nume_teste, "teste.csv");
     
-    vector_variabile = np.array(variabile_numerice);
-    decizie_shapiro = tabel[:,1] > 0.05;
-    print("variabile care urmeaza o distributie normala conform shapiro:", vector_variabile[decizie_shapiro])
+    # vector_variabile = np.array(variabile_numerice);
+    # decizie_shapiro = tabel[:,1] > 0.05;
+    # print("variabile care urmeaza o distributie normala conform shapiro:", vector_variabile[decizie_shapiro])
+    
+    # corelograma(r);
+    
+def corelograma(corr, dec=2, titlu="Corelograma", valMin=-1, valMax=1):
+    plt.figure("Grafic corelograma", figsize=(12,8));
+    plt.title(titlu, fontsize=12, color="royalblue", verticalalignment="bottom");
+    sb.heatmap(data=np.round(corr, decimals=dec), vmin=valMin, vmax=valMax, annot=True, cmap="cool")
+    plt.show();
     
 def teste_concordanta(x):
     assert isinstance(x, np.ndarray);
     _,m = x.shape;
-    teste = np.empty(m,6);
+    teste = np.empty((m,6));
     
     for i in range(m):
         v = x[:,i];
