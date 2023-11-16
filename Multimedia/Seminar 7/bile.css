@@ -1,0 +1,42 @@
+body {
+  position: relative;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  border: 1px solid gray;
+  width: fit-content;
+  height: 221px;
+}
+
+.circle {
+  top: 200px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  position: relative;
+  display: inline-block;
+  background-color: red;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-name: anim;
+}
+
+@keyframes anim {
+  from {
+    top: 200px;
+    animiation-timing-function: cubic-bezier(0,1.18,1,.99);
+  }
+  50% {
+    top: 0;
+    animiation-timing-function: cubic-bezier(1,0,1,.99);
+  }
+  to {
+    top: 200px;
+    animiation-timing-function: cubic-bezier(0,1.18,1,.99);
+  }
+}

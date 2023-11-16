@@ -66,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
         initControls(profil);
     }
 
+
+
     public void onClick(View v) {
         startActivityForResult(new Intent(this, EditProfileActivity.class).putExtra("profile", profil), 1);
     }

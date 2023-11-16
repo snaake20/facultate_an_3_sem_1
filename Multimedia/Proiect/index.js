@@ -34,15 +34,33 @@ let pivotX, pivotY;
 
 let mouseX, mouseY;
 
-let once = true;
+let inPreview = false;
 
 const instruments = ['ellipse', 'rectangle', 'line'];
 
 let instrument = document.querySelector('#instruments').value ?? 'ellipse';
 
+const saveToRaster = (mimeType) => {
+  const dataURL = canvas.toDataURL(`image/${mimeType}`);
+
+  const link = document.createElement('a');
+  link.href = dataURL;
+  link.download = `canvas.${mimeType}`;
+  link.click();
+};
+
+const saveToSVG = () => {
+  const svgData = new XMLSerializer().serializeToString(canvas);
+
+  const link = document.createElement('a');
+  link.href = 'data:image/svg+xml,' + svgData;
+  link.download = 'canvas.svg';
+  link.click();
+};
+
 const changeInstrument = (e) => {
   instrument = e.target.value;
-  once = true;
+  inPreview = false;
   pivotX = pivotY = undefined;
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   showAllDrawings();
@@ -150,7 +168,7 @@ const reset = () => {
   });
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   showAllDrawings();
-  once = true;
+  inPreview = false;
   pivotX = pivotY = undefined;
 };
 
@@ -158,15 +176,15 @@ canvas.addEventListener('mouseup', reset);
 
 canvas.addEventListener('mousedown', (e) => {
   if (e.button == 0) {
-    if (!once) return;
+    if (inPreview) return;
     pivotX = e.offsetX;
     pivotY = e.offsetY;
-    once = false;
+    inPreview = true;
   }
 });
 
 canvas.addEventListener('mousemove', (e) => {
   mouseX = e.offsetX;
   mouseY = e.offsetY;
-  if (!once) preview();
+  if (inPreview) preview();
 });
