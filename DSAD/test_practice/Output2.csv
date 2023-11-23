@@ -1,0 +1,3181 @@
+Siruta,Localitate,Cea mai profitabila activitate
+1017,Municipiul Alba Iulia,CrestereaAnimalelor
+1071,Ciugud,ActivitatiAuxiliare
+1151,Oras Abrud,CrestereaAnimalelor
+1213,Municipiul Aiud,FermeMixte
+1348,Municipiul Blaj,PlantePermanente
+1455,Oras Campeni,PlantePermanente
+1696,Oras Cugir,CrestereaAnimalelor
+1794,Oras Ocna Mures,FermeMixte
+1874,Municipiul Sebes,PlantePermanente
+1936,Oras Zlatna,CrestereaAnimalelor
+2130,Albac,PlantePermanente
+2309,Almasu Mare,PlantePermanente
+2381,Arieseni,PlantePermanente
+2577,Avram Iancu,PlantePermanente
+2915,Oras Baia De Aries,PlantePermanente
+2988,Berghin,PlantePermanente
+3039,Bistra,PlantePermanente
+3397,Blandiana,CrestereaAnimalelor
+3459,Bucium,PlantePermanente
+3761,Cenade,PlantePermanente
+3805,Cergau,CrestereaAnimalelor
+3841,Ceru-Bacainti,PlantePermanente
+3958,Cetatea De Balta,ActivitatiAuxiliare
+4008,Ciuruleasa,PlantePermanente
+4106,Calnic,PlantePermanente
+4142,Cricau,PlantePermanente
+4188,Craciunelu De Jos,PlantePermanente
+4240,Daia Romana,CrestereaAnimalelor
+4268,Dostat,CrestereaAnimalelor
+4302,Farau,PlantePermanente
+4366,Galda De Jos,CrestereaAnimalelor
+4482,Garbova,CrestereaAnimalelor
+4525,Garda De Sus,PlantePermanente
+4703,Hoparta,CrestereaAnimalelor
+4767,Horea,PlantePermanente
+4927,Ighiu,ActivitatiAuxiliare
+4981,Intregalde,PlantePermanente
+5103,Jidvei,PlanteNepermanente
+5167,Livezile,PlantePermanente
+5210,Lopadea Noua,CrestereaAnimalelor
+5309,Lunca Muresului,FermeMixte
+5336,Lupsa,PlantePermanente
+5577,Metes,PlantePermanente
+5700,Mihalt,PlantePermanente
+5755,Miraslau,PlantePermanente
+5826,Mogos,PlantePermanente
+6048,Noslac,PlantePermanente
+6119,Ocolis,PlantePermanente
+6164,Ohaba,PlantePermanente
+6217,Pianu,CrestereaAnimalelor
+6271,Poiana Vadului,PlantePermanente
+6397,Ponor,CrestereaAnimalelor
+6468,Posaga,CrestereaAnimalelor
+6547,Radesti,CrestereaAnimalelor
+6592,Rametea,PlantePermanente
+6627,Ramet,PlantePermanente
+6761,Rosia Montana,PlantePermanente
+6930,Rosia De Secas,PlantePermanente
+6976,Salciua,PlantePermanente
+7044,Salistea,PlantePermanente
+7099,Sasciori,FermeMixte
+7197,Scarisoara,PlantePermanente
+7348,Sancel,PlantePermanente
+7384,Santimbru,CrestereaAnimalelor
+7446,Sohodol,PlantePermanente
+7767,Stremt,PlantePermanente
+7810,Sibot,CrestereaAnimalelor
+7865,Sona,PlantePermanente
+7945,Spring,ActivitatiAuxiliare
+8014,Sugag,ActivitatiAuxiliare
+8096,Oras Teius,CrestereaAnimalelor
+8158,Unirea,CrestereaAnimalelor
+8229,Vadu Motilor,PlantePermanente
+8354,Valea Lunga,CrestereaAnimalelor
+8425,Vidra,FermeMixte
+8826,Vintu De Jos,ActivitatiAuxiliare
+9019,Cut,CrestereaAnimalelor
+9026,Bucerdea Granoasa,PlantePermanente
+9262,Municipiul Arad,PlantePermanente
+9280,Fantanele,PlantePermanente
+9333,Livada,PlantePermanente
+9360,Sofronea,PlantePermanente
+9397,Vladimirescu,PlantePermanente
+9459,Oras Chisineu-Cris,PlantePermanente
+9495,Oras Curtici,PlantePermanente
+9538,Oras Ineu,PlantePermanente
+9574,Oras Lipova,PlantePermanente
+9627,Oras Nadlac,PlantePermanente
+9654,Oras Pancota,PlantePermanente
+9690,Oras Sebis,PlantePermanente
+9743,Almas,PlantePermanente
+9798,Apateu,PlantePermanente
+9832,Archis,PlantePermanente
+9887,Bata,PlanteInmultire
+9930,Beliu,CrestereaAnimalelor
+10006,Birchis,FermeMixte
+10051,Barsa,PlanteInmultire
+10104,Barzava,PlantePermanente
+10195,Bocsig,PlantePermanente
+10239,Brazii,PlantePermanente
+10293,Buteni,ActivitatiAuxiliare
+10346,Carand,PlantePermanente
+10373,Cermei,ActivitatiAuxiliare
+10417,Chisindia,PlantePermanente
+10453,Conop,PlantePermanente
+10514,Covasint,PlantePermanente
+10532,Craiva,PlantePermanente
+10649,Dezna,PlantePermanente
+10701,Dieci,CrestereaAnimalelor
+10765,Ususau,FermeMixte
+10827,Felnac,PlantePermanente
+10872,Ghioroc,PlantePermanente
+10916,Graniceri,PlantePermanente
+10943,Gurahont,PlanteNepermanente
+11058,Halmagiu,CrestereaAnimalelor
+11174,Halmagel,PlantePermanente
+11236,Hasmas,PlantePermanente
+11307,Ignesti,ActivitatiAuxiliare
+11352,Iratosu,CrestereaAnimalelor
+11398,Macea,PlantePermanente
+11423,Misca,PlantePermanente
+11478,Moneasa,PlantePermanente
+11502,Olari,PlantePermanente
+11539,Paulis,PlantePermanente
+11584,Oras Pecica,PlantePermanente
+11637,Peregu Mare,PlantePermanente
+11664,Petris,PlantePermanente
+11735,Pilu,PlantePermanente
+11762,Plescuta,PlantePermanente
+11842,Savarsin,PlantePermanente
+11940,Secusigiu,PlantePermanente
+11995,Seleus,ActivitatiAuxiliare
+12037,Semlac,PlantePermanente
+12055,Sintea Mare,PlantePermanente
+12091,Oras Santana,PlantePermanente
+12126,Socodor,PlantePermanente
+12144,Sagu,PlantePermanente
+12206,Seitin,PlantePermanente
+12224,Sepreus,PlantePermanente
+12242,Sicula,PlantePermanente
+12288,Silindia,ActivitatiAuxiliare
+12340,Simand,PlantePermanente
+12368,Siria,PlantePermanente
+12402,Sistarovat,PlantePermanente
+12457,Taut,PlantePermanente
+12509,Tarnova,PlantePermanente
+12572,Varadia De Mures,CrestereaAnimalelor
+12643,Vinga,PlantePermanente
+12689,Varfurile,PlantePermanente
+12778,Zabrani,PlantePermanente
+12812,Zarand,ActivitatiAuxiliare
+12849,Zerind,PlantePermanente
+12876,Zimandu Nou,CrestereaAnimalelor
+12912,Dorobanti,PlantePermanente
+12920,Frumuseni,CrestereaAnimalelor
+12938,Zadareni,PlantePermanente
+13169,Municipiul Pitesti,PlantePermanente
+13187,Bascov,PlantePermanente
+13276,Bradu,PlantePermanente
+13301,Oras Mioveni,PlantePermanente
+13365,Maracineni,PlanteNepermanente
+13392,Oras Stefanesti,FermeMixte
+13490,Municipiul Campulung,PlanteNepermanente
+13524,Valea Mare Pravat,PlanteInmultire
+13622,Municipiul Curtea De Arges,CrestereaAnimalelor
+13668,Oras Costesti,PlantePermanente
+13757,Oras Topoloveni,FermeMixte
+13819,Albestii De Arges,ActivitatiAuxiliare
+13891,Albestii De Muscel,CrestereaAnimalelor
+13935,Albota,PlantePermanente
+13999,Aninoasa,PlantePermanente
+14049,Arefu,PlantePermanente
+14085,Babana,PlantePermanente
+14165,Baiculesti,CrestereaAnimalelor
+14272,Balilesti,PlantePermanente
+14352,Beleti-Negresti,PlantePermanente
+14405,Berevoesti,PlantePermanente
+14450,Barla,CrestereaAnimalelor
+14584,Bogati,PlanteNepermanente
+14673,Boteni,ActivitatiAuxiliare
+14726,Botesti,PlantePermanente
+14753,Bradulet,PlantePermanente
+14851,Budeasa,CrestereaAnimalelor
+14922,Bughea De Jos,PlantePermanente
+14940,Buzoesti,PlantePermanente
+15064,Caldararu,PlantePermanente
+15108,Calinesti,PlantePermanente
+15233,Cateasca,PlantePermanente
+15313,Cepari,PlanteNepermanente
+15402,Cetateni,CrestereaAnimalelor
+15448,Cicanesti,PlantePermanente
+15493,Ciofrangeni,ActivitatiAuxiliare
+15554,Ciomagesti,PlantePermanente
+15652,Cocu,PlantePermanente
+15741,Corbeni,ActivitatiAuxiliare
+15830,Corbi,PlantePermanente
+15901,Cosesti,PlantePermanente
+15983,Cotmeana,PlantePermanente
+16132,Cuca,ActivitatiAuxiliare
+16285,Davidesti,PlanteNepermanente
+16329,Dambovicioara,PlantePermanente
+16365,Darmanesti,ActivitatiAuxiliare
+16427,Dobresti,PlanteNepermanente
+16454,Domnesti,CrestereaAnimalelor
+16472,Dragoslavele,PlantePermanente
+16506,Draganu,PlantePermanente
+16551,Godeni,ActivitatiAuxiliare
+16613,Harsesti,PlantePermanente
+16659,Hartiesti,PlantePermanente
+16739,Izvoru,PlantePermanente
+16757,Leordeni,PlantePermanente
+16908,Leresti,ActivitatiAuxiliare
+16944,Lunca Corbului,PlantePermanente
+17049,Malureni,CrestereaAnimalelor
+17101,Merisani,PlantePermanente
+17209,Micesti,CrestereaAnimalelor
+17254,Mihaesti,PlantePermanente
+17334,Mioarele,PlantePermanente
+17398,Mirosi,PlantePermanente
+17423,Moraresti,PlantePermanente
+17496,Mosoaia,CrestereaAnimalelor
+17575,Mozaceni,ActivitatiAuxiliare
+17619,Musatesti,CrestereaAnimalelor
+17726,Negrasi,CrestereaAnimalelor
+17771,Nucsoara,PlantePermanente
+17824,Oarja,PlantePermanente
+17851,Pietrosani,PlantePermanente
+17913,Poienarii De Arges,PlantePermanente
+17968,Poienarii De Muscel,PlantePermanente
+18028,Poiana Lacului,ActivitatiAuxiliare
+18162,Popesti,PlantePermanente
+18242,Priboieni,PlantePermanente
+18331,Ratesti,CrestereaAnimalelor
+18411,Recea,PlantePermanente
+18475,Rociu,PlantePermanente
+18527,Rucar,PlantePermanente
+18554,Salatrucu,PlantePermanente
+18581,Sapata,PlantePermanente
+18670,Schitu Golesti,PlantePermanente
+18741,Slobozia,CrestereaAnimalelor
+18778,Stalpeni,PlantePermanente
+18858,Stoenesti,ActivitatiAuxiliare
+18938,Stolnici,CrestereaAnimalelor
+19007,Suseni,CrestereaAnimalelor
+19114,Stefan Cel Mare,PlantePermanente
+19141,Suici,PlantePermanente
+19212,Teiu,PlantePermanente
+19249,Tigveni,PlanteNepermanente
+19338,Titesti,PlantePermanente
+19392,Uda,PlantePermanente
+19560,Ungheni,PlantePermanente
+19631,Valea Danului,PlantePermanente
+19695,Valea Iasului,PlantePermanente
+19793,Vedea,ActivitatiAuxiliare
+19999,Vladesti,PlantePermanente
+20048,Raca,PlantePermanente
+20055,Vulturesti,PlantePermanente
+20063,Bughea De Sus,CrestereaAnimalelor
+20297,Municipiul Bacau,PlantePermanente
+20313,Hemeius,PlantePermanente
+20359,Letea Veche,PlantePermanente
+20411,Magura,PlantePermanente
+20466,Margineni,PlantePermanente
+20563,Municipiul Onesti,ActivitatiAuxiliare
+20607,Gura Vaii,PlantePermanente
+20670,Stefan Cel Mare,PlantePermanente
+20778,Oras Buhusi,PlantePermanente
+20821,Oras Comanesti,PlantePermanente
+20876,Municipiul Moinesti,PlantePermanente
+20910,Oras Slanic-Moldova,PlanteInmultire
+20965,Oras Targu Ocna,CrestereaAnimalelor
+21007,Agas,PlantePermanente
+21098,Ardeoani,FermeMixte
+21123,Asau,PlantePermanente
+21196,Balcani,PlantePermanente
+21249,Beresti-Bistrita,PlantePermanente
+21338,Beresti-Tazlau,PlantePermanente
+21418,Berzunti,PlantePermanente
+21454,Barsanesti,ActivitatiAuxiliare
+21506,Blagesti,PlantePermanente
+21560,Bogdanesti,FermeMixte
+21597,Brusturoasa,PlantePermanente
+21668,Buhoci,FermeMixte
+21720,Casin,PlanteNepermanente
+21757,Caiuti,PlantePermanente
+21855,Cleja,PlantePermanente
+21891,Colonesti,PlantePermanente
+21971,Corbasca,PlantePermanente
+22059,Cotofanesti,PlantePermanente
+22111,Damienesti,PlantePermanente
+22166,Oras Darmanesti,PlantePermanente
+22237,Dealu Morii,PlantePermanente
+22380,Dofteana,PlantePermanente
+22460,Faraoani,PlantePermanente
+22488,Filipeni,PlantePermanente
+22576,Filipesti,PlantePermanente
+22665,Gaiceana,PlantePermanente
+22718,Ghimes-Faget,CrestereaAnimalelor
+22781,Garleni,PlantePermanente
+22834,Glavanesti,ActivitatiAuxiliare
+22898,Helegiu,PlantePermanente
+22941,Horgesti,CrestereaAnimalelor
+23047,Huruiesti,PlantePermanente
+23127,Izvoru Berheciului,PlantePermanente
+23207,Lipova,PlanteInmultire
+23289,Livezi,PlantePermanente
+23350,Luizi-Calugara,PlantePermanente
+23387,Magiresti,PlantePermanente
+23449,Manastirea Casin,PlantePermanente
+23494,Motoseni,PlantePermanente
+23644,Negri,PlantePermanente
+23715,Nicolae Balcescu,CrestereaAnimalelor
+23797,Oituz,PlantePermanente
+23868,Oncesti,PlantePermanente
+23948,Orbeni,PlantePermanente
+23975,Palanca,PlantePermanente
+24034,Parava,ActivitatiAuxiliare
+24089,Parincea,PlantePermanente
+24187,Pancesti,PlantePermanente
+24276,Pargaresti,PlantePermanente
+24338,Parjol,PlantePermanente
+24427,Plopana,PlanteNepermanente
+24524,Podu Turcului,PlantePermanente
+24631,Poduri,PlantePermanente
+24711,Racova,PlantePermanente
+24766,Racaciuni,PlantePermanente
+24837,Rachitoasa,PlantePermanente
+24999,Rosiori,PlantePermanente
+25068,Sascut,PlantePermanente
+25148,Sanduleni,PlantePermanente
+25228,Saucesti,FermeMixte
+25291,Scorteni,PlantePermanente
+25362,Secuieni,PlantePermanente
+25488,Solont,PlantePermanente
+25521,Stanisesti,PlantePermanente
+25629,Strugari,PlantePermanente
+25692,Tamasi,ActivitatiAuxiliare
+25745,Tatarasti,PlantePermanente
+25825,Targu Trotus,ActivitatiAuxiliare
+25861,Traian,CrestereaAnimalelor
+25932,Ungureni,PlantePermanente
+26029,Urechesti,PlantePermanente
+26083,Valea Seaca,ActivitatiAuxiliare
+26118,Vultureni,PlantePermanente
+26289,Zemes,PlantePermanente
+26320,Sarata,PlantePermanente
+26338,Buciumi,PlantePermanente
+26346,Gioseni,PlantePermanente
+26353,Odobesti,PlantePermanente
+26361,Prajesti,PlantePermanente
+26379,Itesti,PlanteNepermanente
+26564,Municipiul Oradea,PlantePermanente
+26582,Sanmartin,PlantePermanente
+26653,Santandrei,CrestereaAnimalelor
+26699,Oras Alesd,CrestereaAnimalelor
+26742,Astileu,PlantePermanente
+26804,Municipiul Beius,FermeMixte
+26840,Oras Stei,PlantePermanente
+26877,Municipiul Marghita,PlantePermanente
+26920,Oras Nucet,PlantePermanente
+26975,Municipiul Salonta,PlantePermanente
+27007,Oras Vascau,FermeMixte
+27070,Abram,PlantePermanente
+27169,Abramut,PlantePermanente
+27212,Auseu,PlantePermanente
+27285,Avram Iancu,PlantePermanente
+27329,Balc,PlantePermanente
+27383,Batar,PlantePermanente
+27436,Biharia,PlantePermanente
+27506,Boianu Mare,PlantePermanente
+27560,Borod,PlantePermanente
+27631,Bors,PlantePermanente
+27686,Bratca,PlantePermanente
+27757,Brusturi,PlanteNepermanente
+27846,Budureasa,PlantePermanente
+27908,Buduslau,PlantePermanente
+27935,Bulz,PlantePermanente
+27971,Buntesti,PlantePermanente
+28077,Cabesti,PlantePermanente
+28139,Capalna,PlantePermanente
+28193,Carpinet,PlantePermanente
+28246,Cefa,PlantePermanente
+28335,Ceica,PlantePermanente
+28415,Cetariu,PlantePermanente
+28497,Cherechiu,PlantePermanente
+28530,Chislaz,PlantePermanente
+28610,Ciuhoi,PlantePermanente
+28665,Ciumeghiu,PlantePermanente
+28709,Campani,ActivitatiAuxiliare
+28763,Cociuba Mare,PlantePermanente
+28816,Copacel,PlantePermanente
+28889,Cristioru De Jos,PlantePermanente
+28941,Curatele,PlantePermanente
+29001,Curtuiseni,PlantePermanente
+29038,Derna,PlantePermanente
+29092,Diosig,PlantePermanente
+29154,Dobresti,PlantePermanente
+29243,Draganesti,CrestereaAnimalelor
+29341,Dragesti,PlantePermanente
+29403,Finis,PlantePermanente
+29467,Girisu De Cris,ActivitatiAuxiliare
+29519,Hidiselu De Sus,PlanteNepermanente
+29573,Holod,CrestereaAnimalelor
+29662,Husasau De Tinca,CrestereaAnimalelor
+29724,Ineu,PlantePermanente
+29760,Lazuri De Beius,ActivitatiAuxiliare
+29813,Lazareni,PlantePermanente
+29902,Lugasu De Jos,PlantePermanente
+29948,Lunca,PlantePermanente
+30014,Madaras,CrestereaAnimalelor
+30069,Magesti,PlantePermanente
+30149,Nojorid,FermeMixte
+30229,Olcea,PlantePermanente
+30274,Osorhei,PlantePermanente
+30336,Pietroasa,PlantePermanente
+30416,Pocola,PlantePermanente
+30470,Pomezeu,PlantePermanente
+30568,Popesti,PlanteInmultire
+30648,Rabagani,PlantePermanente
+30719,Remetea,PlantePermanente
+30773,Rieni,PlantePermanente
+30844,Rosia,PlantePermanente
+30871,Sacadat,PlantePermanente
+30915,Oras Sacueni,CrestereaAnimalelor
+30988,Salacea,PlantePermanente
+31011,Salard,PlantePermanente
+31057,Sambata,PlantePermanente
+31128,Sarbi,CrestereaAnimalelor
+31208,Spinus,PlantePermanente
+31262,Suplacu De Barcau,PlantePermanente
+31333,Simian,PlantePermanente
+31379,Sinteu,PlantePermanente
+31422,Soimi,CrestereaAnimalelor
+31510,Suncuius,PlantePermanente
+31565,Tarcea,PlantePermanente
+31609,Tarcaia,PlantePermanente
+31654,Tauteu,PlantePermanente
+31716,Tileagd,FermeMixte
+31789,Tinca,PlantePermanente
+31841,Tulca,PlantePermanente
+31878,Tetchea,PlantePermanente
+31921,Uileacu De Beius,PlantePermanente
+31976,Vadu Crisului,CrestereaAnimalelor
+32027,Oras Valea Lui Mihai,PlantePermanente
+32045,Viisoara,PlantePermanente
+32090,Varciorog,PlantePermanente
+32153,Tamaseu,ActivitatiAuxiliare
+32161,Paleu,PlanteNepermanente
+32179,Sannicolau Roman,CrestereaAnimalelor
+32187,Rosiori,PlantePermanente
+32195,Gepiu,PlantePermanente
+32201,Toboliu,PlanteNepermanente
+32394,Municipiul Bistrita,CrestereaAnimalelor
+32483,Oras Beclean,CrestereaAnimalelor
+32544,Oras Nasaud,PlantePermanente
+32599,Oras Sangeorz-Bai,PlantePermanente
+32633,Bistrita Bargaului,PlanteInmultire
+32660,Branistea,PlanteNepermanente
+32704,Budacu De Jos,PlantePermanente
+32768,Budesti,PlantePermanente
+32811,Caianu Mic,CrestereaAnimalelor
+32884,Cetate,CrestereaAnimalelor
+32955,Ciceu-Giurgesti,PlantePermanente
+33015,Chiochis,ActivitatiAuxiliare
+33122,Chiuza,PlantePermanente
+33177,Cosbuc,PlantePermanente
+33202,Dumitra,PlantePermanente
+33248,Feldru,FermeMixte
+33275,Galatii Bistritei,PlanteNepermanente
+33337,Ilva Mare,PlantePermanente
+33364,Ilva Mica,PlantePermanente
+33382,Josenii Bargaului,PlantePermanente
+33435,Lechinta,CrestereaAnimalelor
+33514,Lesu,PlantePermanente
+33541,Livezile,CrestereaAnimalelor
+33603,Lunca Ilvei,FermeMixte
+33621,Maieru,PlantePermanente
+33658,Matei,PlantePermanente
+33729,Magura Ilvei,PlantePermanente
+33765,Mariselu,PlantePermanente
+33845,Micestii De Campie,CrestereaAnimalelor
+33881,Milas,PlantePermanente
+33952,Monor,CrestereaAnimalelor
+33989,Nimigea,PlantePermanente
+34075,Nuseni,PlantePermanente
+34155,Parva,PlantePermanente
+34173,Petru Rares,PlantePermanente
+34235,Prundu Bargaului,FermeMixte
+34262,Rebra,PlantePermanente
+34280,Rebrisoara,PlantePermanente
+34333,Rodna,CrestereaAnimalelor
+34360,Romuli,ActivitatiAuxiliare
+34397,Salva,PlanteNepermanente
+34422,Silivasu De Campie,PlantePermanente
+34477,Sanmihaiu De Campie,CrestereaAnimalelor
+34547,Spermezeu,CrestereaAnimalelor
+34618,Sant,PlantePermanente
+34645,Sieu,FermeMixte
+34690,Sieu-Magherus,FermeMixte
+34770,Sieu-Odorhei,PlantePermanente
+34850,Sieut,ActivitatiAuxiliare
+34903,Sintereag,CrestereaAnimalelor
+34985,Teaca,CrestereaAnimalelor
+35054,Telciu,PlantePermanente
+35090,Tiha Bargaului,PlanteNepermanente
+35152,Tarlisua,PlantePermanente
+35269,Uriu,CrestereaAnimalelor
+35312,Urmenis,CrestereaAnimalelor
+35429,Zagra,PlantePermanente
+35731,Municipiul Botosani,PlantePermanente
+35759,Curtesti,PlantePermanente
+35839,Rachiti,CrestereaAnimalelor
+35884,Stauceni,FermeMixte
+35946,Oras Darabani,FermeMixte
+36006,Municipiul Dorohoi,PlantePermanente
+36060,Oras Saveni,ActivitatiAuxiliare
+36131,Albesti,ActivitatiAuxiliare
+36202,Avrameni,PlantePermanente
+36300,Baluseni,PlantePermanente
+36373,Braesti,PlantePermanente
+36426,Broscauti,PlantePermanente
+36453,Oras Bucecea,CrestereaAnimalelor
+36499,Calarasi,PlantePermanente
+36532,Concesti,PlantePermanente
+36569,Copalau,PlantePermanente
+36649,Cordareni,PlantePermanente
+36676,Corlateni,PlantePermanente
+36756,Corni,PlantePermanente
+36809,Cotusca,PlantePermanente
+36907,Cristesti,PlantePermanente
+36952,Cristinesti,PlantePermanente
+37011,Dersca,FermeMixte
+37057,Dangeni,PlantePermanente
+37100,Dobarceni,PlantePermanente
+37173,Draguseni,PlantePermanente
+37217,Durnesti,PlantePermanente
+37280,Oras Flamanzi,PlantePermanente
+37324,Frumusica,PlantePermanente
+37397,George Enescu,PlantePermanente
+37459,Gorbanesti,CrestereaAnimalelor
+37547,Havarna,FermeMixte
+37618,Hanesti,PlantePermanente
+37672,Hiliseu-Horia,FermeMixte
+37734,Hlipiceni,PlantePermanente
+37770,Hudesti,PlantePermanente
+37823,Ibanesti,PlantePermanente
+37850,Leorda,ActivitatiAuxiliare
+37912,Lunca,PlantePermanente
+37958,Manoleasa,PlantePermanente
+38063,Mihai Eminescu,CrestereaAnimalelor
+38161,Mihaileni,ActivitatiAuxiliare
+38241,Mihalaseni,PlantePermanente
+38321,Mileanca,FermeMixte
+38376,Mitoc,PlantePermanente
+38456,Nicseni,PlantePermanente
+38492,Paltinis,PlantePermanente
+38544,Pomarla,PlantePermanente
+38580,Prajeni,PlantePermanente
+38633,Radauti-Prut,PlantePermanente
+38679,Rauseni,PlantePermanente
+38731,Ripiceni,PlantePermanente
+38811,Roma,CrestereaAnimalelor
+38848,Romanesti,PlantePermanente
+38893,Santa Mare,FermeMixte
+38982,Suharau,PlantePermanente
+39051,Sulita,ActivitatiAuxiliare
+39122,Sendriceni,PlantePermanente
+39168,Oras Stefanesti,PlantePermanente
+39220,Stiubieni,PlantePermanente
+39266,Todireni,PlantePermanente
+39328,Trusesti,PlantePermanente
+39391,Tudora,CrestereaAnimalelor
+39417,Ungureni,FermeMixte
+39532,Unteni,ActivitatiAuxiliare
+39612,Vaculesti,CrestereaAnimalelor
+39658,Viisoara,PlantePermanente
+39694,Varfu Campului,CrestereaAnimalelor
+39738,Vladeni,PlantePermanente
+39792,Vlasinesti,FermeMixte
+39836,Vorniceni,FermeMixte
+39872,Vorona,PlantePermanente
+39942,Lozna,PlantePermanente
+39959,Dimacheni,PlantePermanente
+39967,Candesti,FermeMixte
+39975,Cosula,PlantePermanente
+39983,Blandesti,PlantePermanente
+40035,Adaseni,PlantePermanente
+40198,Municipiul Brasov,CrestereaAnimalelor
+40214,Oras Ghimbav,ActivitatiAuxiliare
+40241,Municipiul Codlea,CrestereaAnimalelor
+40278,Municipiul Fagaras,PlantePermanente
+40303,Oras Predeal,PlantePermanente
+40367,Oras Rasnov,CrestereaAnimalelor
+40394,Oras Rupea,FermeMixte
+40438,Municipiul Sacele,PlanteInmultire
+40465,Oras Victoria,FermeMixte
+40492,Oras Zarnesti,CrestereaAnimalelor
+40526,Apata,PlantePermanente
+40544,Beclean,CrestereaAnimalelor
+40606,Bod,FermeMixte
+40633,Bran,CrestereaAnimalelor
+40688,Budila,PlantePermanente
+40704,Bunesti,FermeMixte
+40768,Cata,PlantePermanente
+40820,Cincu,PlantePermanente
+40857,Comana,PlantePermanente
+40900,Cristian,PlantePermanente
+40928,Dumbravita,CrestereaAnimalelor
+40955,Feldioara,FermeMixte
+40991,Fundata,PlantePermanente
+41033,Halchiu,CrestereaAnimalelor
+41088,Harman,ActivitatiAuxiliare
+41113,Harseni,FermeMixte
+41177,Hoghiz,FermeMixte
+41248,Homorod,PlantePermanente
+41284,Jibert,PlantePermanente
+41346,Lisa,PlanteNepermanente
+41382,Maierus,PlantePermanente
+41417,Mandra,PlantePermanente
+41471,Moieciu,PlantePermanente
+41541,Ormenis,PlantePermanente
+41578,Parau,FermeMixte
+41621,Poiana Marului,PlantePermanente
+41667,Prejmer,PlantePermanente
+41701,Racos,PlantePermanente
+41738,Recea,PlanteNepermanente
+41818,Sercaia,CrestereaAnimalelor
+41854,Sinca,PlanteNepermanente
+41925,Sanpetru,ActivitatiAuxiliare
+41943,Soars,FermeMixte
+42003,Tarlungeni,CrestereaAnimalelor
+42058,Teliu,PlanteNepermanente
+42076,Ticusu,PlantePermanente
+42101,Ucea,CrestereaAnimalelor
+42156,Ungra,PlantePermanente
+42183,Vama Buzaului,PlantePermanente
+42236,Vistea,FermeMixte
+42307,Voila,CrestereaAnimalelor
+42398,Vulcan,CrestereaAnimalelor
+42449,Sinca Noua,FermeMixte
+42456,Crizbav,CrestereaAnimalelor
+42464,Sambata De Sus,PlanteInmultire
+42472,Holbav,PlantePermanente
+42480,Dragus,FermeMixte
+42498,Augustin,PlantePermanente
+42682,Municipiul Braila,PlantePermanente
+42708,Chiscani,PlantePermanente
+42753,Oras Faurei,ActivitatiAuxiliare
+42771,Surdila-Greci,PlantePermanente
+42824,Baraganul,PlantePermanente
+42842,Bertestii De Jos,PlantePermanente
+42913,Bordei Verde,PlantePermanente
+42968,Ciocile,PlantePermanente
+43019,Ciresu,PlantePermanente
+43073,Dudesti,PlantePermanente
+43117,Frecatei,PlantePermanente
+43180,Galbenu,ActivitatiAuxiliare
+43242,Gemenele,PlantePermanente
+43279,Gradistea,ActivitatiAuxiliare
+43313,Gropeni,CrestereaAnimalelor
+43331,Oras Ianca,CrestereaAnimalelor
+43411,Oras Insuratei,PlantePermanente
+43466,Jirlau,PlantePermanente
+43493,Marasu,PlantePermanente
+43563,Maxineni,PlantePermanente
+43625,Mircea Voda,FermeMixte
+43652,Movila Miresii,PlantePermanente
+43698,Racovita,PlantePermanente
+43732,Ramnicelu,PlantePermanente
+43787,Romanu,PlantePermanente
+43812,Rosiori,PlantePermanente
+43867,Salcia Tudor,PlantePermanente
+43929,Scortaru Nou,PlantePermanente
+43992,Silistea,PlantePermanente
+44060,Stancuta,PlantePermanente
+44113,Surdila-Gaiseanca,PlantePermanente
+44140,Sutesti,PlantePermanente
+44177,Tichilesti,CrestereaAnimalelor
+44202,Traian,PlantePermanente
+44257,Tudor Vladimirescu,PlantePermanente
+44300,Tufesti,PlantePermanente
+44328,Ulmu,PlantePermanente
+44355,Unirea,ActivitatiAuxiliare
+44391,Vadeni,PlantePermanente
+44435,Victoria,PlantePermanente
+44462,Visani,ActivitatiAuxiliare
+44505,Viziru,PlantePermanente
+44532,Zavoaia,ActivitatiAuxiliare
+44560,Cazasu,PlantePermanente
+44818,Municipiul Buzau,CrestereaAnimalelor
+44845,Municipiul Ramnicu Sarat,CrestereaAnimalelor
+44863,Amaru,FermeMixte
+44934,Balta Alba,CrestereaAnimalelor
+44989,Balaceanu,PlantePermanente
+45003,Beceni,PlantePermanente
+45101,Berca,PlanteInmultire
+45245,Bisoca,CrestereaAnimalelor
+45334,Blajani,ActivitatiAuxiliare
+45361,Boldu,PlantePermanente
+45389,Bozioru,PlantePermanente
+45496,Bradeanu,ActivitatiAuxiliare
+45539,Braesti,PlantePermanente
+45619,Breaza,PlantePermanente
+45673,Buda,PlantePermanente
+45753,Calvini,PlantePermanente
+45815,C.a. Rosetti,PlantePermanente
+45888,Canesti,PlantePermanente
+45959,Catina,PlantePermanente
+46019,Cernatesti,FermeMixte
+46108,Chiliile,ActivitatiAuxiliare
+46180,Chiojdu,PlantePermanente
+46251,Cilibia,PlantePermanente
+46313,Cislau,PlantePermanente
+46377,Cochirleanca,PlantePermanente
+46439,Colti,PlantePermanente
+46484,Costesti,PlantePermanente
+46554,Cozieni,PlantePermanente
+46769,Galbinasi,CrestereaAnimalelor
+46803,Gheraseni,CrestereaAnimalelor
+46830,Ghergheasa,PlantePermanente
+46867,Glodeanu Sarat,PlantePermanente
+46910,Glodeanu-Silistea,FermeMixte
+47006,Grebanu,PlantePermanente
+47079,Gura Teghii,PlantePermanente
+47159,Largu,ActivitatiAuxiliare
+47186,Lopatari,PlantePermanente
+47300,Luciu,PlantePermanente
+47337,Magura,PlantePermanente
+47373,Maracineni,PlantePermanente
+47417,Margaritesti,PlantePermanente
+47453,Merei,CrestereaAnimalelor
+47578,Mihailesti,PlantePermanente
+47630,Manzalesti,PlantePermanente
+47774,Movila Banului,PlantePermanente
+47818,Murgesti,PlantePermanente
+47854,Naeni,PlanteNepermanente
+47916,Oras Nehoiu,PlantePermanente
+48021,Odaile,PlantePermanente
+48138,Padina,PlantePermanente
+48165,Pardosi,PlantePermanente
+48227,Panatau,PlantePermanente
+48325,Oras Patarlagele,PlantePermanente
+48487,Pietroasele,PlantePermanente
+48557,Parscov,ActivitatiAuxiliare
+48682,Podgoria,CrestereaAnimalelor
+48744,Oras Pogoanele,PlantePermanente
+48771,Posta Calnau,PlanteNepermanente
+48842,Puiesti,PlantePermanente
+48922,Racoviteni,PlantePermanente
+48968,Ramnicelu,CrestereaAnimalelor
+49019,Robeasca,PlantePermanente
+49046,Rusetu,PlantePermanente
+49073,Sageata,PlantePermanente
+49153,Sahateni,PlantePermanente
+49206,Sapoca,ActivitatiAuxiliare
+49233,Sarulesti,PlantePermanente
+49313,Scortoasa,PlantePermanente
+49439,Scutelnici,PlantePermanente
+49484,Siriu,PlantePermanente
+49545,Smeeni,PlantePermanente
+49625,Stalpu,PlantePermanente
+49643,Tisau,PlanteNepermanente
+49769,Topliceni,PlanteNepermanente
+49849,Tintesti,PlantePermanente
+49894,Ulmeni,CrestereaAnimalelor
+49956,Vadu Pasii,PlantePermanente
+50022,Valea Ramnicului,PlantePermanente
+50068,Valea Salciei,PlantePermanente
+50102,Vernesti,ActivitatiAuxiliare
+50228,Vintila Voda,PlantePermanente
+50326,Viperesti,PlantePermanente
+50399,Valcelele,ActivitatiAuxiliare
+50415,Zarnesti,PlantePermanente
+50479,Ziduri,PlantePermanente
+50549,Unguriu,PlantePermanente
+50564,Florica,PlantePermanente
+50790,Municipiul Resita,PlantePermanente
+50889,Oras Anina,PlantePermanente
+50923,Oras Baile Herculane,PlantePermanente
+50969,Oras Bocsa,CrestereaAnimalelor
+50987,Ocna De Fier,PlantePermanente
+51010,Municipiul Caransebes,CrestereaAnimalelor
+51056,Oras Moldova Noua,PlantePermanente
+51118,Oras Oravita,PlantePermanente
+51207,Oras Otelu Rosu,PlantePermanente
+51243,Armenis,PlantePermanente
+51305,Bania,PlantePermanente
+51332,Bautar,PlantePermanente
+51387,Berliste,FermeMixte
+51449,Berzasca,PlantePermanente
+51500,Berzovia,PlantePermanente
+51546,Bolvasnita,PlantePermanente
+51573,Bozovici,FermeMixte
+51626,Brebu,PlantePermanente
+51662,Brebu Nou,PlantePermanente
+51699,Buchin,PlantePermanente
+51751,Bucosnita,PlantePermanente
+51804,Carasova,PlantePermanente
+51840,Carbunari,PlantePermanente
+51877,Constantin Daicoviciu,PlantePermanente
+51948,Ciclova Romana,PlantePermanente
+51984,Ciuchici,PlantePermanente
+52035,Ciudanovita,PlantePermanente
+52062,Copacele,PlantePermanente
+52115,Cornea,PlanteNepermanente
+52160,Cornereva,PlanteInmultire
+52570,Dalboset,ActivitatiAuxiliare
+52650,Doclin,PlanteNepermanente
+52696,Dognecea,PlantePermanente
+52721,Domasnea,PlantePermanente
+52758,Ezeris,PlantePermanente
+52785,Farliug,ActivitatiAuxiliare
+52856,Forotic,PlantePermanente
+52909,Garnic,PlantePermanente
+52936,Glimboca,FermeMixte
+52954,Goruia,PlantePermanente
+52990,Gradinari,PlantePermanente
+53023,Iablanita,PlantePermanente
+53069,Lapusnicel,PlantePermanente
+53103,Lapusnicu Mare,PlantePermanente
+53130,Luncavita,PlantePermanente
+53167,Lupac,PlantePermanente
+53210,Marga,PlantePermanente
+53247,Maureni,PlantePermanente
+53274,Mehadia,PlantePermanente
+53327,Mehadica,PlantePermanente
+53345,Naidas,PlantePermanente
+53372,Obreja,PlantePermanente
+53425,Paltinis,PlantePermanente
+53489,Coronini,PlantePermanente
+53513,Pojejena,ActivitatiAuxiliare
+53577,Prigor,PlantePermanente
+53639,Ramna,FermeMixte
+53675,Racasdia,PlantePermanente
+53700,Eftimie Murgu,PlantePermanente
+53728,Rusca Montana,PlantePermanente
+53755,Sacu,CrestereaAnimalelor
+53791,Sasca Montana,PlantePermanente
+53853,Sichevita,PlantePermanente
+54056,Slatina-Timis,PlantePermanente
+54109,Socol,PlantePermanente
+54163,Sopotu Nou,PlantePermanente
+54270,Teregova,PlantePermanente
+54305,Ticvaniu Mare,PlantePermanente
+54350,Tarnova,PlantePermanente
+54387,Toplet,PlantePermanente
+54412,Turnu Ruieni,PlantePermanente
+54485,Valiug,PlantePermanente
+54500,Varadia,FermeMixte
+54537,Vermes,PlantePermanente
+54573,Vrani,FermeMixte
+54617,Zavoi,PlantePermanente
+54699,Zorlentu Mare,PlanteNepermanente
+54975,Municipiul Cluj-Napoca,PlantePermanente
+55008,Municipiul Dej,CrestereaAnimalelor
+55062,Cuzdrioara,PlanteNepermanente
+55106,Jichisu De Jos,PlantePermanente
+55160,Mica,ActivitatiAuxiliare
+55259,Municipiul Turda,PlantePermanente
+55277,Mihai Viteazu,CrestereaAnimalelor
+55311,Sandulesti,PlantePermanente
+55357,Municipiul Campia Turzii,CrestereaAnimalelor
+55384,Municipiul Gherla,PlantePermanente
+55446,Oras Huedin,PlanteNepermanente
+55473,Aghiresu,PlantePermanente
+55598,Aiton,PlantePermanente
+55623,Alunis,PlantePermanente
+55687,Apahida,CrestereaAnimalelor
+55776,Aschileu,PlantePermanente
+55838,Baciu,FermeMixte
+55918,Baisoara,PlanteNepermanente
+56014,Belis,PlantePermanente
+56096,Bobalna,ActivitatiAuxiliare
+56210,Bontida,PlantePermanente
+56265,Borsa,CrestereaAnimalelor
+56327,Buza,PlantePermanente
+56354,Caianu,ActivitatiAuxiliare
+56425,Calarasi,PlantePermanente
+56461,Calatele,PlantePermanente
+56522,Camarasu,CrestereaAnimalelor
+56568,Capusu Mare,PlantePermanente
+56666,Caseiu,ActivitatiAuxiliare
+56773,Catina,PlantePermanente
+56844,Ceanu Mare,FermeMixte
+56988,Chinteni,CrestereaAnimalelor
+57083,Chiuiesti,CrestereaAnimalelor
+57163,Ciucea,PlantePermanente
+57225,Ciurila,FermeMixte
+57314,Catcau,PlantePermanente
+57350,Cojocna,CrestereaAnimalelor
+57449,Cornesti,PlantePermanente
+57546,Dabaca,PlantePermanente
+57582,Feleacu,CrestereaAnimalelor
+57644,Fizesu Gherlii,FermeMixte
+57706,Floresti,CrestereaAnimalelor
+57742,Frata,FermeMixte
+57831,Geaca,PlantePermanente
+57902,Gilau,CrestereaAnimalelor
+57948,Garbau,ActivitatiAuxiliare
+58008,Iara,PlantePermanente
+58142,Iclod,CrestereaAnimalelor
+58204,Izvoru Crisului,PlantePermanente
+58259,Jucu,CrestereaAnimalelor
+58311,Luna,CrestereaAnimalelor
+58357,Maguri-Racatau,PlantePermanente
+58393,Manastireni,PlantePermanente
+58464,Margau,PlantePermanente
+58534,Marisel,PlantePermanente
+58552,Mintiu Gherlii,PlantePermanente
+58623,Mociu,ActivitatiAuxiliare
+58721,Moldovenesti,PlantePermanente
+58794,Palatca,FermeMixte
+58856,Panticeu,PlantePermanente
+58918,Petrestii De Jos,CrestereaAnimalelor
+58990,Ploscos,CrestereaAnimalelor
+59041,Poieni,CrestereaAnimalelor
+59130,Recea-Cristur,CrestereaAnimalelor
+59238,Risca,CrestereaAnimalelor
+59283,Sacuieu,FermeMixte
+59327,Savadisla,PlantePermanente
+59416,Sic,PlantePermanente
+59434,Sancraiu,ActivitatiAuxiliare
+59498,Sanmartin,CrestereaAnimalelor
+59586,Sanpaul,CrestereaAnimalelor
+59657,Suatu,PlantePermanente
+59693,Tritenii De Jos,PlantePermanente
+59764,Tureni,PlantePermanente
+59826,Taga,CrestereaAnimalelor
+59880,Unguras,PlantePermanente
+59942,Vad,ActivitatiAuxiliare
+60026,Valea Ierii,PlantePermanente
+60062,Viisoara,FermeMixte
+60099,Vultureni,PlantePermanente
+60169,Negreni,PlantePermanente
+60419,Municipiul Constanta,PlantePermanente
+60455,Oras Eforie,PlantePermanente
+60482,Municipiul Mangalia,PlantePermanente
+60507,Oras Navodari,CrestereaAnimalelor
+60534,Oras Techirghiol,PlantePermanente
+60570,Agigea,PlantePermanente
+60632,Limanu,PlantePermanente
+60687,Oras Ovidiu,FermeMixte
+60721,Tuzla,PlantePermanente
+60776,Oras Cernavoda,PlantePermanente
+60801,Oras Harsova,PlantePermanente
+60847,Municipiul Medgidia,PlantePermanente
+60883,Adamclisi,PlantePermanente
+60945,Albesti,PlantePermanente
+61005,Aliman,FermeMixte
+61069,Oras Baneasa,PlantePermanente
+61121,Castelu,PlantePermanente
+61167,Cerchezu,PlantePermanente
+61210,Chirnogeni,ActivitatiAuxiliare
+61256,Ciobanu,PlantePermanente
+61283,Ciocarlia,PlantePermanente
+61318,Cobadin,PlantePermanente
+61372,Cogealac,PlantePermanente
+61452,Comana,PlantePermanente
+61513,Corbu,PlantePermanente
+61559,Crucea,PlantePermanente
+61620,Cumpana,PlantePermanente
+61675,Deleni,PlantePermanente
+61737,Dobromir,PlantePermanente
+61808,Garliciu,PlantePermanente
+61826,Ghindaresti,PlantePermanente
+61871,Independenta,CrestereaAnimalelor
+61951,Ion Corvin,PlantePermanente
+62020,Istria,PlantePermanente
+62057,Lipnita,PlantePermanente
+62137,Mereni,PlantePermanente
+62191,Mihail Kogalniceanu,PlantePermanente
+62253,Mihai Viteazu,PlantePermanente
+62280,Mircea Voda,PlantePermanente
+62360,Oras Murfatlar,PlantePermanente
+62397,Oras Negru Voda,PlantePermanente
+62440,Nicolae Balcescu,ActivitatiAuxiliare
+62486,Oltina,PlantePermanente
+62538,Ostrov,PlanteNepermanente
+62609,Pantelimon,PlantePermanente
+62672,Pecineaga,CrestereaAnimalelor
+62707,Pestera,PlantePermanente
+62761,Poarta Alba,PlantePermanente
+62798,Rasova,FermeMixte
+62823,Saraiu,PlantePermanente
+62878,Sacele,PlantePermanente
+62903,Seimeni,PlantePermanente
+62949,Silistea,FermeMixte
+62985,Targusor,PlantePermanente
+63045,Topalu,PlanteNepermanente
+63072,Topraisar,PlantePermanente
+63125,Valu Lui Traian,PlantePermanente
+63152,Lumina,CrestereaAnimalelor
+63161,Dumbraveni,PlantePermanente
+63170,Vulturu,PlantePermanente
+63189,Tortoman,PlantePermanente
+63198,Amzacea,PlantePermanente
+63278,Horia,CrestereaAnimalelor
+63286,Costinesti,PlantePermanente
+63294,Baraganu,PlantePermanente
+63300,Cuza Voda,PlantePermanente
+63318,Saligny,PlantePermanente
+63326,Gradina,CrestereaAnimalelor
+63334,Fantanele,PlantePermanente
+63394,Municipiul Sfantu Gheorghe,ActivitatiAuxiliare
+63447,Oras Baraolt,PlantePermanente
+63526,Oras Covasna,FermeMixte
+63553,Comandau,PlantePermanente
+63580,Oras Intorsura Buzaului,PlantePermanente
+63633,Barcani,PlantePermanente
+63688,Sita Buzaului,PlantePermanente
+63740,Municipiul Targu Secuiesc,PlantePermanente
+63777,Aita Mare,PlantePermanente
+63802,Batani,PlantePermanente
+63866,Belin,CrestereaAnimalelor
+63893,Bodoc,PlantePermanente
+63937,Borosneu Mare,PlantePermanente
+64005,Brates,PlantePermanente
+64041,Bradut,FermeMixte
+64096,Bretcu,PlantePermanente
+64130,Catalina,PlantePermanente
+64194,Cernat,PlantePermanente
+64238,Chichis,PlanteNepermanente
+64265,Dobarlau,CrestereaAnimalelor
+64318,Ghelinta,PlantePermanente
+64345,Ghidfalau,CrestereaAnimalelor
+64390,Haghig,FermeMixte
+64425,Ilieni,PlantePermanente
+64461,Lemnia,PlantePermanente
+64504,Malnas,PlantePermanente
+64568,Moacsa,PlantePermanente
+64602,Ojdula,PlantePermanente
+64639,Ozun,PlantePermanente
+64719,Poian,PlantePermanente
+64773,Reci,PlantePermanente
+64826,Sanzieni,PlantePermanente
+64871,Turia,PlantePermanente
+64906,Valea Crisului,PlantePermanente
+64942,Valcele,CrestereaAnimalelor
+64997,Varghis,PlantePermanente
+65011,Zagon,FermeMixte
+65048,Zabala,PlantePermanente
+65099,Valea Mare,PlantePermanente
+65105,Mereni,CrestereaAnimalelor
+65113,Arcus,PlantePermanente
+65121,Bixad,CrestereaAnimalelor
+65139,Micfalau,FermeMixte
+65147,Dalnic,FermeMixte
+65154,Estelnic,PlantePermanente
+65342,Municipiul Targoviste,ActivitatiAuxiliare
+65379,Aninoasa,PlantePermanente
+65413,Doicesti,ActivitatiAuxiliare
+65431,Razvad,PlantePermanente
+65477,Sotanga,CrestereaAnimalelor
+65501,Ulmi,CrestereaAnimalelor
+65609,Oras Fieni,CrestereaAnimalelor
+65645,Motaieni,PlantePermanente
+65681,Oras Gaesti,PlantePermanente
+65707,Gura Foii,PlanteNepermanente
+65752,Petresti,PlantePermanente
+65841,Municipiul Moreni,CrestereaAnimalelor
+65869,Iedera,PlantePermanente
+65921,Oras Pucioasa,PlantePermanente
+66009,Branesti,PlantePermanente
+66081,Oras Titu,PlantePermanente
+66152,Branistea,PlantePermanente
+66198,Baleni,PlantePermanente
+66223,Barbuletu,PlantePermanente
+66330,Bezdead,PlantePermanente
+66401,Bilciuresti,PlantePermanente
+66438,Buciumeni,PlantePermanente
+66474,Bucsani,PlantePermanente
+66526,Candesti,PlantePermanente
+66580,Cobia,PlantePermanente
+66697,Cojasca,PlantePermanente
+66731,Comisani,FermeMixte
+66768,Contesti,PlantePermanente
+66857,Corbii Mari,PlantePermanente
+66955,Cornatelu,PlantePermanente
+67014,Cornesti,ActivitatiAuxiliare
+67121,Costestii Din Vale,PlantePermanente
+67167,Crangurile,PlantePermanente
+67256,Darmanesti,PlantePermanente
+67292,Dobra,PlantePermanente
+67327,Dragodana,CrestereaAnimalelor
+67407,Dragomiresti,PlantePermanente
+67470,Finta,ActivitatiAuxiliare
+67522,Glodeni,PlantePermanente
+67595,Gura Ocnitei,PlantePermanente
+67648,Gura Sutii,ActivitatiAuxiliare
+67675,Hulubesti,PlantePermanente
+67737,I. L. Caragiale,PlantePermanente
+67773,Lucieni,PlantePermanente
+67835,Ludesti,PlantePermanente
+67906,Lunguletu,PlantePermanente
+67942,Malu Cu Flori,CrestereaAnimalelor
+68002,Manesti,PlanteNepermanente
+68048,Matasaru,PlanteInmultire
+68128,Mogosani,PlantePermanente
+68182,Moroeni,PlantePermanente
+68253,Morteni,ActivitatiAuxiliare
+68280,Nucet,FermeMixte
+68324,Ocnita,PlantePermanente
+68342,Odobesti,FermeMixte
+68404,Pietrosita,CrestereaAnimalelor
+68431,Poiana,PlantePermanente
+68468,Potlogi,CrestereaAnimalelor
+68529,Produlesti,PlantePermanente
+68565,Pucheni,PlantePermanente
+68627,Oras Racari,FermeMixte
+68716,Runcu,PlantePermanente
+68789,Salcioara,PlantePermanente
+68887,Selaru,ActivitatiAuxiliare
+68921,Tatarani,PlantePermanente
+68976,Uliesti,PlantePermanente
+69063,Valea Lunga,CrestereaAnimalelor
+69170,Valea Mare,PlantePermanente
+69250,Vacaresti,PlantePermanente
+69303,Valeni-Dambovita,PlantePermanente
+69330,Visina,PlantePermanente
+69394,Visinesti,PlantePermanente
+69447,Varfuri,PlantePermanente
+69526,Voinesti,PlanteNepermanente
+69615,Vulcana-Bai,PlantePermanente
+69900,Municipiul Craiova,PlantePermanente
+69964,Bucovat,PlantePermanente
+70094,Isalnita,PlantePermanente
+70110,Podari,PlantePermanente
+70174,Simnicu De Sus,CrestereaAnimalelor
+70316,Municipiul Bailesti,PlantePermanente
+70352,Municipiul Calafat,PlantePermanente
+70414,Oras Filiasi,CrestereaAnimalelor
+70502,Oras Segarcea,PlantePermanente
+70520,Afumati,PlantePermanente
+70566,Almaj,PlantePermanente
+70637,Amarastii De Jos,PlantePermanente
+70673,Amarastii De Sus,PlantePermanente
+70726,Apele Vii,PlantePermanente
+70744,Argetoaia,PlantePermanente
+70879,Oras Bechet,PlantePermanente
+70897,Bistret,PlantePermanente
+70940,Barca,PlantePermanente
+70968,Botosesti-Paia,PlantePermanente
+70986,Brabova,PlantePermanente
+71055,Bradesti,CrestereaAnimalelor
+71126,Bralostita,PlantePermanente
+71199,Bratovoesti,ActivitatiAuxiliare
+71260,Breasta,PlantePermanente
+71340,Bulzesti,CrestereaAnimalelor
+71457,Calopar,PlantePermanente
+71518,Caraula,PlantePermanente
+71536,Carpen,PlantePermanente
+71572,Castranova,ActivitatiAuxiliare
+71607,Calarasi,ActivitatiAuxiliare
+71634,Celaru,PlantePermanente
+71698,Cerat,PlantePermanente
+71723,Cernatesti,PlantePermanente
+71787,Cetate,PlantePermanente
+71812,Cioroiasi,PlantePermanente
+71858,Ciupercenii Noi,PlantePermanente
+71885,Cosoveni,CrestereaAnimalelor
+71910,Cotofenii Din Dos,PlantePermanente
+71956,Daneti,PlantePermanente
+72007,Oras Dabuleni,ActivitatiAuxiliare
+72034,Desa,PlantePermanente
+72052,Diosti,ActivitatiAuxiliare
+72098,Dobresti,PlantePermanente
+72150,Dragotesti,PlantePermanente
+72221,Dranic,PlantePermanente
+72276,Farcas,PlantePermanente
+72383,Galicea Mare,PlantePermanente
+72409,Ghercesti,PlantePermanente
+72463,Gighera,PlantePermanente
+72506,Giubega,PlantePermanente
+72533,Giurgita,PlantePermanente
+72579,Gangiova,PlantePermanente
+72604,Gogosu,PlantePermanente
+72640,Goicea,CrestereaAnimalelor
+72677,Goiesti,FermeMixte
+72819,Grecesti,ActivitatiAuxiliare
+72882,Izvoare,PlantePermanente
+72926,Leu,FermeMixte
+72953,Lipovu,PlantePermanente
+72980,Macesu De Jos,PlantePermanente
+73013,Macesu De Sus,PlantePermanente
+73031,Maglavit,PlantePermanente
+73068,Malu Mare,ActivitatiAuxiliare
+73102,Melinesti,ActivitatiAuxiliare
+73246,Mischii,CrestereaAnimalelor
+73317,Marsani,ActivitatiAuxiliare
+73335,Motatei,PlantePermanente
+73371,Murgasi,ActivitatiAuxiliare
+73460,Negoi,PlantePermanente
+73503,Orodel,PlantePermanente
+73567,Ostroveni,PlantePermanente
+73594,Perisor,ActivitatiAuxiliare
+73629,Pielesti,PlantePermanente
+73665,Piscu Vechi,PlantePermanente
+73709,Plenita,PlantePermanente
+73736,Poiana Mare,PlantePermanente
+73772,Predesti,ActivitatiAuxiliare
+73852,Radovan,ActivitatiAuxiliare
+73905,Rast,PlantePermanente
+73923,Robanesti,CrestereaAnimalelor
+73996,Sadova,PlantePermanente
+74028,Salcuta,PlantePermanente
+74073,Scaesti,PlantePermanente
+74108,Seaca De Camp,FermeMixte
+74135,Seaca De Padure,CrestereaAnimalelor
+74171,Secu,ActivitatiAuxiliare
+74224,Silistea Crucii,FermeMixte
+74242,Sopot,PlantePermanente
+74322,Teasc,PlantePermanente
+74359,Terpezita,PlantePermanente
+74411,Teslui,ActivitatiAuxiliare
+74509,Tuglui,PlantePermanente
+74536,Unirea,PlantePermanente
+74554,Urzicuta,PlantePermanente
+74581,Valea Stanciului,PlantePermanente
+74616,Vela,PlantePermanente
+74705,Verbita,PlantePermanente
+74732,Vartop,PlantePermanente
+74750,Varvoru De Jos,PlantePermanente
+74842,Catane,PlantePermanente
+74859,Carcea,CrestereaAnimalelor
+74867,Carna,PlantePermanente
+74875,Cotofenii Din Fata,ActivitatiAuxiliare
+74883,Dobrotesti,PlantePermanente
+74891,Galiciuica,PlantePermanente
+74907,Ghidici,ActivitatiAuxiliare
+74915,Ghindeni,PlantePermanente
+74923,Intorsura,PlantePermanente
+74931,Plesoi,PlantePermanente
+74949,Rojiste,CrestereaAnimalelor
+74956,Talpas,PlantePermanente
+75098,Municipiul Galati,PlantePermanente
+75114,Sendreni,PlantePermanente
+75150,Vanatori,PlantePermanente
+75203,Municipiul Tecuci,PlantePermanente
+75221,Draganesti,PlantePermanente
+75258,Munteni,PlantePermanente
+75338,Oras Beresti,PlantePermanente
+75356,Beresti-Meria,PlantePermanente
+75472,Oras Targu Bujor,PlantePermanente
+75515,Barcea,PlantePermanente
+75542,Balabanesti,PlantePermanente
+75613,Balasesti,PlantePermanente
+75668,Baleni,PlantePermanente
+75686,Baneasa,PlantePermanente
+75711,Branistea,PlantePermanente
+75766,Brahasesti,PlantePermanente
+75819,Buciumeni,PlantePermanente
+75864,Cavadinesti,ActivitatiAuxiliare
+75917,Certesti,PlantePermanente
+75953,Corod,PlantePermanente
+76004,Corni,PlantePermanente
+76040,Cosmesti,ActivitatiAuxiliare
+76111,Costache Negri,PlantePermanente
+76139,Cuca,PlantePermanente
+76157,Cudalbi,PlantePermanente
+76175,Draguseni,PlantePermanente
+76255,Fartanesti,PlantePermanente
+76282,Foltesti,PlantePermanente
+76317,Frumusita,PlantePermanente
+76353,Fundeni,ActivitatiAuxiliare
+76406,Ghidigeni,PlantePermanente
+76497,Gohor,PlantePermanente
+76558,Grivita,PlantePermanente
+76585,Independenta,PlanteNepermanente
+76601,Ivesti,PlantePermanente
+76638,Jorasti,PlantePermanente
+76674,Liesti,CrestereaAnimalelor
+76692,Matca,PlantePermanente
+76718,Mastacani,PlantePermanente
+76745,Movileni,PlantePermanente
+76763,Namoloasa,PlantePermanente
+76807,Nicoresti,PlantePermanente
+76932,Oancea,FermeMixte
+76969,Pechea,CrestereaAnimalelor
+76996,Piscu,FermeMixte
+77028,Priponesti,PlantePermanente
+77082,Rediu,PlantePermanente
+77126,Scanteiesti,FermeMixte
+77153,Schela,PlantePermanente
+77180,Slobozia Conachi,PlantePermanente
+77224,Smardan,ActivitatiAuxiliare
+77260,Smulti,CrestereaAnimalelor
+77288,Suceveni,PlantePermanente
+77313,Tudor Vladimirescu,PlantePermanente
+77331,Tulucesti,PlantePermanente
+77377,Tepu,PlantePermanente
+77402,Umbraresti,PlantePermanente
+77475,Valea Marului,PlantePermanente
+77509,Varlezi,ActivitatiAuxiliare
+77536,Vladesti,PlantePermanente
+77561,Radesti,PlantePermanente
+77579,Negrilesti,PlantePermanente
+77587,Poiana,PlantePermanente
+77595,Cuza Voda,PlantePermanente
+77601,Suhurlui,ActivitatiAuxiliare
+77812,Municipiul Targu Jiu,CrestereaAnimalelor
+77910,Balesti,PlantePermanente
+78016,Dragutesti,PlantePermanente
+78089,Turcinesti,PlantePermanente
+78141,Municipiul Motru,ActivitatiAuxiliare
+78258,Oras Novaci,CrestereaAnimalelor
+78329,Oras Targu Carbunesti,PlantePermanente
+78454,Oras Ticleni,PlantePermanente
+78472,Albeni,PlantePermanente
+78542,Alimpesti,PlantePermanente
+78604,Aninoasa,PlantePermanente
+78668,Arcani,PlantePermanente
+78711,Baia De Fier,PlantePermanente
+78748,Balanesti,PlantePermanente
+78828,Barbatesti,PlantePermanente
+78873,Bengesti-Ciocadia,ActivitatiAuxiliare
+78926,Berlesti,PlantePermanente
+79004,Balteni,PlantePermanente
+79077,Bolbosi,PlantePermanente
+79157,Borascu,PlantePermanente
+79237,Branesti,PlantePermanente
+79308,Oras Bumbesti-Jiu,PlanteNepermanente
+79362,Bumbesti-Pitic,PlantePermanente
+79406,Bustuchin,PlantePermanente
+79497,Capreni,PlantePermanente
+79585,Catunele,PlantePermanente
+79656,Ciuperceni,PlantePermanente
+79736,Calnic,PlantePermanente
+79834,Crasna,CrestereaAnimalelor
+79932,Cruset,PlantePermanente
+80043,Danciulesti,PlantePermanente
+80123,Danesti,PlantePermanente
+80249,Dragotesti,PlantePermanente
+80285,Farcasesti,PlantePermanente
+80365,Glogova,PlantePermanente
+80427,Godinesti,CrestereaAnimalelor
+80506,Hurezani,ActivitatiAuxiliare
+80560,Ionesti,PlantePermanente
+80613,Jupanesti,PlantePermanente
+80677,Lelesti,CrestereaAnimalelor
+80711,Licurici,PlantePermanente
+80766,Logresti,PlantePermanente
+80846,Matasari,PlantePermanente
+80908,Musetesti,CrestereaAnimalelor
+80980,Negomir,PlantePermanente
+81095,Pades,CrestereaAnimalelor
+81184,Pestisani,PlantePermanente
+81264,Plopsoru,PlantePermanente
+81380,Polovragi,PlantePermanente
+81415,Prigoria,PlantePermanente
+81497,Rosia De Amaradia,PlantePermanente
+81576,Runcu,PlantePermanente
+81656,Samarinesti,PlantePermanente
+81754,Sacelu,PlantePermanente
+81816,Saulesti,ActivitatiAuxiliare
+81861,Scoarta,CrestereaAnimalelor
+81987,Schela,CrestereaAnimalelor
+82047,Slivilesti,PlantePermanente
+82136,Stanesti,CrestereaAnimalelor
+82243,Stejari,PlantePermanente
+82314,Stoina,PlantePermanente
+82396,Telesti,PlantePermanente
+82430,Oras Tismana,ActivitatiAuxiliare
+82555,Turburea,PlantePermanente
+82617,Oras Turceni,ActivitatiAuxiliare
+82680,Tantareni,PlantePermanente
+82733,Urdari,PlantePermanente
+82779,Vagiulesti,PlantePermanente
+82831,Vladimir,PlantePermanente
+82895,Oras Rovinari,PlantePermanente
+83133,Municipiul Odorheiu Secuiesc,CrestereaAnimalelor
+83151,Bradesti,PlantePermanente
+83197,Feliceni,ActivitatiAuxiliare
+83320,Municipiul Miercurea Ciuc,FermeMixte
+83375,Pauleni-Ciuc,CrestereaAnimalelor
+83428,Oras Baile Tusnad,PlantePermanente
+83464,Oras Balan,PlantePermanente
+83491,Oras Borsec,PlantePermanente
+83525,Oras Cristuru Secuiesc,PlantePermanente
+83561,Municipiul Gheorgheni,PlantePermanente
+83632,Municipiul Toplita,PlantePermanente
+83749,Oras Vlahita,CrestereaAnimalelor
+83785,Atid,CrestereaAnimalelor
+83847,Avramesti,CrestereaAnimalelor
+83936,Bilbor,PlantePermanente
+83963,Capalnita,PlantePermanente
+83981,Ciucsangeorgiu,CrestereaAnimalelor
+84086,Ciumani,PlantePermanente
+84102,Carta,CrestereaAnimalelor
+84148,Corbu,PlantePermanente
+84175,Corund,CrestereaAnimalelor
+84237,Danesti,PlantePermanente
+84264,Dealu,FermeMixte
+84344,Ditrau,CrestereaAnimalelor
+84380,Darjiu,FermeMixte
+84415,Frumoasa,PlantePermanente
+84460,Galautas,PlantePermanente
+84558,Joseni,PlantePermanente
+84594,Lazarea,CrestereaAnimalelor
+84629,Lueta,PlantePermanente
+84656,Lunca De Jos,PlantePermanente
+84754,Lunca De Sus,PlantePermanente
+84825,Lupeni,CrestereaAnimalelor
+84923,Martinis,ActivitatiAuxiliare
+85056,Meresti,CrestereaAnimalelor
+85074,Mihaileni,PlantePermanente
+85127,Mugeni,PlantePermanente
+85243,Ocland,CrestereaAnimalelor
+85289,Plaiesii De Jos,PlantePermanente
+85341,Praid,ActivitatiAuxiliare
+85412,Remetea,CrestereaAnimalelor
+85467,Sacel,PlantePermanente
+85528,Sarmas,ActivitatiAuxiliare
+85582,Secuieni,PlantePermanente
+85626,Siculeni,PlantePermanente
+85680,Sancraieni,ActivitatiAuxiliare
+85760,Sandominic,PlantePermanente
+85788,Sanmartin,PlantePermanente
+85840,Sansimion,CrestereaAnimalelor
+85877,Subcetate,PlantePermanente
+85920,Suseni,CrestereaAnimalelor
+85984,Simonesti,CrestereaAnimalelor
+86133,Tulghes,PlantePermanente
+86188,Tusnad,PlantePermanente
+86222,Ulies,PlantePermanente
+86311,Varsag,PlantePermanente
+86339,Voslabeni,PlantePermanente
+86366,Zetea,PlanteNepermanente
+86438,Madaras,ActivitatiAuxiliare
+86446,Cozmeni,PlantePermanente
+86453,Tomesti,PlantePermanente
+86461,Ciceu,CrestereaAnimalelor
+86479,Leliceni,PlantePermanente
+86487,Porumbeni,PlantePermanente
+86495,Racu,PlantePermanente
+86501,Satu Mare,PlantePermanente
+86519,Santimbru,PlantePermanente
+86687,Municipiul Deva,PlantePermanente
+86749,Carjiti,PlantePermanente
+86810,Municipiul Hunedoara,CrestereaAnimalelor
+86883,Ghelari,PlantePermanente
+86936,Teliucu Inferior,PlantePermanente
+86990,Municipiul Petrosani,PlantePermanente
+87059,Municipiul Lupeni,PlanteNepermanente
+87077,Oras Petrila,CrestereaAnimalelor
+87139,Oras Uricani,PlantePermanente
+87175,Municipiul Vulcan,PlantePermanente
+87219,Oras Aninoasa,PlantePermanente
+87246,Banita,PlantePermanente
+87291,Municipiul Brad,CrestereaAnimalelor
+87362,Criscior,PlantePermanente
+87424,Oras Calan,PlantePermanente
+87576,Oras Hateg,FermeMixte
+87638,Municipiul Orastie,ActivitatiAuxiliare
+87665,Oras Simeria,CrestereaAnimalelor
+87745,Baia De Cris,CrestereaAnimalelor
+87843,Balsa,PlantePermanente
+87996,Baru,PlantePermanente
+88047,Bacia,PlantePermanente
+88092,Baita,ActivitatiAuxiliare
+88216,Batrana,PlantePermanente
+88261,Beriu,PlanteNepermanente
+88350,Blajeni,PlantePermanente
+88449,Bosorod,ActivitatiAuxiliare
+88546,Branisca,PlantePermanente
+88644,Bretea Romana,CrestereaAnimalelor
+88788,Buces,PlantePermanente
+88868,Bucuresci,PlantePermanente
+88920,Bulzestii De Sus,PlantePermanente
+89026,Bunila,PlantePermanente
+89080,Burjuc,PlantePermanente
+89151,Cerbal,PlantePermanente
+89240,Certeju De Sus,PlantePermanente
+89348,Densus,FermeMixte
+89428,Dobra,PlantePermanente
+89561,Oras Geoagiu,FermeMixte
+89687,Gurasada,PlantePermanente
+89801,Harau,CrestereaAnimalelor
+89856,Ilia,PlantePermanente
+89954,Lapugiu De Jos,PlantePermanente
+90066,Lelese,PlantePermanente
+90119,Lunca Cernii De Jos,PlantePermanente
+90208,Luncoiu De Jos,PlantePermanente
+90262,Martinesti,PlantePermanente
+90342,Orastioara De Sus,CrestereaAnimalelor
+90431,Pestisu Mic,PlantePermanente
+90538,Pui,ActivitatiAuxiliare
+90663,Rapoltu Mare,CrestereaAnimalelor
+90725,Rachitova,PlantePermanente
+90805,Ribita,PlantePermanente
+90878,Rau De Mori,CrestereaAnimalelor
+90994,Romos,CrestereaAnimalelor
+91054,Sarmizegetusa,PlantePermanente
+91116,Salasu De Sus,ActivitatiAuxiliare
+91232,Santamaria-Orlea,CrestereaAnimalelor
+91330,Soimus,PlantePermanente
+91447,Tomesti,PlantePermanente
+91535,Toplita,PlantePermanente
+91624,Totesti,PlantePermanente
+91688,Turdas,CrestereaAnimalelor
+91731,General Berthelot,PlantePermanente
+91795,Vata De Jos,PlantePermanente
+91937,Valisoara,PlantePermanente
+91982,Vetel,CrestereaAnimalelor
+92097,Vorta,PlantePermanente
+92177,Zam,PlantePermanente
+92569,Municipiul Calarasi,PlantePermanente
+92587,Modelu,PlantePermanente
+92658,Municipiul Slobozia,PlantePermanente
+92701,Municipiul Fetesti,PlantePermanente
+92765,Oras Tandarei,FermeMixte
+92783,Albesti,PlantePermanente
+92836,Oras Amara,PlantePermanente
+92872,Andrasesti,PlantePermanente
+92907,Balaciu,PlantePermanente
+92961,Borcea,PlantePermanente
+92989,Bordusani,PlantePermanente
+93021,Bucu,PlantePermanente
+93067,Oras Cazanesti,PlantePermanente
+93085,Ciocanesti,CrestereaAnimalelor
+93101,Ciochina,PlantePermanente
+93156,Ciulnita,PlantePermanente
+93209,Cocora,PlantePermanente
+93236,Cosambesti,PlantePermanente
+93281,Cuza Voda,CrestereaAnimalelor
+93325,Dichiseni,PlantePermanente
+93370,Dor Marunt,PlantePermanente
+93441,Dorobantu,PlantePermanente
+93487,Dragalina,PlantePermanente
+93539,Dragos Voda,CrestereaAnimalelor
+93575,Facaeni,PlantePermanente
+93600,Gheorghe Doja,FermeMixte
+93628,Gheorghe Lazar,PlantePermanente
+93646,Giurgeni,PlantePermanente
+93664,Gradistea,PlantePermanente
+93717,Grindu,PlantePermanente
+93735,Grivita,PlantePermanente
+93771,Independenta,PlantePermanente
+93815,Jegalia,PlantePermanente
+93851,Lehliu,PlantePermanente
+93888,Oras Lehliu Gara,PlantePermanente
+93931,Lupsanu,PlantePermanente
+93995,Mihail Kogalniceanu,PlantePermanente
+94045,Milosesti,PlantePermanente
+94081,Movila,PlantePermanente
+94107,Munteni-Buzau,ActivitatiAuxiliare
+94125,Alexandru Odobescu,PlantePermanente
+94161,Perieti,PlantePermanente
+94223,Perisoru,PlantePermanente
+94269,Reviga,FermeMixte
+94312,Roseti,PlantePermanente
+94330,Salcioara,PlantePermanente
+94376,Saveni,PlantePermanente
+94429,Scanteia,PlantePermanente
+94456,Sfantu Gheorghe,PlantePermanente
+94492,Stelnica,ActivitatiAuxiliare
+94535,Suditi,PlantePermanente
+94562,Stefan Cel Mare,PlantePermanente
+94580,Stefan Voda,PlantePermanente
+94606,Ulmu,PlantePermanente
+94651,Unirea,PlantePermanente
+94688,Valea Ciorii,PlantePermanente
+94731,Valcelele,PlantePermanente
+94768,Vlad Tepes,PlantePermanente
+94795,Vladeni,PlantePermanente
+95060,Municipiul Iasi,CrestereaAnimalelor
+95088,Barnova,PlanteNepermanente
+95159,Holboca,ActivitatiAuxiliare
+95239,Rediu,PlanteNepermanente
+95293,Tomesti,CrestereaAnimalelor
+95355,Oras Harlau,FermeMixte
+95391,Municipiul Pascani,FermeMixte
+95471,Oras Targu Frumos,CrestereaAnimalelor
+95499,Ion Neculce,CrestereaAnimalelor
+95612,Alexandru I. Cuza,PlantePermanente
+95667,Andrieseni,PlantePermanente
+95747,Aroneanu,PlantePermanente
+95792,Baltati,PlantePermanente
+95872,Belcesti,CrestereaAnimalelor
+95943,Bivolari,CrestereaAnimalelor
+96003,Ungheni,PlantePermanente
+96058,Braesti,ActivitatiAuxiliare
+96110,Butea,FermeMixte
+96147,Ceplenita,PlantePermanente
+96192,Ciortesti,CrestereaAnimalelor
+96254,Ciurea,CrestereaAnimalelor
+96334,Coarnele Caprei,PlantePermanente
+96370,Comarna,PlantePermanente
+96423,Costuleni,PlantePermanente
+96478,Cotnari,PlanteNepermanente
+96593,Cozmesti,PlantePermanente
+96637,Cristesti,PlantePermanente
+96664,Cucuteni,PlantePermanente
+96717,Dagata,PlantePermanente
+96815,Deleni,PlantePermanente
+96888,Dobrovat,PlantePermanente
+96904,Dolhesti,PlantePermanente
+96940,Dumesti,ActivitatiAuxiliare
+97009,Erbiceni,CrestereaAnimalelor
+97063,Focuri,PlantePermanente
+97090,Golaiesti,PlantePermanente
+97189,Gorban,PlantePermanente
+97241,Grajduri,PlantePermanente
+97321,Gropnita,FermeMixte
+97394,Grozesti,PlantePermanente
+97438,Halaucesti,PlantePermanente
+97465,Helesteni,PlantePermanente
+97517,Horlesti,PlantePermanente
+97553,Ipatele,PlantePermanente
+97606,Lespezi,ActivitatiAuxiliare
+97679,Letcani,ActivitatiAuxiliare
+97722,Lungani,PlantePermanente
+97777,Madarjac,PlantePermanente
+97811,Mircesti,PlantePermanente
+97875,Mironeasa,PlantePermanente
+97919,Miroslava,PlantePermanente
+98051,Miroslovesti,PlantePermanente
+98113,Mogosesti,PlantePermanente
+98168,Mogosesti-Siret,PlantePermanente
+98202,Mosna,PlantePermanente
+98220,Motca,ActivitatiAuxiliare
+98257,Movileni,PlantePermanente
+98300,Oteleni,ActivitatiAuxiliare
+98337,Plugari,FermeMixte
+98373,Oras Podu Iloaiei,CrestereaAnimalelor
+98435,Popesti,PlantePermanente
+98505,Popricani,PlantePermanente
+98603,Prisacani,PlantePermanente
+98649,Probota,PlantePermanente
+98685,Raducaneni,ActivitatiAuxiliare
+98738,Romanesti,PlantePermanente
+98774,Ruginoasa,PlantePermanente
+98827,Schitu Duca,PlantePermanente
+98916,Scanteia,PlantePermanente
+98998,Scobinti,PlantePermanente
+99058,Sinesti,PlantePermanente
+99101,Siretel,FermeMixte
+99165,Stolniceni-Prajescu,PlantePermanente
+99209,Strunga,FermeMixte
+99290,Scheia,PlantePermanente
+99370,Sipote,PlantePermanente
+99441,Tansa,PlantePermanente
+99478,Tatarusi,PlantePermanente
+99539,Todiresti,PlantePermanente
+99600,Trifesti,PlantePermanente
+99673,Tibana,PlantePermanente
+99780,Tibanesti,PlantePermanente
+99879,Tiganasi,PlantePermanente
+99922,Tutora,PlanteNepermanente
+99968,Valea Seaca,PlantePermanente
+100004,Victoria,PlantePermanente
+100086,Vanatori,PlantePermanente
+100148,Vladeni,CrestereaAnimalelor
+100219,Voinesti,CrestereaAnimalelor
+100273,Bals,ActivitatiAuxiliare
+100282,Costesti,PlantePermanente
+100308,Draguseni,PlantePermanente
+100317,Fantanele,PlantePermanente
+100326,Harmanesti,FermeMixte
+100335,Rachiteni,PlantePermanente
+100344,Roscani,PlantePermanente
+100353,Valea Lupului,PlantePermanente
+100362,Ciohorani,PlantePermanente
+100521,Municipiul Giurgiu,PlantePermanente
+100549,Slobozia,CrestereaAnimalelor
+100576,Oras Buftea,PlantePermanente
+100610,Municipiul Oltenita,CrestereaAnimalelor
+100638,Mitreni,PlantePermanente
+100683,Municipiul Urziceni,FermeMixte
+100709,Ciocarlia,PlantePermanente
+100736,Manasia,PlantePermanente
+100754,Adancata,ActivitatiAuxiliare
+100781,Adunatii-Copaceni,PlantePermanente
+100834,Afumati,CrestereaAnimalelor
+100852,Alexeni,FermeMixte
+100870,Armasesti,PlantePermanente
+100923,Axintele,PlantePermanente
+100969,Balotesti,CrestereaAnimalelor
+101001,Baneasa,PlantePermanente
+101056,Barcanesti,PlantePermanente
+101083,Belciugatele,PlantePermanente
+101145,Berceni,CrestereaAnimalelor
+101163,Bolintin-Deal,CrestereaAnimalelor
+101190,Oras Bolintin-Vale,CrestereaAnimalelor
+101243,Brazii,PlantePermanente
+101298,Branesti,PlantePermanente
+101341,Brezoaele,PlantePermanente
+101378,Bucsani,PlantePermanente
+101458,Oras Budesti,PlantePermanente
+101519,Bulbucata,PlantePermanente
+101564,Butimanu,PlantePermanente
+101617,Buturugeni,PlantePermanente
+101662,Calugareni,PlantePermanente
+101724,Cascioarele,PlantePermanente
+101742,Cernica,PlantePermanente
+101804,Chirnogi,PlantePermanente
+101822,Chiselet,PlantePermanente
+101840,Ciocanesti,PlantePermanente
+101902,Ciolpani,ActivitatiAuxiliare
+101957,Ciorogarla,PlantePermanente
+101984,Clejani,PlantePermanente
+102035,Clinceni,PlantePermanente
+102071,Colibasi,PlantePermanente
+102106,Comana,PlantePermanente
+102160,Corbeanca,FermeMixte
+102213,Cornetu,PlantePermanente
+102240,Cosereni,PlantePermanente
+102286,Crevedia,CrestereaAnimalelor
+102348,Crevedia Mare,CrestereaAnimalelor
+102419,Curcani,PlantePermanente
+102446,Daia,PlantePermanente
+102473,Dascalu,ActivitatiAuxiliare
+102525,Darasti-Ilfov,PlantePermanente
+102543,1 Decembrie,PlanteNepermanente
+102570,Domnesti,ActivitatiAuxiliare
+102605,Dragomiresti-Vale,CrestereaAnimalelor
+102641,Dragoesti,FermeMixte
+102703,Dridu,PlantePermanente
+102749,Oras Fierbinti-Targ,PlantePermanente
+102794,Floresti-Stoenesti,ActivitatiAuxiliare
+102838,Frasinet,PlantePermanente
+102909,Fratesti,PlantePermanente
+102945,Frumusani,CrestereaAnimalelor
+103014,Fundeni,PlantePermanente
+103032,Oras Fundulea,PlantePermanente
+103087,Gaiseni,PlantePermanente
+103130,Ganeasa,PlantePermanente
+103194,Gaujani,PlantePermanente
+103238,Ghimpati,CrestereaAnimalelor
+103283,Garbovi,PlantePermanente
+103309,Gogosari,PlantePermanente
+103354,Gostinu,PlantePermanente
+103372,Gostinari,PlantePermanente
+103407,Gradinari,PlantePermanente
+103443,Gradistea,FermeMixte
+103470,Greaca,PlanteNepermanente
+103513,Gruiu,PlantePermanente
+103568,Gurbanesti,PlantePermanente
+103639,Hotarele,PlantePermanente
+103693,Iepuresti,PlantePermanente
+103764,Ileana,PlantePermanente
+103862,Ion Roata,ActivitatiAuxiliare
+103899,Izvoarele,PlantePermanente
+103960,Jilavele,PlantePermanente
+103997,Joita,ActivitatiAuxiliare
+104047,Letca Noua,PlantePermanente
+104083,Luica,PlantePermanente
+104118,Mihai Bravu,PlantePermanente
+104136,Oras Mihailesti,CrestereaAnimalelor
+104181,Manastirea,PlantePermanente
+104225,Marsa,PlantePermanente
+104243,Moara Vlasiei,PlantePermanente
+104270,Movilita,PlantePermanente
+104323,Nana,PlantePermanente
+104341,Nicolae Balcescu,ActivitatiAuxiliare
+104387,Niculesti,PlantePermanente
+104421,Nuci,ActivitatiAuxiliare
+104485,Ogrezeni,ActivitatiAuxiliare
+104519,Oinacu,PlantePermanente
+104546,Peris,PlantePermanente
+104582,Petrachioaia,PlantePermanente
+104635,Plataresti,PlantePermanente
+104680,Prundu,CrestereaAnimalelor
+104715,Putineiu,PlantePermanente
+104751,Radovanu,PlantePermanente
+104788,Rasuceni,PlantePermanente
+104831,Roata De Jos,PlantePermanente
+104886,Sarulesti,PlantePermanente
+104975,Schitu,PlantePermanente
+105026,Sinesti,PlantePermanente
+105106,Singureni,PlantePermanente
+105142,Slobozia Moara,PlantePermanente
+105160,Snagov,FermeMixte
+105222,Sohatu,PlantePermanente
+105259,Spantov,PlantePermanente
+105295,Stanesti,PlantePermanente
+105348,Stoenesti,PlantePermanente
+105384,Soldanu,PlantePermanente
+105419,Stefanestii De Jos,PlantePermanente
+105455,Tamadau Mare,PlantePermanente
+105534,Tartasesti,CrestereaAnimalelor
+105570,Tunari,CrestereaAnimalelor
+105605,Ulmeni,PlantePermanente
+105623,Ulmi,ActivitatiAuxiliare
+105712,Valea Argovei,PlantePermanente
+105776,Valea Dragului,PlantePermanente
+105794,Valea Macrisului,PlantePermanente
+105829,Vasilati,PlantePermanente
+105874,Varasti,PlantePermanente
+105909,Vedea,PlantePermanente
+105936,Vidra,PlantePermanente
+105972,Vanatorii Mici,PlantePermanente
+106318,Municipiul Baia Mare,CrestereaAnimalelor
+106363,Grosi,ActivitatiAuxiliare
+106407,Recea,PlanteNepermanente
+106461,Oras Tautii-Magheraus,PlantePermanente
+106559,Municipiul Sighetu Marmatiei,CrestereaAnimalelor
+106620,Sarasau,PlantePermanente
+106648,Vadu Izei,PlantePermanente
+106684,Oras Baia Sprie,CrestereaAnimalelor
+106746,Oras Borsa,PlantePermanente
+106782,Oras Cavnic,PlantePermanente
+106817,Oras Targu Lapus,PlantePermanente
+106979,Oras Viseu De Sus,CrestereaAnimalelor
+107001,Ardusat,CrestereaAnimalelor
+107047,Arinis,FermeMixte
+107083,Asuaju De Sus,PlantePermanente
+107118,Baita De Sub Codru,PlantePermanente
+107154,Baiut,ActivitatiAuxiliare
+107190,Basesti,CrestereaAnimalelor
+107234,Bicaz,ActivitatiAuxiliare
+107270,Bistra,PlantePermanente
+107314,Barsana,PlantePermanente
+107350,Bocicoiu Mare,PlantePermanente
+107403,Bogdan Voda,PlantePermanente
+107430,Boiu Mare,PlantePermanente
+107485,Botiza,PlantePermanente
+107519,Budesti,PlantePermanente
+107546,Calinesti,CrestereaAnimalelor
+107582,Cernesti,PlanteNepermanente
+107662,Cicarlau,PlantePermanente
+107715,Campulung La Tisa,PlantePermanente
+107733,Copalnic-Manastur,PlantePermanente
+107868,Coroieni,PlantePermanente
+107920,Cupseni,PlantePermanente
+107975,Desesti,PlantePermanente
+108017,Oras Dragomiresti,PlantePermanente
+108035,Dumbravita,CrestereaAnimalelor
+108106,Farcasa,PlantePermanente
+108151,Giulesti,PlantePermanente
+108204,Ieud,PlantePermanente
+108222,Lapus,PlantePermanente
+108240,Leordina,PlantePermanente
+108268,Miresu Mare,CrestereaAnimalelor
+108348,Moisei,PlantePermanente
+108366,Oarta De Jos,CrestereaAnimalelor
+108400,Ocna Sugatag,PlantePermanente
+108455,Petrova,PlantePermanente
+108473,Poienile De Sub Munte,PlantePermanente
+108491,Remetea Chioarului,PlantePermanente
+108552,Remeti,PlantePermanente
+108598,Repedea,PlantePermanente
+108614,Rona De Jos,PlantePermanente
+108632,Rona De Sus,PlantePermanente
+108669,Rozavlea,PlantePermanente
+108696,Ruscova,PlantePermanente
+108712,Satulung,CrestereaAnimalelor
+108794,Sacalaseni,CrestereaAnimalelor
+108874,Sacel,PlantePermanente
+108892,Oras Salistea De Sus,PlantePermanente
+108918,Salsig,PlantePermanente
+108945,Sapanta,PlantePermanente
+108963,Oras Seini,CrestereaAnimalelor
+109005,Stramtura,PlantePermanente
+109041,Suciu De Sus,PlantePermanente
+109096,Sisesti,PlantePermanente
+109176,Oras Somcuta Mare,PlanteInmultire
+109265,Oras Ulmeni,FermeMixte
+109354,Valea Chioarului,PlantePermanente
+109425,Vima Mica,PlantePermanente
+109504,Viseu De Jos,PlantePermanente
+109773,Municipiul Drobeta-Turnu Severin,PlantePermanente
+109826,Simian,FermeMixte
+109924,Oras Baia De Arama,PlantePermanente
+110027,Obarsia-Closani,CrestereaAnimalelor
+110063,Municipiul Orsova,PlantePermanente
+110116,Oras Strehaia,PlantePermanente
+110232,Oras Vanju Mare,PlanteNepermanente
+110296,Bala,CrestereaAnimalelor
+110456,Balta,PlantePermanente
+110535,Balacita,PlantePermanente
+110571,Bacles,PlantePermanente
+110688,Balvanesti,PlantePermanente
+110740,Breznita-Motru,PlantePermanente
+110820,Breznita-Ocol,PlantePermanente
+110875,Brosteni,PlantePermanente
+110946,Burila Mare,PlantePermanente
+111006,Butoiesti,PlantePermanente
+111097,Cazanesti,PlantePermanente
+111220,Ciresu,PlantePermanente
+111275,Corcova,PlanteNepermanente
+111417,Corlatel,PlantePermanente
+111444,Cujmir,PlantePermanente
+111480,Devesel,CrestereaAnimalelor
+111550,Darvari,CrestereaAnimalelor
+111587,Dumbrava,PlantePermanente
+111685,Floresti,PlantePermanente
+111783,Garla Mare,PlantePermanente
+111818,Godeanu,PlantePermanente
+111863,Gogosu,CrestereaAnimalelor
+111916,Greci,ActivitatiAuxiliare
+111989,Grozesti,PlantePermanente
+112030,Gruia,CrestereaAnimalelor
+112076,Hinova,PlantePermanente
+112129,Husnicioara,FermeMixte
+112245,Eselnita,PlantePermanente
+112263,Ilovat,PlantePermanente
+112334,Ilovita,PlantePermanente
+112370,Isverna,PlantePermanente
+112469,Izvoru Barzii,PlantePermanente
+112548,Jiana,PlantePermanente
+112600,Livezile,PlantePermanente
+112664,Malovat,PlantePermanente
+112744,Obarsia De Camp,PlantePermanente
+112771,Oprisor,PlantePermanente
+112806,Padina,ActivitatiAuxiliare
+112879,Patulele,PlantePermanente
+112904,Dubova,PlantePermanente
+112959,Podeni,PlantePermanente
+112995,Ponoarele,PlantePermanente
+113153,Poroina Mare,PlantePermanente
+113206,Pristol,PlantePermanente
+113233,Prunisor,PlantePermanente
+113395,Punghina,PlantePermanente
+113466,Rogova,PlantePermanente
+113493,Salcia,PlantePermanente
+113518,Stangaceaua,PlantePermanente
+113607,Svinita,PlantePermanente
+113625,Sisesti,PlantePermanente
+113698,Sovarna,PlantePermanente
+113732,Tamna,PlantePermanente
+113849,Vanatori,PlantePermanente
+113894,Vanjulet,PlantePermanente
+113929,Vladaia,PlantePermanente
+113974,Voloiac,PlantePermanente
+114060,Branistea,PlantePermanente
+114079,Vrata,PlantePermanente
+114319,Municipiul Targu Mures,PlantePermanente
+114355,Cristesti,FermeMixte
+114382,Sancraiu De Mures,PlantePermanente
+114417,Sangeorgiu De Mures,ActivitatiAuxiliare
+114453,Santana De Mures,CrestereaAnimalelor
+114514,Municipiul Sighisoara,CrestereaAnimalelor
+114603,Albesti,PlanteNepermanente
+114710,Oras Ludus,CrestereaAnimalelor
+114809,Municipiul Reghin,PlanteNepermanente
+114854,Oras Sovata,PlantePermanente
+114925,Municipiul Tarnaveni,CrestereaAnimalelor
+114970,Acatari,FermeMixte
+115076,Adamus,CrestereaAnimalelor
+115147,Alunis,PlantePermanente
+115183,Apold,PlanteNepermanente
+115236,Atintis,CrestereaAnimalelor
+115307,Bahnea,FermeMixte
+115389,Band,CrestereaAnimalelor
+115520,Batos,CrestereaAnimalelor
+115575,Bagaciu,PlanteNepermanente
+115600,Bala,PlantePermanente
+115637,Balauseri,FermeMixte
+115708,Beica De Jos,FermeMixte
+115771,Bichis,FermeMixte
+115824,Bogata,PlantePermanente
+115851,Breaza,PlantePermanente
+115897,Brancovenesti,PlantePermanente
+115959,Ceuasu De Campie,PlantePermanente
+116046,Chetani,FermeMixte
+116126,Chiheru De Jos,FermeMixte
+116171,Coroisanmartin,PlantePermanente
+116224,Cozma,PlantePermanente
+116288,Craciunesti,CrestereaAnimalelor
+116340,Craiesti,CrestereaAnimalelor
+116395,Cucerdea,ActivitatiAuxiliare
+116439,Cuci,CrestereaAnimalelor
+116493,Danes,CrestereaAnimalelor
+116545,Deda,PlantePermanente
+116590,Eremitu,PlanteInmultire
+116652,Ernei,CrestereaAnimalelor
+116723,Faragau,PlantePermanente
+116796,Fantanele,PlantePermanente
+116867,Galesti,PlantePermanente
+116938,Ganesti,PlantePermanente
+116983,Gheorghe Doja,FermeMixte
+117042,Ghindari,PlantePermanente
+117113,Glodeni,PlantePermanente
+117177,Gornesti,CrestereaAnimalelor
+117275,Grebenisu De Campie,CrestereaAnimalelor
+117319,Gurghiu,CrestereaAnimalelor
+117426,Hodac,CrestereaAnimalelor
+117505,Hodosa,FermeMixte
+117550,Ibanesti,PlantePermanente
+117667,Iclanzel,ActivitatiAuxiliare
+117783,Ideciu De Jos,CrestereaAnimalelor
+117827,Oras Iernut,FermeMixte
+117925,Livezeni,PlantePermanente
+117998,Lunca,FermeMixte
+118058,Lunca Bradului,ActivitatiAuxiliare
+118094,Magherani,CrestereaAnimalelor
+118209,Mica,PlanteNepermanente
+118281,Oras Miercurea Nirajului,PlantePermanente
+118370,Mihesu De Campie,CrestereaAnimalelor
+118469,Nades,FermeMixte
+118511,Neaua,PlantePermanente
+118575,Ogra,PlantePermanente
+118637,Papiu Ilarian,PlantePermanente
+118691,Panet,PlantePermanente
+118753,Pasareni,PlantePermanente
+118799,Petelea,PlanteNepermanente
+118824,Pogaceaua,CrestereaAnimalelor
+118931,Rastolita,PlantePermanente
+118995,Raciu,FermeMixte
+119153,Rusii-Munti,PlantePermanente
+119206,Saschiz,PlantePermanente
+119242,Oras Sarmasu,CrestereaAnimalelor
+119331,Oras Sangeorgiu De Padure,PlantePermanente
+119386,Sanger,CrestereaAnimalelor
+119466,Sanpaul,FermeMixte
+119527,Sanpetru De Campie,ActivitatiAuxiliare
+119590,Solovastru,PlantePermanente
+119625,Stanceni,PlantePermanente
+119661,Suplac,FermeMixte
+119723,Suseni,PlantePermanente
+119750,Saulia,PlantePermanente
+119803,Sincai,PlantePermanente
+119858,Taureni,PlantePermanente
+119894,Oras Ungheni,FermeMixte
+119974,Valea Larga,PlantePermanente
+120076,Vargata,PlantePermanente
+120138,Vatava,PlantePermanente
+120174,Vetca,CrestereaAnimalelor
+120218,Viisoara,PlantePermanente
+120254,Vanatori,FermeMixte
+120316,Voivodeni,CrestereaAnimalelor
+120343,Zagar,PlantePermanente
+120370,Zau De Campie,PlantePermanente
+120478,Chibed,CrestereaAnimalelor
+120487,Corunca,ActivitatiAuxiliare
+120496,Sarateni,ActivitatiAuxiliare
+120502,Madaras,PlantePermanente
+120511,Bereni,PlantePermanente
+120726,Municipiul Piatra-Neamt,PlantePermanente
+120771,Dumbrava Rosie,CrestereaAnimalelor
+120824,Savinesti,PlantePermanente
+120860,Municipiul Roman,CrestereaAnimalelor
+120888,Cordun,PlantePermanente
+120922,Horia,PlantePermanente
+120968,Oras Bicaz,PlantePermanente
+121055,Oras Targu Neamt,PlantePermanente
+121108,Agapia,PlantePermanente
+121153,Bahna,PlantePermanente
+121242,Baltatesti,PlantePermanente
+121297,Bicaz-Chei,PlantePermanente
+121340,Bicazu Ardelean,PlantePermanente
+121386,Bira,PlantePermanente
+121466,Bargauani,PlantePermanente
+121607,Bodesti,ActivitatiAuxiliare
+121652,Borca,PlantePermanente
+121732,Borlesti,PlanteInmultire
+121796,Botesti,PlantePermanente
+121876,Bozieni,PlantePermanente
+121938,Brusturi,PlantePermanente
+122025,Ceahlau,PlantePermanente
+122061,Candesti,PlantePermanente
+122132,Costisa,PlantePermanente
+122187,Cracaoani,PlantePermanente
+122249,Damuc,FermeMixte
+122285,Dobreni,PlantePermanente
+122347,Doljesti,PlantePermanente
+122392,Dragomiresti,PlantePermanente
+122463,Dulcesti,PlantePermanente
+122551,Farcasa,PlantePermanente
+122613,Faurei,PlantePermanente
+122668,Gheraesti,PlantePermanente
+122702,Girov,CrestereaAnimalelor
+122828,Garcina,PlantePermanente
+122864,Grinties,PlantePermanente
+122908,Grumazesti,ActivitatiAuxiliare
+122953,Hangu,PlantePermanente
+123013,Icusesti,CrestereaAnimalelor
+123102,Ion Creanga,FermeMixte
+123175,Margineni,PlantePermanente
+123228,Moldoveni,PlantePermanente
+123255,Oniceni,PlantePermanente
+123371,Pastraveni,CrestereaAnimalelor
+123424,Petricani,ActivitatiAuxiliare
+123479,Piatra Soimului,FermeMixte
+123521,Pipirig,PlantePermanente
+123601,Pangarati,CrestereaAnimalelor
+123674,Podoleni,PlantePermanente
+123709,Poienari,PlantePermanente
+123790,Poiana Teiului,CrestereaAnimalelor
+123914,Raucesti,CrestereaAnimalelor
+123969,Razboieni,ActivitatiAuxiliare
+124028,Rediu,ActivitatiAuxiliare
+124073,Romani,PlantePermanente
+124117,Oras Roznov,ActivitatiAuxiliare
+124153,Sagna,PlantePermanente
+124206,Sabaoani,CrestereaAnimalelor
+124233,Secuieni,FermeMixte
+124331,Stanita,PlantePermanente
+124411,Stefan Cel Mare,PlantePermanente
+124493,Tarcau,PlantePermanente
+124563,Tasca,FermeMixte
+124616,Tazlau,ActivitatiAuxiliare
+124634,Tamaseni,PlantePermanente
+124661,Timisesti,FermeMixte
+124723,Trifesti,PlantePermanente
+124750,Tupilati,CrestereaAnimalelor
+124803,Tibucani,PlantePermanente
+124849,Urecheni,PlanteNepermanente
+124885,Valea Ursului,PlantePermanente
+124938,Alexandru Cel Bun,PlanteNepermanente
+125016,Vanatori-Neamt,FermeMixte
+125061,Zanesti,CrestereaAnimalelor
+125098,Dochia,PlantePermanente
+125105,Ruginoasa,FermeMixte
+125114,Ghindaoani,PlantePermanente
+125123,Valeni,PlantePermanente
+125132,Draganesti,PlantePermanente
+125141,Pancesti,PlantePermanente
+125150,Gadinti,PlantePermanente
+125169,Negresti,CrestereaAnimalelor
+125178,Boghicea,ActivitatiAuxiliare
+125347,Municipiul Slatina,PlantePermanente
+125374,Slatioara,PlantePermanente
+125418,Oras Bals,PlantePermanente
+125472,Municipiul Caracal,PlantePermanente
+125490,Draghiceni,PlantePermanente
+125542,Oras Corabia,PlantePermanente
+125588,Garcov,CrestereaAnimalelor
+125622,Oras Draganesti-Olt,PlantePermanente
+125659,Babiciu,ActivitatiAuxiliare
+125677,Baldovinesti,PlantePermanente
+125757,Barasti,PlantePermanente
+125846,Barza,ActivitatiAuxiliare
+125873,Bobicesti,PlantePermanente
+125962,Brastavatu,PlantePermanente
+125999,Brebeni,PlantePermanente
+126022,Brancoveni,PlantePermanente
+126077,Bucinisu,PlantePermanente
+126102,Cezieni,PlantePermanente
+126148,Cilieni,PlantePermanente
+126166,Carlogani,PlantePermanente
+126228,Colonesti,PlantePermanente
+126326,Corbu,PlantePermanente
+126380,Coteana,PlantePermanente
+126406,Crampoia,ActivitatiAuxiliare
+126433,Curtisoara,CrestereaAnimalelor
+126503,Cungrea,PlantePermanente
+126585,Daneasa,PlantePermanente
+126647,Deveselu,PlantePermanente
+126674,Dobretu,PlantePermanente
+126718,Dobrosloveni,PlantePermanente
+126772,Dobroteasa,PlanteNepermanente
+126825,Dobrun,PlantePermanente
+126905,Fagetelu,PlantePermanente
+126978,Falcoiu,PlantePermanente
+127019,Farcasele,PlantePermanente
+127064,Ganeasa,ActivitatiAuxiliare
+127126,Giuvarasti,PlantePermanente
+127144,Gostavatu,ActivitatiAuxiliare
+127171,Gradinari,PlantePermanente
+127224,Grojdibodu,PlantePermanente
+127251,Ianca,PlantePermanente
+127288,Iancu Jianu,CrestereaAnimalelor
+127322,Icoana,PlantePermanente
+127368,Izbiceni,PlantePermanente
+127386,Izvoarele,PlantePermanente
+127411,Leleasca,PlantePermanente
+127493,Maruntei,PlantePermanente
+127536,Mihaesti,PlantePermanente
+127563,Milcov,PlantePermanente
+127625,Morunglav,PlantePermanente
+127689,Movileni,PlantePermanente
+127714,Nicolae Titulescu,PlantePermanente
+127750,Obarsia,CrestereaAnimalelor
+127812,Oboga,PlanteInmultire
+127858,Oporelu,PlantePermanente
+127901,Optasi-Magura,PlantePermanente
+127938,Orlea,PlantePermanente
+127983,Osica De Sus,PlantePermanente
+128052,Perieti,PlantePermanente
+128105,Oras Piatra-Olt,FermeMixte
+128178,Parscoveni,PlantePermanente
+128221,Plesoiu,PlantePermanente
+128301,Poboru,PlantePermanente
+128374,Oras Potcoava,ActivitatiAuxiliare
+128436,Priseaca,PlantePermanente
+128472,Radomiresti,PlantePermanente
+128524,Redea,PlantePermanente
+128560,Rotunda,PlantePermanente
+128588,Rusanesti,PlantePermanente
+128613,Scarisoara,PlantePermanente
+128659,Schitu,PlantePermanente
+128711,Oras Scornicesti,PlantePermanente
+128864,Seaca,PlantePermanente
+128882,Samburesti,PlantePermanente
+128962,Spineni,ActivitatiAuxiliare
+129040,Sprancenata,ActivitatiAuxiliare
+129095,Stoenesti,PlantePermanente
+129111,Stoicanesti,PlantePermanente
+129139,Strejesti,PlantePermanente
+129184,Studina,PlantePermanente
+129246,Serbanesti,PlantePermanente
+129282,Stefan Cel Mare,PlantePermanente
+129317,Tatulesti,PlantePermanente
+129380,Teslui,CrestereaAnimalelor
+129460,Tia Mare,PlantePermanente
+129503,Topana,PlantePermanente
+129567,Traian,PlantePermanente
+129585,Tufeni,CrestereaAnimalelor
+129629,Urzica,PlantePermanente
+129656,Valea Mare,CrestereaAnimalelor
+129718,Vadastra,PlantePermanente
+129745,Vadastrita,PlantePermanente
+129763,Valeni,PlantePermanente
+129816,Verguleasa,PlantePermanente
+129898,Visina,PlantePermanente
+129914,Vitomiresti,PlantePermanente
+129987,Valcele,PlantePermanente
+130026,Vladila,PlantePermanente
+130062,Voineasa,PlantePermanente
+130124,Vulpeni,PlantePermanente
+130231,Vulturesti,PlantePermanente
+130286,Balteni,FermeMixte
+130295,Calui,ActivitatiAuxiliare
+130302,Gavanesti,PlantePermanente
+130311,Ghimpeteni,PlantePermanente
+130320,Gradinile,ActivitatiAuxiliare
+130339,Gura Padinii,PlantePermanente
+130348,Ipotesti,PlantePermanente
+130357,Osica De Jos,PlantePermanente
+130366,Sarbii - Magura,CrestereaAnimalelor
+130375,Visina Noua,ActivitatiAuxiliare
+130384,Soparlita,PlantePermanente
+130534,Municipiul Ploiesti,CrestereaAnimalelor
+130552,Barcanesti,PlantePermanente
+130614,Berceni,PlantePermanente
+130678,Blejoi,PlantePermanente
+130712,Brazi,PlantePermanente
+130785,Bucov,PlantePermanente
+130847,Paulesti,FermeMixte
+130892,Targsoru Vechi,PlantePermanente
+130954,Oras Azuga,PlantePermanente
+130981,Oras Baicoi,CrestereaAnimalelor
+131069,Oras Boldesti-Scaeni,CrestereaAnimalelor
+131103,Oras Breaza,CrestereaAnimalelor
+131210,Oras Busteni,PlantePermanente
+131256,Municipiul Campina,PlantePermanente
+131274,Poiana Campina,PlantePermanente
+131336,Oras Comarnic,PlantePermanente
+131407,Oras Mizil,CrestereaAnimalelor
+131443,Oras Plopeni,PlantePermanente
+131461,Dumbravesti,PlantePermanente
+131540,Oras Sinaia,PlantePermanente
+131577,Oras Slanic,FermeMixte
+131620,Oras Urlati,PlantePermanente
+131817,Oras Valenii De Munte,PlantePermanente
+131835,Gura Vitioarei,PlantePermanente
+131899,Adunati,PlantePermanente
+131933,Albesti-Paleologu,PlantePermanente
+131988,Alunis,PlantePermanente
+132011,Apostolache,CrestereaAnimalelor
+132075,Aricestii Rahtivani,PlantePermanente
+132137,Aricestii Zeletin,PlantePermanente
+132164,Baba Ana,FermeMixte
+132226,Balta Doamnei,PlantePermanente
+132271,Baltesti,CrestereaAnimalelor
+132315,Banesti,CrestereaAnimalelor
+132342,Bertea,PlantePermanente
+132379,Boldesti-Gradistea,PlantePermanente
+132404,Brebu,PlantePermanente
+132459,Calugareni,PlantePermanente
+132486,Carbunesti,PlantePermanente
+132510,Ceptura,FermeMixte
+132574,Cerasu,PlantePermanente
+132645,Chiojdeanca,PlantePermanente
+132681,Ciorani,PlantePermanente
+132716,Cocorastii Mislii,CrestereaAnimalelor
+132752,Colceag,PlantePermanente
+132805,Cornu,PlantePermanente
+132841,Cosminele,PlantePermanente
+132896,Drajna,PlantePermanente
+133018,Draganesti,PlantePermanente
+133090,Dumbrava,PlantePermanente
+133161,Filipestii De Padure,FermeMixte
+133214,Filipestii De Targ,PlantePermanente
+133278,Fantanele,PlantePermanente
+133330,Floresti,CrestereaAnimalelor
+133394,Fulga,PlantePermanente
+133429,Gherghita,PlantePermanente
+133508,Gorgota,CrestereaAnimalelor
+133562,Gornet,PlantePermanente
+133615,Gornet-Cricov,PlantePermanente
+133688,Gura Vadului,PlanteNepermanente
+133722,Iordacheanu,PlanteNepermanente
+133795,Izvoarele,PlantePermanente
+133866,Jugureni,PlantePermanente
+133919,Lapos,PlantePermanente
+133964,Lipanesti,PlanteInmultire
+134014,Magurele,CrestereaAnimalelor
+134050,Magureni,CrestereaAnimalelor
+134096,Maneciu,CrestereaAnimalelor
+134194,Manesti,PlantePermanente
+134336,Pacureti,PlantePermanente
+134390,Plopu,CrestereaAnimalelor
+134443,Podenii Noi,PlanteNepermanente
+134559,Poienarii Burchii,FermeMixte
+134648,Posesti,PlanteNepermanente
+134755,Predeal-Sarari,PlantePermanente
+134853,Provita De Jos,PlantePermanente
+134899,Provita De Sus,PlantePermanente
+134942,Puchenii Mari,PlantePermanente
+135020,Rafov,PlantePermanente
+135128,Salcia,PlantePermanente
+135146,Salciile,PlantePermanente
+135164,Scorteni,PlantePermanente
+135226,Secaria,PlantePermanente
+135244,Sangeru,FermeMixte
+135315,Starchiojd,PlantePermanente
+135404,Surani,PlantePermanente
+135431,Sirna,ActivitatiAuxiliare
+135501,Soimari,PlantePermanente
+135547,Sotrile,PlantePermanente
+135618,Stefesti,PlantePermanente
+135654,Talea,PlantePermanente
+135681,Tataru,PlantePermanente
+135725,Teisani,PlantePermanente
+135789,Telega,PlantePermanente
+135850,Tinosu,ActivitatiAuxiliare
+135896,Tomsani,CrestereaAnimalelor
+135949,Valea Calugareasca,PlantePermanente
+136107,Valea Doftanei,CrestereaAnimalelor
+136134,Varbilau,PlantePermanente
+136198,Valcanesti,PlantePermanente
+136241,Cocorastii Colt,PlantePermanente
+136250,Olari,PlantePermanente
+136269,Vadu Sapat,PlanteNepermanente
+136278,Batrani,PlantePermanente
+136483,Municipiul Satu Mare,CrestereaAnimalelor
+136526,Municipiul Carei,PlantePermanente
+136553,Capleni,PlantePermanente
+136599,Oras Negresti-Oas,CrestereaAnimalelor
+136642,Oras Tasnad,ActivitatiAuxiliare
+136713,Acas,PlantePermanente
+136768,Andrid,PlantePermanente
+136802,Apa,PlantePermanente
+136848,Oras Ardud,PlantePermanente
+136919,Batarci,PlantePermanente
+136964,Beltiug,PlantePermanente
+137032,Berveni,PlantePermanente
+137069,Bixad,FermeMixte
+137103,Barsau,PlantePermanente
+137130,Bogdand,FermeMixte
+137185,Botiz,PlantePermanente
+137229,Calinesti-Oas,PlantePermanente
+137274,Camarzana,PlantePermanente
+137292,Cauas,FermeMixte
+137363,Cehal,PlanteNepermanente
+137407,Certeze,PlantePermanente
+137443,Craidorolt,PlantePermanente
+137504,Crucisor,CrestereaAnimalelor
+137540,Culciu,PlantePermanente
+137611,Doba,PlantePermanente
+137675,Dorolt,PlantePermanente
+137728,Foieni,ActivitatiAuxiliare
+137746,Gherta Mica,PlantePermanente
+137764,Halmeu,FermeMixte
+137844,Hodod,PlanteNepermanente
+137899,Homoroade,PlantePermanente
+137960,Lazuri,PlantePermanente
+138039,Oras Livada,ActivitatiAuxiliare
+138084,Mediesu Aurit,CrestereaAnimalelor
+138164,Micula,PlantePermanente
+138208,Moftin,FermeMixte
+138280,Odoreu,ActivitatiAuxiliare
+138351,Orasu Nou,PlantePermanente
+138431,Paulesti,FermeMixte
+138501,Petresti,PlantePermanente
+138538,Pir,PlantePermanente
+138574,Piscolt,CrestereaAnimalelor
+138618,Pomi,FermeMixte
+138663,Sanislau,CrestereaAnimalelor
+138734,Santau,PlantePermanente
+138770,Sacaseni,CrestereaAnimalelor
+138805,Sauca,PlantePermanente
+138869,Socond,PlantePermanente
+138921,Supur,PlanteNepermanente
+139009,Tarna Mare,PlantePermanente
+139054,Terebesti,PlantePermanente
+139107,Tiream,PlantePermanente
+139143,Tarsolt,PlantePermanente
+139170,Turt,PlantePermanente
+139214,Turulung,CrestereaAnimalelor
+139250,Urziceni,CrestereaAnimalelor
+139287,Valea Vinului,PlanteNepermanente
+139330,Vama,CrestereaAnimalelor
+139358,Vetis,PlantePermanente
+139394,Viile Satu Mare,PlantePermanente
+139704,Municipiul Zalau,PlantePermanente
+139740,Oras Cehu Silvaniei,CrestereaAnimalelor
+139811,Oras Jibou,FermeMixte
+139884,Oras Simleu Silvaniei,PlantePermanente
+139937,Agrij,ActivitatiAuxiliare
+139982,Almasu,PlantePermanente
+140084,Babeni,PlantePermanente
+140146,Balan,CrestereaAnimalelor
+140208,Banisor,PlantePermanente
+140244,Benesat,ActivitatiAuxiliare
+140280,Bobota,PlantePermanente
+140324,Bocsa,PlantePermanente
+140379,Buciumi,CrestereaAnimalelor
+140440,Camar,PlanteNepermanente
+140477,Carastelec,PlantePermanente
+140501,Chiesd,CrestereaAnimalelor
+140547,Cizer,ActivitatiAuxiliare
+140583,Coseiu,PlantePermanente
+140627,Crasna,CrestereaAnimalelor
+140672,Creaca,PlantePermanente
+140770,Cristolt,PlantePermanente
+140823,Criseni,CrestereaAnimalelor
+140869,Cuzaplac,PlantePermanente
+140958,Dobrin,PlantePermanente
+141027,Dragu,PlantePermanente
+141081,Fildu De Jos,PlantePermanente
+141134,Galgau,ActivitatiAuxiliare
+141232,Garbou,PlantePermanente
+141312,Halmasd,PlantePermanente
+141376,Hereclean,ActivitatiAuxiliare
+141447,Hida,PlantePermanente
+141535,Horoatu Crasnei,PlantePermanente
+141580,Ileanda,CrestereaAnimalelor
+141722,Ip,PlantePermanente
+141786,Letca,ActivitatiAuxiliare
+141884,Lozna,PlantePermanente
+141946,Marca,ActivitatiAuxiliare
+142006,Maeriste,PlanteInmultire
+142079,Mesesenii De Jos,PlantePermanente
+142122,Mirsid,CrestereaAnimalelor
+142177,Napradea,PlantePermanente
+142239,Nusfalau,FermeMixte
+142284,Pericei,PlantePermanente
+142337,Plopis,PlantePermanente
+142373,Poiana Blenchii,PlantePermanente
+142426,Romanasi,CrestereaAnimalelor
+142499,Rus,PlantePermanente
+142550,Salatig,CrestereaAnimalelor
+142612,Sag,PlantePermanente
+142676,Sanmihaiu Almasului,PlantePermanente
+142710,Somes-Odorhei,ActivitatiAuxiliare
+142774,Surduc,ActivitatiAuxiliare
+142854,Samsud,PlanteNepermanente
+142881,Sarmasag,PlantePermanente
+142952,Valcau De Jos,CrestereaAnimalelor
+143021,Varsolt,CrestereaAnimalelor
+143067,Zalha,PlantePermanente
+143147,Zimbor,PlantePermanente
+143450,Municipiul Sibiu,FermeMixte
+143487,Cristian,CrestereaAnimalelor
+143502,Poplaca,PlantePermanente
+143520,Rasinari,CrestereaAnimalelor
+143557,Selimbar,FermeMixte
+143619,Municipiul Medias,CrestereaAnimalelor
+143646,Tarnava,PlantePermanente
+143682,Oras Agnita,FermeMixte
+143735,Oras Cisnadie,PlantePermanente
+143771,Oras Copsa Mica,PlantePermanente
+143806,Oras Dumbraveni,FermeMixte
+143851,Oras Ocna Sibiului,PlanteInmultire
+143888,Altina,PlantePermanente
+143922,Apoldu De Jos,PlantePermanente
+143959,Arpasu De Jos,PlantePermanente
+143995,Atel,PlantePermanente
+144054,Oras Avrig,CrestereaAnimalelor
+144116,Axente Sever,PlantePermanente
+144152,Bazna,PlanteNepermanente
+144198,Biertan,PlanteNepermanente
+144232,Barghis,FermeMixte
+144303,Blajel,PlantePermanente
+144349,Brateiu,FermeMixte
+144376,Bradeni,PlantePermanente
+144410,Bruiu,CrestereaAnimalelor
+144456,Chirpar,PlantePermanente
+144508,Carta,PlantePermanente
+144535,Cartisoara,CrestereaAnimalelor
+144553,Darlos,PlantePermanente
+144599,Gura Raului,PlantePermanente
+144615,Hoghilag,PlantePermanente
+144651,Iacobeni,FermeMixte
+144713,Jina,PlantePermanente
+144731,Laslea,PlantePermanente
+144795,Loamnes,PlantePermanente
+144866,Ludos,PlantePermanente
+144893,Marpod,CrestereaAnimalelor
+144928,Oras Miercurea Sibiului,ActivitatiAuxiliare
+144964,Merghindeal,PlantePermanente
+144991,Micasasa,PlantePermanente
+145042,Mihaileni,PlantePermanente
+145104,Mosna,FermeMixte
+145140,Nocrich,PlantePermanente
+145202,Orlat,PlantePermanente
+145220,Pauca,FermeMixte
+145275,Poiana Sibiului,PlantePermanente
+145293,Porumbacu De Jos,PlantePermanente
+145355,Racovita,PlantePermanente
+145382,Rau Sadului,PlantePermanente
+145408,Rosia,FermeMixte
+145471,Sadu,CrestereaAnimalelor
+145499,Oras Saliste,CrestereaAnimalelor
+145603,Slimnic,PlantePermanente
+145667,Seica Mare,CrestereaAnimalelor
+145738,Seica Mica,FermeMixte
+145765,Sura Mare,PlanteNepermanente
+145792,Sura Mica,FermeMixte
+145827,Oras Talmaciu,PlantePermanente
+145907,Tilisca,PlantePermanente
+145934,Turnu Rosu,PlantePermanente
+145961,Valea Viilor,PlantePermanente
+145998,Vurpar,PlantePermanente
+146012,Alma,PlantePermanente
+146021,Boita,PlantePermanente
+146263,Municipiul Suceava,PlantePermanente
+146281,Ipotesti,CrestereaAnimalelor
+146325,Mitocu Dragomirnei,PlantePermanente
+146370,Oras Salcea,FermeMixte
+146432,Scheia,FermeMixte
+146502,Municipiul Campulung Moldovenesc,CrestereaAnimalelor
+146539,Municipiul Falticeni,PlanteNepermanente
+146584,Oras Gura Humorului,PlantePermanente
+146628,Municipiul Radauti,PlantePermanente
+146655,Oras Siret,PlantePermanente
+146708,Oras Solca,PlantePermanente
+146744,Municipiul Vatra Dornei,PlantePermanente
+146799,Adancata,PlantePermanente
+146860,Arbore,PlantePermanente
+146904,Baia,PlantePermanente
+146931,Oras Milisauti,ActivitatiAuxiliare
+146995,Balcauti,PlantePermanente
+147036,Bilca,PlantePermanente
+147054,Bogdanesti,PlantePermanente
+147072,Boroaia,CrestereaAnimalelor
+147134,Bosanci,PlantePermanente
+147161,Botosana,PlantePermanente
+147205,Breaza,CrestereaAnimalelor
+147241,Brodina,PlantePermanente
+147358,Oras Brosteni,PlantePermanente
+147465,Bunesti,PlantePermanente
+147526,Cacica,PlantePermanente
+147580,Calafindesti,FermeMixte
+147633,Oras Cajvana,PlantePermanente
+147660,Ilisesti,PlantePermanente
+147713,Carlibaba,PlantePermanente
+147786,Cornu Luncii,PlantePermanente
+147884,Crucea,PlantePermanente
+147937,Darmanesti,PlantePermanente
+148006,Oras Dolhasca,FermeMixte
+148097,Dolhesti,ActivitatiAuxiliare
+148131,Dorna-Arini,PlantePermanente
+148202,Dorna Candrenilor,PlantePermanente
+148293,Dornesti,PlantePermanente
+148328,Dragoiesti,CrestereaAnimalelor
+148382,Draguseni,PlantePermanente
+148426,Dumbraveni,CrestereaAnimalelor
+148453,Fantanele,FermeMixte
+148514,Forasti,PlantePermanente
+148612,Oras Frasin,PlantePermanente
+148667,Fratautii Noi,PlantePermanente
+148694,Fratautii Vechi,PlantePermanente
+148729,Frumosu,PlantePermanente
+148765,Fundu Moldovei,CrestereaAnimalelor
+148872,Galanesti,CrestereaAnimalelor
+148916,Gramesti,PlantePermanente
+148970,Granicesti,CrestereaAnimalelor
+149049,Horodniceni,CrestereaAnimalelor
+149101,Horodnic De Jos,PlantePermanente
+149138,Iacobeni,PlantePermanente
+149183,Izvoarele Sucevei,PlantePermanente
+149227,Oras Liteni,PlantePermanente
+149290,Marginea,PlantePermanente
+149316,Malini,PlantePermanente
+149370,Manastirea Humorului,PlantePermanente
+149414,Moara,CrestereaAnimalelor
+149502,Moldova-Sulita,CrestereaAnimalelor
+149539,Moldovita,PlanteNepermanente
+149584,Musenita,PlantePermanente
+149655,Ostra,PlantePermanente
+149682,Panaci,CrestereaAnimalelor
+149753,Paltinoasa,PlantePermanente
+149780,Partestii De Jos,PlantePermanente
+149833,Patrauti,FermeMixte
+149851,Poiana Stampei,PlantePermanente
+149931,Pojorata,FermeMixte
+149968,Preutesti,PlantePermanente
+150043,Putna,CrestereaAnimalelor
+150070,Radaseni,PlantePermanente
+150114,Rasca,PlantePermanente
+150178,Sadova,CrestereaAnimalelor
+150196,Satu Mare,PlantePermanente
+150221,Siminicea,FermeMixte
+150258,Slatina,CrestereaAnimalelor
+150294,Straja,PlantePermanente
+150310,Stroiesti,FermeMixte
+150356,Stulpicani,PlantePermanente
+150418,Sucevita,CrestereaAnimalelor
+150445,Saru Dornei,ActivitatiAuxiliare
+150524,Todiresti,CrestereaAnimalelor
+150588,Udesti,FermeMixte
+150702,Ulma,PlantePermanente
+150766,Vadu Moldovei,FermeMixte
+150891,Valea Moldovei,PlantePermanente
+150935,Vama,FermeMixte
+150980,Vatra Moldovitei,CrestereaAnimalelor
+151022,Veresti,ActivitatiAuxiliare
+151077,Vicovu De Jos,CrestereaAnimalelor
+151095,Oras Vicovu De Sus,PlantePermanente
+151120,Volovat,PlantePermanente
+151157,Vulturesti,PlantePermanente
+151246,Zamostea,PlantePermanente
+151344,Zvoristea,CrestereaAnimalelor
+151433,Comanesti,PlantePermanente
+151442,Iaslovat,PlantePermanente
+151451,Ciocanesti,CrestereaAnimalelor
+151460,Serbauti,FermeMixte
+151479,Horodnic De Sus,PlantePermanente
+151488,Fantana Mare,ActivitatiAuxiliare
+151497,Cosna,PlantePermanente
+151503,Capu Campului,CrestereaAnimalelor
+151512,Hantesti,PlantePermanente
+151521,Burla,PlantePermanente
+151530,Balaceana,CrestereaAnimalelor
+151549,Hartop,PlantePermanente
+151558,Voitinel,PlantePermanente
+151567,Ciprian Porumbescu,FermeMixte
+151576,Berchisesti,PlantePermanente
+151585,Poieni-Solca,PlantePermanente
+151683,Municipiul Turnu Magurele,PlantePermanente
+151709,Ciuperceni,PlantePermanente
+151736,Islaz,PlantePermanente
+151763,Lita,PlantePermanente
+151790,Municipiul Alexandria,PlantePermanente
+151816,Nanov,PlantePermanente
+151834,Poroschia,FermeMixte
+151870,Municipiul Rosiori De Vede,PlantePermanente
+151905,Oras Videle,PlantePermanente
+151932,Crevenicu,PlantePermanente
+151978,Oras Zimnicea,PlantePermanente
+151996,Balaci,PlantePermanente
+152038,Babaita,CrestereaAnimalelor
+152083,Blejesti,PlantePermanente
+152127,Bogdana,PlantePermanente
+152172,Botoroaga,ActivitatiAuxiliare
+152234,Bragadiru,PlantePermanente
+152252,Branceni,PlantePermanente
+152270,Bujoreni,PlantePermanente
+152314,Bujoru,PlantePermanente
+152332,Buzescu,PlantePermanente
+152350,Calinesti,PlantePermanente
+152412,Calmatuiu,PlantePermanente
+152467,Calmatuiu De Sus,PlantePermanente
+152500,Cervenia,PlantePermanente
+152528,Ciolanesti,PlantePermanente
+152564,Contesti,PlantePermanente
+152582,Cosmesti,PlantePermanente
+152617,Crangeni,PlantePermanente
+152662,Crangu,PlantePermanente
+152724,Didesti,PlantePermanente
+152760,Dobrotesti,ActivitatiAuxiliare
+152797,Dracsenei,PlantePermanente
+152868,Draganesti De Vede,PlantePermanente
+152902,Draganesti-Vlasca,PlantePermanente
+152948,Furculesti,PlantePermanente
+152993,Frumoasa,PlantePermanente
+153026,Galateni,PlantePermanente
+153062,Gratia,PlantePermanente
+153106,Izvoarele,PlantePermanente
+153124,Lisa,PlantePermanente
+153151,Lunca,PlantePermanente
+153204,Mavrodin,PlantePermanente
+153240,Magura,PlantePermanente
+153277,Maldaeni,PlantePermanente
+153295,Mereni,PlantePermanente
+153339,Marzanesti,PlantePermanente
+153384,Mosteni,ActivitatiAuxiliare
+153400,Nasturelu,CrestereaAnimalelor
+153437,Necsesti,PlantePermanente
+153473,Olteni,PlantePermanente
+153507,Orbeasca,PlantePermanente
+153543,Peretu,PlantePermanente
+153561,Piatra,PlantePermanente
+153589,Pietrosani,PlantePermanente
+153605,Plosca,PlantePermanente
+153623,Plopii-Slavitesti,PlantePermanente
+153696,Poeni,ActivitatiAuxiliare
+153776,Vitanesti,PlantePermanente
+153829,Putineiu,PlantePermanente
+153865,Radoiesti,PlantePermanente
+153909,Rasmiresti,PlantePermanente
+153936,Salcia,CrestereaAnimalelor
+153972,Saceni,PlantePermanente
+154013,Scrioastea,PlantePermanente
+154068,Scurtu Mare,PlantePermanente
+154139,Seaca,PlantePermanente
+154166,Sfintesti,ActivitatiAuxiliare
+154184,Segarcea-Vale,PlantePermanente
+154228,Silistea,ActivitatiAuxiliare
+154282,Silistea-Gumesti,PlantePermanente
+154308,Sarbeni,PlantePermanente
+154344,Slobozia Mandra,PlantePermanente
+154380,Smardioasa,PlantePermanente
+154415,Stejaru,PlantePermanente
+154460,Suhaia,PlantePermanente
+154497,Storobaneasa,PlantePermanente
+154521,Talpa,PlantePermanente
+154585,Tatarastii De Jos,ActivitatiAuxiliare
+154665,Tatarastii De Sus,PlantePermanente
+154709,Toporu,CrestereaAnimalelor
+154736,Traian,PlantePermanente
+154754,Trivalea-Mosteni,PlantePermanente
+154790,Troianul,PlantePermanente
+154834,Tiganesti,PlantePermanente
+154852,Vedea,PlantePermanente
+154914,Viisoara,PlantePermanente
+154932,Vartoape,PlantePermanente
+154978,Zambreasca,PlantePermanente
+154996,Nenciulesti,PlantePermanente
+155083,Beciu,PlantePermanente
+155092,Beuca,PlantePermanente
+155109,Dracea,PlantePermanente
+155118,Fantanele,CrestereaAnimalelor
+155127,Frasinet,PlantePermanente
+155136,Purani,PlantePermanente
+155145,Saelele,PlantePermanente
+155154,Uda-Clocociov,PlantePermanente
+155243,Municipiul Timisoara,CrestereaAnimalelor
+155261,Dumbravita,PlantePermanente
+155289,Ghiroda,PlantePermanente
+155314,Giroc,PlantePermanente
+155350,Municipiul Lugoj,ActivitatiAuxiliare
+155403,Oras Buzias,PlantePermanente
+155458,Oras Deta,PlantePermanente
+155494,Oras Jimbolia,PlantePermanente
+155528,Oras Sannicolau Mare,PlantePermanente
+155546,Balint,ActivitatiAuxiliare
+155591,Banloc,PlantePermanente
+155662,Bara,PlantePermanente
+155724,Beba Veche,PlantePermanente
+155760,Becicherecu Mic,PlantePermanente
+155797,Belint,PlantePermanente
+155840,Bethausen,PlantePermanente
+155911,Biled,PlantePermanente
+155957,Barna,PlantePermanente
+156035,Bogda,PlantePermanente
+156106,Boldur,ActivitatiAuxiliare
+156151,Brestovat,PlantePermanente
+156213,Carpinis,PlantePermanente
+156259,Cenad,PlantePermanente
+156277,Cenei,PlantePermanente
+156311,Cheveresu Mare,PlantePermanente
+156357,Oras Ciacova,FermeMixte
+156437,Comlosu Mare,PlantePermanente
+156473,Costeiu,PlantePermanente
+156534,Criciova,PlantePermanente
+156589,Curtea,PlantePermanente
+156623,Darova,FermeMixte
+156669,Denta,PlantePermanente
+156712,Dudestii Vechi,PlantePermanente
+156767,Dumbrava,PlantePermanente
+156801,Oras Faget,ActivitatiAuxiliare
+156927,Fardea,PlantePermanente
+157004,Foeni,PlantePermanente
+157031,Gavojdia,PlantePermanente
+157086,Oras Gataia,PlantePermanente
+157193,Ghizela,ActivitatiAuxiliare
+157246,Giarmata,FermeMixte
+157273,Giera,PlantePermanente
+157317,Giulvaz,CrestereaAnimalelor
+157362,Jamu Mare,CrestereaAnimalelor
+157424,Jebel,PlantePermanente
+157451,Lenauheim,PlantePermanente
+157497,Liebling,PlantePermanente
+157530,Lovrin,PlantePermanente
+157585,Margina,ActivitatiAuxiliare
+157683,Masloc,FermeMixte
+157736,Manastiur,PlantePermanente
+157781,Moravita,PlantePermanente
+157834,Mosnita Noua,ActivitatiAuxiliare
+157898,Nadrag,PlantePermanente
+157923,Nitchidorf,PlantePermanente
+157969,Ohaba Lunga,PlantePermanente
+158010,Ortisoara,PlantePermanente
+158065,Peciu Nou,PlantePermanente
+158109,Periam,PlantePermanente
+158136,Pietroasa,PlantePermanente
+158181,Pischia,FermeMixte
+158243,Racovita,PlantePermanente
+158314,Oras Recas,PlanteNepermanente
+158396,Remetea Mare,PlantePermanente
+158449,Sacosu Turcesc,PlantePermanente
+158528,Satchinez,PlantePermanente
+158564,Sacalaz,PlantePermanente
+158608,Secas,CrestereaAnimalelor
+158653,Sanandrei,PlantePermanente
+158699,Sanmihaiu Roman,CrestereaAnimalelor
+158733,Sanpetru Mare,PlantePermanente
+158779,Sag,PlantePermanente
+158804,Stiuca,PlantePermanente
+158859,Teremia Mare,PlantePermanente
+158895,Tomesti,PlantePermanente
+158966,Topolovatu Mare,PlantePermanente
+159035,Tormac,FermeMixte
+159071,Traian Vuia,PlantePermanente
+159142,Uivar,PlantePermanente
+159213,Varias,PlantePermanente
+159259,Victor Vlad Delamarina,FermeMixte
+159339,Voiteg,PlantePermanente
+159366,Birda,PlantePermanente
+159375,Checea,CrestereaAnimalelor
+159384,Dudestii Noi,PlantePermanente
+159393,Fibis,PlantePermanente
+159400,Ghilad,PlanteNepermanente
+159419,Gottlob,PlantePermanente
+159428,Iecea Mare,CrestereaAnimalelor
+159437,Parta,PlantePermanente
+159446,Padureni,PlantePermanente
+159455,Saravale,ActivitatiAuxiliare
+159464,Sandra,PlantePermanente
+159473,Tomnatic,PlantePermanente
+159482,Valcani,PlantePermanente
+159491,Livezile,FermeMixte
+159507,Pesac,PlantePermanente
+159516,Bucovat,PlantePermanente
+159525,Otelec,PlantePermanente
+159614,Municipiul Tulcea,PlantePermanente
+159650,Oras Babadag,PlantePermanente
+159687,Oras Isaccea,PlantePermanente
+159730,Oras Macin,PlantePermanente
+159767,Oras Sulina,PlantePermanente
+159785,Baia,PlantePermanente
+159847,Beidaud,ActivitatiAuxiliare
+159883,C.a. Rosetti,PlantePermanente
+159945,Carcaliu,PlantePermanente
+159963,Casimcea,PlantePermanente
+160047,Ceatalchioi,PlantePermanente
+160092,Ceamurlia De Jos,PlantePermanente
+160127,Cerna,PlantePermanente
+160172,Chilia Veche,PlantePermanente
+160225,Ciucurova,PlantePermanente
+160261,Crisan,PlantePermanente
+160305,Daeni,ActivitatiAuxiliare
+160323,Dorobantu,PlantePermanente
+160387,Frecatei,PlantePermanente
+160430,Greci,PlantePermanente
+160458,Grindu,PlantePermanente
+160476,Hamcearca,PlantePermanente
+160528,Horia,PlantePermanente
+160564,Izvoarele,PlantePermanente
+160617,Jijila,PlantePermanente
+160644,Jurilovca,PlantePermanente
+160680,Luncavita,PlantePermanente
+160724,Mahmudia,PlantePermanente
+160779,Maliuc,PlantePermanente
+160831,Mihai Bravu,PlantePermanente
+160877,Mihail Kogalniceanu,PlantePermanente
+160911,Murighiol,PlantePermanente
+160993,Nalbant,PlantePermanente
+161035,Niculitel,PlanteNepermanente
+161053,Nufaru,PlantePermanente
+161106,Ostrov,PlantePermanente
+161133,Pardina,PlantePermanente
+161151,Peceneaga,PlantePermanente
+161179,Sarichioi,PlantePermanente
+161231,Sfantu Gheorghe,PlantePermanente
+161259,Slava Cercheza,PlantePermanente
+161286,Smardan,PlantePermanente
+161302,Somova,PlantePermanente
+161348,Stejaru,CrestereaAnimalelor
+161384,Topolog,ActivitatiAuxiliare
+161464,Turcoaia,PlantePermanente
+161482,Valea Nucarilor,PlantePermanente
+161525,I.c.bratianu,PlantePermanente
+161543,Vacareni,PlantePermanente
+161552,Bestepe,PlantePermanente
+161561,Valea Teilor,FermeMixte
+161794,Municipiul Barlad,PlantePermanente
+161829,Municipiul Husi,PlantePermanente
+161856,Oras Negresti,PlantePermanente
+161945,Municipiul Vaslui,PlantePermanente
+162014,Albesti,PlantePermanente
+162069,Alexandru Vlahuta,PlantePermanente
+162149,Arsura,PlantePermanente
+162194,Banca,PlantePermanente
+162327,Bacani,PlantePermanente
+162381,Bacesti,PlantePermanente
+162452,Balteni,PlantePermanente
+162498,Berezeni,PlantePermanente
+162559,Blagesti,PlantePermanente
+162595,Bogdana,PlanteNepermanente
+162693,Bogdanesti,PlantePermanente
+162791,Bogdanita,CrestereaAnimalelor
+162871,Botesti,PlanteNepermanente
+162924,Bunesti-Averesti,PlanteNepermanente
+163002,Codaesti,PlantePermanente
+163057,Coroiesti,PlantePermanente
+163137,Costesti,PlantePermanente
+163208,Cretesti,PlantePermanente
+163253,Danesti,PlantePermanente
+163324,Deleni,PlantePermanente
+163379,Delesti,PlantePermanente
+163486,Dragomiresti,PlantePermanente
+163618,Dranceni,PlantePermanente
+163681,Duda-Epureni,PlantePermanente
+163734,Dumesti,PlantePermanente
+163789,Epureni,PlantePermanente
+163832,Falciu,PlantePermanente
+163903,Gagesti,PlantePermanente
+163967,Gherghesti,PlantePermanente
+164062,Garceni,PlantePermanente
+164133,Grivita,PlantePermanente
+164197,Hoceni,PlantePermanente
+164277,Dimitrie Cantemir,PlantePermanente
+164339,Iana,PlantePermanente
+164393,Ivanesti,CrestereaAnimalelor
+164543,Ivesti,PlantePermanente
+164598,Laza,PlantePermanente
+164687,Lipovat,CrestereaAnimalelor
+164749,Lunca Banului,PlantePermanente
+164829,Malusteni,PlantePermanente
+164892,Miclesti,PlantePermanente
+164936,Muntenii De Jos,CrestereaAnimalelor
+164981,Oras Murgeni,PlantePermanente
+165069,Oltenesti,PlantePermanente
+165130,Osesti,PlantePermanente
+165185,Padureni,PlantePermanente
+165274,Perieni,PlantePermanente
+165336,Poienesti,PlanteNepermanente
+165416,Pogana,CrestereaAnimalelor
+165470,Puiesti,PlanteNepermanente
+165611,Pungesti,CrestereaAnimalelor
+165719,Rebricea,PlantePermanente
+165817,Rosiesti,CrestereaAnimalelor
+165899,Solesti,PlantePermanente
+165979,Stanilesti,PlantePermanente
+166057,Stefan Cel Mare,PlantePermanente
+166137,Suletea,PlantePermanente
+166182,Tanacu,PlantePermanente
+166235,Tacuta,ActivitatiAuxiliare
+166315,Tatarani,PlantePermanente
+166413,Todiresti,PlantePermanente
+166529,Tutova,PlantePermanente
+166636,Valeni,PlantePermanente
+166672,Vetrisoaia,PlantePermanente
+166707,Viisoara,PlantePermanente
+166770,Vinderei,PlantePermanente
+166869,Voinesti,PlantePermanente
+166985,Vulturesti,ActivitatiAuxiliare
+167035,Vutcani,PlantePermanente
+167071,Zapodeni,PlantePermanente
+167179,Zorleni,PlantePermanente
+167222,Ibanesti,PlantePermanente
+167231,Fruntiseni,PlantePermanente
+167240,Rafaila,PlantePermanente
+167259,Pogonesti,PlantePermanente
+167268,Ciocani,PlantePermanente
+167277,Cozmesti,PlantePermanente
+167286,Dodesti,PlantePermanente
+167295,Feresti,PlantePermanente
+167302,Muntenii De Sus,CrestereaAnimalelor
+167311,Pochidia,PlantePermanente
+167320,Puscasi,PlantePermanente
+167473,Municipiul Ramnicu Valcea,PlantePermanente
+167641,Oras Baile Govora,PlantePermanente
+167696,Oras Baile Olanesti,PlantePermanente
+167794,Oras Brezoi,PlantePermanente
+167909,Oras Calimanesti,CrestereaAnimalelor
+167981,Municipiul Dragasani,PlanteNepermanente
+168041,Oras Horezu,CrestereaAnimalelor
+168130,Oras Ocnele Mari,PlantePermanente
+168229,Alunu,PlantePermanente
+168309,Amarasti,PlantePermanente
+168372,Oras Babeni,ActivitatiAuxiliare
+168452,Oras Balcesti,PlantePermanente
+168559,Barbatesti,PlantePermanente
+168602,Oras Berbesti,CrestereaAnimalelor
+168675,Berislavesti,PlantePermanente
+168755,Boisoara,PlantePermanente
+168791,Budesti,CrestereaAnimalelor
+168880,Bujoreni,CrestereaAnimalelor
+168960,Bunesti,PlantePermanente
+169039,Cernisoara,PlantePermanente
+169119,Caineni,PlantePermanente
+169182,Copaceni,PlanteNepermanente
+169253,Costesti,CrestereaAnimalelor
+169306,Creteni,CrestereaAnimalelor
+169351,Daesti,CrestereaAnimalelor
+169404,Danicei,PlanteNepermanente
+169547,Dragoesti,ActivitatiAuxiliare
+169583,Fauresti,PlantePermanente
+169681,Fartatesti,PlantePermanente
+169896,Francesti,CrestereaAnimalelor
+169994,Galicea,ActivitatiAuxiliare
+170097,Ghioroiu,PlantePermanente
+170168,Glavile,PlantePermanente
+170220,Golesti,PlantePermanente
+170346,Gradistea,PlantePermanente
+170444,Gusoeni,PlanteNepermanente
+170514,Ionesti,CrestereaAnimalelor
+170612,Lalosu,PlantePermanente
+170685,Ladesti,PlantePermanente
+170792,Lapusata,PlantePermanente
+170872,Livezi,PlantePermanente
+170952,Lungesti,PlantePermanente
+171021,Malaia,PlantePermanente
+171067,Mateesti,PlantePermanente
+171101,Maciuca,PlantePermanente
+171209,Madulari,FermeMixte
+171272,Maldaresti,ActivitatiAuxiliare
+171325,Mihaesti,CrestereaAnimalelor
+171469,Milcoiu,PlantePermanente
+171539,Muereasca,PlantePermanente
+171628,Nicolae Balcescu,PlantePermanente
+171806,Olanu,FermeMixte
+171879,Orlesti,PlantePermanente
+171931,Otesani,PlantePermanente
+171995,Pausesti,PlantePermanente
+172082,Pausesti-Maglasi,PlantePermanente
+172153,Perisani,CrestereaAnimalelor
+172279,Pesceana,PlantePermanente
+172340,Pietrari,PlantePermanente
+172377,Popesti,CrestereaAnimalelor
+172457,Prundeni,ActivitatiAuxiliare
+172509,Racovita,PlantePermanente
+172581,Roesti,PlantePermanente
+172698,Rosiile,PlantePermanente
+172812,Runcu,CrestereaAnimalelor
+172894,Salatrucel,PlantePermanente
+172947,Scundu,CrestereaAnimalelor
+172992,Sinesti,PlantePermanente
+173061,Slatioara,PlantePermanente
+173132,Stanesti,PlantePermanente
+173230,Stoenesti,PlantePermanente
+173374,Stoilesti,PlantePermanente
+173533,Stroesti,PlantePermanente
+173597,Sutesti,ActivitatiAuxiliare
+173686,Sirineasa,PlantePermanente
+173748,Stefanesti,CrestereaAnimalelor
+173793,Susani,PlantePermanente
+173855,Tetoiu,PlantePermanente
+173935,Tomsani,PlantePermanente
+174021,Vaideeni,PlantePermanente
+174085,Valea Mare,CrestereaAnimalelor
+174156,Vladesti,PlantePermanente
+174218,Voicesti,PlantePermanente
+174254,Voineasa,PlantePermanente
+174290,Zatreni,ActivitatiAuxiliare
+174496,Titesti,PlantePermanente
+174502,Diculesti,PlantePermanente
+174511,Lacusteni,PlantePermanente
+174520,Mitrofani,PlantePermanente
+174744,Municipiul Focsani,PlantePermanente
+174780,Campineanca,PlanteNepermanente
+174824,Golesti,CrestereaAnimalelor
+174860,Municipiul Adjud,ActivitatiAuxiliare
+174922,Oras Marasesti,PlantePermanente
+175019,Oras Odobesti,ActivitatiAuxiliare
+175055,Oras Panciu,PlantePermanente
+175126,Andreiasu De Jos,PlantePermanente
+175206,Balesti,PlantePermanente
+175224,Barsesti,PlantePermanente
+175260,Boghesti,ActivitatiAuxiliare
+175368,Bolotesti,PlanteNepermanente
+175439,Bordesti,PlantePermanente
+175466,Brosteni,PlantePermanente
+175509,Chiojdeni,PlantePermanente
+175590,Ciorasti,PlantePermanente
+175670,Campuri,PlantePermanente
+175732,Carligele,PlantePermanente
+175787,Corbita,PlantePermanente
+175885,Cotesti,PlantePermanente
+175938,Dumbraveni,PlantePermanente
+175983,Dumitresti,PlanteNepermanente
+176150,Fitionesti,PlantePermanente
+176212,Garoafa,FermeMixte
+176301,Gugesti,PlantePermanente
+176338,Gura Calitei,PlantePermanente
+176445,Homocea,PlantePermanente
+176506,Jaristea,PlanteNepermanente
+176551,Jitia,PlantePermanente
+176613,Maicanesti,PlantePermanente
+176686,Mera,CrestereaAnimalelor
+176748,Milcovul,PlantePermanente
+176793,Movilita,PlantePermanente
+176855,Nanesti,PlantePermanente
+176891,Naruja,PlantePermanente
+176944,Nereju,PlantePermanente
+177003,Nistoresti,PlantePermanente
+177101,Paltin,PlantePermanente
+177236,Paunesti,CrestereaAnimalelor
+177263,Poiana Cristei,PlantePermanente
+177352,Pufesti,PlantePermanente
+177405,Racoasa,PlantePermanente
+177469,Reghiu,PlanteNepermanente
+177557,Ruginesti,PlantePermanente
+177600,Sihlea,PlantePermanente
+177655,Slobozia Bradului,ActivitatiAuxiliare
+177726,Slobozia Ciorasti,CrestereaAnimalelor
+177762,Soveja,PlantePermanente
+177799,Straoane,ActivitatiAuxiliare
+177842,Suraia,PlantePermanente
+177879,Tanasoaia,ActivitatiAuxiliare
+177986,Tataranu,PlantePermanente
+178046,Tamboesti,PlantePermanente
+178117,Tulnici,PlantePermanente
+178180,Tifesti,PlanteNepermanente
+178279,Urechesti,ActivitatiAuxiliare
+178313,Valea Sarii,PlantePermanente
+178377,Vidra,PlantePermanente
+178475,Vintileasca,PlantePermanente
+178545,Vizantea-Livezi,ActivitatiAuxiliare
+178607,Vanatori,PlantePermanente
+178689,Vartescoiu,PlanteNepermanente
+178750,Vrancioaia,PlantePermanente
+178821,Vulturu,PlantePermanente
+178885,Negrilesti,PlantePermanente
+178894,Ploscuteni,ActivitatiAuxiliare
+178901,Popesti,PlantePermanente
+178910,Paulesti,PlantePermanente
+178929,Biliesti,PlantePermanente
+178938,Gologanu,CrestereaAnimalelor
+178947,Obrejita,ActivitatiAuxiliare
+178956,Rastoaca,PlantePermanente
+178965,Spulber,PlantePermanente
+179132,Municipiul Bucuresti,PlantePermanente
+179221,Oras Bragadiru,PlantePermanente
+179249,Chiajna,CrestereaAnimalelor
+179285,Oras Chitila,PlantePermanente
+179310,Dobroesti,CrestereaAnimalelor
+179347,Glina,PlantePermanente
+179383,Jilava,PlantePermanente
+179409,Oras Magurele,PlanteInmultire
+179463,Mogosoaia,PlantePermanente
+179481,Oras Otopeni,CrestereaAnimalelor
+179515,Oras Pantelimon,CrestereaAnimalelor
+179533,Oras Popesti Leordeni,CrestereaAnimalelor
+179551,Oras Voluntari,CrestereaAnimalelor
+179588,Copaceni,PlanteNepermanente
+179604,Poienile Izei,PlantePermanente
+179613,Sieu,PlantePermanente
+179622,Grosii Tiblesului,PlantePermanente
+179631,Treznea,PlantePermanente
+179640,Vulcana-Pandele,PlantePermanente
+179659,Negrilesti,PlantePermanente
+179677,Camin,PlantePermanente
+179686,Dumitrita,CrestereaAnimalelor
+179695,Simisna,PlantePermanente
+179702,Traian,PlantePermanente
+179711,Vladeni,PlantePermanente
+179720,Poiana Ilvei,PlantePermanente
+179739,Malu,PlantePermanente
+179748,Cosoba,PlantePermanente
+179757,Herasti,PlantePermanente
+179766,Isvoarele,PlantePermanente
+179775,Sabareni,ActivitatiAuxiliare
+179784,Boranesti,PlantePermanente
+179793,Buesti,PlantePermanente
+179800,Maia,FermeMixte
+179819,Ograda,CrestereaAnimalelor
+179828,Rosiori,PlantePermanente
+179837,Coas,PlantePermanente
+179846,Coltau,PlantePermanente
+179855,Gardani,PlantePermanente
+179864,Oncesti,PlantePermanente
+179873,Agris,PlantePermanente
+179882,Ciumesti,PlantePermanente
+179891,Raciu,PlantePermanente
+179908,Pietrari,PlantePermanente
+179917,Rau Alb,PlantePermanente
+179926,Rascaeti,PlantePermanente
+179935,Persinari,PlantePermanente
+179944,Runcu Salvei,PlantePermanente
+179953,Ciceu- Mihaiesti,ActivitatiAuxiliare
+179962,Galbinasi,PlantePermanente
+179971,Colelia,PlantePermanente
+179980,Marculesti,PlantePermanente
+179999,Moldoveni,PlantePermanente
+180000,Platonesti,PlantePermanente
+180019,Sarateni,PlantePermanente
+180028,Porumbesti,PlantePermanente
+180037,Boghis,PlantePermanente
+180046,Gura Ialomitei,PlantePermanente
+180055,Crivat,PlantePermanente
+180064,Barbulesti,PlantePermanente
+180091,Racsa,CrestereaAnimalelor
