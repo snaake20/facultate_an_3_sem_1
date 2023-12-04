@@ -30,6 +30,41 @@ const ctx = canvas.getContext('2d');
 
 const drawings = [];
 
+const listOfDrawings = document.querySelector('#drawings');
+
+const handler = {
+  set(target, prop, value) {
+    if (prop !== 'length') {
+      target[prop] = value;
+      const p = document.createElement('p');
+      p.textContent = value.type;
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.textContent = 'delete?';
+      const div = document.createElement('div');
+      button.addEventListener('click', () => {
+        const ans = confirm('Sigur vrei sa stergi figura?');
+        if (ans) {
+          target.splice(
+            target.findIndex((d) => d.id === value.id),
+            1
+          );
+          showAllDrawings();
+          div.remove();
+          console.log(target);
+        }
+      });
+      div.appendChild(p);
+      div.appendChild(button);
+      div.className = 'drawing';
+      listOfDrawings.appendChild(div);
+    }
+    return true;
+  },
+};
+
+const proxy = new Proxy(drawings, handler);
+
 let pivotX, pivotY;
 
 let mouseX, mouseY;
@@ -38,7 +73,14 @@ let inPreview = false;
 
 const instruments = ['ellipse', 'rectangle', 'line'];
 
-let instrument = document.querySelector('#instruments').value ?? 'ellipse';
+let instrument = document.querySelector('#instruments').value;
+
+let canvasColor = 'transparent';
+
+const colorCanvas = () => {
+  ctx.fillStyle = canvasColor;
+  ctx.fillRect(0, 0, canvas.offsetWidth, canvas.offsetHeight);
+};
 
 const saveToRaster = (mimeType) => {
   const dataURL = canvas.toDataURL(`image/${mimeType}`);
@@ -60,10 +102,6 @@ const saveToSVG = () => {
 
 const changeInstrument = (e) => {
   instrument = e.target.value;
-  inPreview = false;
-  pivotX = pivotY = undefined;
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  showAllDrawings();
 };
 
 document
@@ -74,7 +112,9 @@ document
 (() => {})();
 
 const showAllDrawings = () => {
-  drawings.forEach((d) => {
+  ctx.clearRect(0, 0, canvas.offsetWidth, canvas.offsetHeight);
+  colorCanvas();
+  proxy.forEach((d) => {
     ctx.lineWidth = d.lineWidth;
     ctx.strokeStyle = d.stroke;
     ctx.beginPath();
@@ -130,7 +170,6 @@ const draw = () => {
 };
 
 const preview = () => {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
   showAllDrawings();
   if (pivotX && pivotY) {
     draw();
@@ -158,15 +197,15 @@ const saveFigure = () => {
   return figure;
 };
 
-const reset = () => {
-  drawings.push({
+const reset = (e) => {
+  if (e.button != 0) return;
+  proxy.push({
+    id: Math.random().toString(16).slice(2),
     type: instrument,
-    fill: '',
     lineWidth: document.querySelector('#thickness').value ?? 1,
     stroke: document.querySelector('#color').value ?? 'black',
     figure: saveFigure(),
   });
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
   showAllDrawings();
   inPreview = false;
   pivotX = pivotY = undefined;
@@ -175,16 +214,20 @@ const reset = () => {
 canvas.addEventListener('mouseup', reset);
 
 canvas.addEventListener('mousedown', (e) => {
-  if (e.button == 0) {
-    if (inPreview) return;
-    pivotX = e.offsetX;
-    pivotY = e.offsetY;
-    inPreview = true;
-  }
+  if (e.button != 0) return;
+  if (inPreview) return;
+  pivotX = e.offsetX;
+  pivotY = e.offsetY;
+  inPreview = true;
 });
 
 canvas.addEventListener('mousemove', (e) => {
   mouseX = e.offsetX;
   mouseY = e.offsetY;
   if (inPreview) preview();
+});
+
+document.querySelector('#canvas-bg').addEventListener('change', (e) => {
+  canvasColor = e.currentTarget.value;
+  showAllDrawings();
 });
