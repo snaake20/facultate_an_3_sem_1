@@ -21,6 +21,7 @@ import com.example.seminar5.data.ProfilDao;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
@@ -29,17 +30,19 @@ public class MainActivity extends AppCompatActivity {
 
     int sortDirection = 1;
     ListView listView;
-    List<Profil> usersUnsorted = new ArrayList<>();
+//    List<Profil> usersUnsorted = new ArrayList<>();
     List<Profil> users = new ArrayList<Profil>();
     ProfilAdapter adapter;
 
-    Button btn_sort;
+//    Button btn_sort;
 
     Executor executor = Executors.newSingleThreadExecutor();
     Handler handler = new Handler(Looper.myLooper());
 
-    private void initUsers(List<Profil> list) {
+    SharedPreferences pref;
 
+    private void initUsers(List<Profil> list) {
+        list.clear();
         executor.execute(() -> {
             List<Profil> profile = AppDatabase.getInstance(getApplicationContext()).getProfilDao().getAll();
             handler.post(() -> {
@@ -58,11 +61,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        pref = getPreferences(MODE_PRIVATE);
+        String lastAccessTime = pref.getString("LastAccessTime", "No data");
+
+        // Display or use the last access time
+        System.out.println("Last Access Time: " + lastAccessTime);
+
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("Users");
         setSupportActionBar(toolbar);
 
-        initUsers(usersUnsorted);
+//        initUsers(usersUnsorted);
         initUsers(users);
 
         listView = findViewById(R.id.listview);
@@ -80,14 +89,15 @@ public class MainActivity extends AppCompatActivity {
             // confirmare de la utilizator!
             executor.execute(() -> {
                 AppDatabase.getInstance(getApplicationContext()).getProfilDao().delete(users.get(pos));
+                handler.post(() -> {
+                    users.remove(pos);
+                    ((ArrayAdapter<Profil>)adapterView.getAdapter()).notifyDataSetChanged();
+                });
             });
-            users.remove(pos);
-            ((ArrayAdapter<Profil>)adapterView.getAdapter()).notifyDataSetChanged();
             // adapter.notifyDataSetChanged();
             return true;
         }));
 
-        SharedPreferences pref = getPreferences(MODE_PRIVATE);
         boolean prima_rulare =  pref.getBoolean("prima_rulare", false);
         if (!prima_rulare) {
             SharedPreferences.Editor prefEditor = pref.edit();
@@ -95,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
             prefEditor.apply();
         }
 
-        btn_sort = findViewById(R.id.btn_sortare);
+//        btn_sort = findViewById(R.id.btn_sortare);
 
 
     }
@@ -104,21 +114,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        if (requestCode == 1) { // Check if the result is for our request code
+        if (requestCode == 1) {
             if (resultCode == RESULT_OK) {
-                // Handle a successful result here
                 if (data != null) {
                     Profil profil = (Profil) data.getSerializableExtra("profile");
                     users.add(profil);
-                    usersUnsorted.add(profil);
+                    adapter.notifyDataSetChanged();
+//                    usersUnsorted.add(profil);
                     executor.execute(() -> {
                         AppDatabase.getInstance(getApplicationContext()).getProfilDao().insert(profil);
                     });
-                    adapter.notifyDataSetChanged();
-                    // Use the result data as needed
                 }
             } else if (resultCode == RESULT_CANCELED) {
-                // Handle the case when the user cancels the operation
 
             }
         }
@@ -129,21 +136,34 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(new Intent(this, AddUserActivity.class), 1);
     }
 
-    public void reset(View v) {
-        users.clear();
-        users.addAll(usersUnsorted);
-        adapter.notifyDataSetChanged();
-    }
+//    public void reset(View v) {
+//        users.clear();
+//        users.addAll(usersUnsorted);
+//        adapter.notifyDataSetChanged();
+//    }
 
-    public void sort(View v) {
-        String sorting = String.valueOf(btn_sort.getText());
-        users.sort(Comparator.comparing(Profil::getNume));
-        if (sorting.equals("Crescator")) {
-            btn_sort.setText("Descrescator");
-        } else {
-            Collections.reverse(users);
-            btn_sort.setText("Crescator");
-        }
-        adapter.notifyDataSetChanged();
+//    public void sort(View v) {
+//        String sorting = String.valueOf(btn_sort.getText());
+//        users.sort(Comparator.comparing(Profil::getNume));
+//        if (sorting.equals("Crescator")) {
+//            btn_sort.setText("Descrescator");
+//        } else {
+//            Collections.reverse(users);
+//            btn_sort.setText("Crescator");
+//        }
+//        adapter.notifyDataSetChanged();
+//    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        // Get current time
+        String currentTime = new Date().toString();
+
+        // Save the current time as last access time
+        SharedPreferences.Editor editor = pref.edit();
+        editor.putString("LastAccessTime", currentTime);
+        editor.apply();
     }
 }

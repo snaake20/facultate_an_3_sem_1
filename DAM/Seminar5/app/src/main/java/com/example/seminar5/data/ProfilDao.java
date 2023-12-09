@@ -11,7 +11,7 @@ import java.util.List;
 public interface ProfilDao {
     @Insert
     void insert(Profil profil);
-    @Query("select * from profile")
+    @Query("select * from profile order by email")
     List<Profil> getAll();
     @Delete
     void delete(Profil profil);
