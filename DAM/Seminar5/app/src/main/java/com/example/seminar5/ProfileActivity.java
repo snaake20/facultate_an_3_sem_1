@@ -10,8 +10,10 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import com.example.seminar5.data.Gen;
+import com.example.seminar5.data.Profil;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class ProfileActivity extends AppCompatActivity {
 
@@ -60,7 +62,7 @@ public class ProfileActivity extends AppCompatActivity {
         checkBox.setChecked(profil.iseMajor());
         checkBox.setEnabled(false);
         ArrayList<Gen> list = new ArrayList<Gen>();
-        list.add(profil.getGen());
+//        list.add(profil.getGen());
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, list);
         spinner.setAdapter(adapter);
         spinner.setEnabled(false);

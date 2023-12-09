@@ -4,32 +4,53 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 
+import com.example.seminar5.data.AppDatabase;
+import com.example.seminar5.data.Gen;
+import com.example.seminar5.data.Profil;
+import com.example.seminar5.data.ProfilDao;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
 
 public class MainActivity extends AppCompatActivity {
 
     int sortDirection = 1;
     ListView listView;
-    List<Profil> data = new ArrayList<>();
+    List<Profil> usersUnsorted = new ArrayList<>();
     List<Profil> users = new ArrayList<Profil>();
     ProfilAdapter adapter;
 
     Button btn_sort;
 
+    Executor executor = Executors.newSingleThreadExecutor();
+    Handler handler = new Handler(Looper.myLooper());
+
     private void initUsers(List<Profil> list) {
-        list.add(new Profil("email1@example.com", "alex", 1, true, Gen.MASCULIN));
-        list.add(new Profil("email2@example.com", "larisa", 2, false, Gen.FEMININ));
-        list.add(new Profil("email3@example.com", "andrei", 3, true, Gen.INDECIS));
+
+        executor.execute(() -> {
+            List<Profil> profile = AppDatabase.getInstance(getApplicationContext()).getProfilDao().getAll();
+            handler.post(() -> {
+                list.addAll(profile);
+            });
+        });
+
+
+//        list.add(new Profil("email1@example.com", "alex", 1, true));
+//        list.add(new Profil("email2@example.com", "larisa", 2, false));
+//        list.add(new Profil("email3@example.com", "andrei", 3, true));
     }
 
     @Override
@@ -41,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar.setTitle("Users");
         setSupportActionBar(toolbar);
 
-        initUsers(data);
+        initUsers(usersUnsorted);
         initUsers(users);
 
         listView = findViewById(R.id.listview);
@@ -57,13 +78,26 @@ public class MainActivity extends AppCompatActivity {
 
         listView.setOnItemLongClickListener(((adapterView, view, pos, id) -> {
             // confirmare de la utilizator!
+            executor.execute(() -> {
+                AppDatabase.getInstance(getApplicationContext()).getProfilDao().delete(users.get(pos));
+            });
             users.remove(pos);
             ((ArrayAdapter<Profil>)adapterView.getAdapter()).notifyDataSetChanged();
             // adapter.notifyDataSetChanged();
             return true;
         }));
 
+        SharedPreferences pref = getPreferences(MODE_PRIVATE);
+        boolean prima_rulare =  pref.getBoolean("prima_rulare", false);
+        if (!prima_rulare) {
+            SharedPreferences.Editor prefEditor = pref.edit();
+            prefEditor.putBoolean("prima_rulare", true);
+            prefEditor.apply();
+        }
+
         btn_sort = findViewById(R.id.btn_sortare);
+
+
     }
 
     @Override
@@ -76,6 +110,10 @@ public class MainActivity extends AppCompatActivity {
                 if (data != null) {
                     Profil profil = (Profil) data.getSerializableExtra("profile");
                     users.add(profil);
+                    usersUnsorted.add(profil);
+                    executor.execute(() -> {
+                        AppDatabase.getInstance(getApplicationContext()).getProfilDao().insert(profil);
+                    });
                     adapter.notifyDataSetChanged();
                     // Use the result data as needed
                 }
@@ -93,9 +131,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void reset(View v) {
         users.clear();
-        data.forEach(profil -> {
-            users.add(profil);
-        });
+        users.addAll(usersUnsorted);
         adapter.notifyDataSetChanged();
     }
 

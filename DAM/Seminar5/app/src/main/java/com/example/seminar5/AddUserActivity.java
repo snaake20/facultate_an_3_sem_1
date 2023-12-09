@@ -11,6 +11,9 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import com.example.seminar5.data.Gen;
+import com.example.seminar5.data.Profil;
+
 public class AddUserActivity extends AppCompatActivity {
     EditText nume, varsta, email;
     CheckBox checkBox;
@@ -38,7 +41,7 @@ public class AddUserActivity extends AppCompatActivity {
 
     public void addProfile(View v) {
         Intent resultIntent = new Intent();
-        resultIntent.putExtra("profile", new Profil(String.valueOf(email.getText()), String.valueOf(nume.getText()), Integer.parseInt(String.valueOf(varsta.getText())), checkBox.isChecked(), (Gen) spinner.getSelectedItem()));
+        resultIntent.putExtra("profile", new Profil(String.valueOf(email.getText()), String.valueOf(nume.getText()), Integer.parseInt(String.valueOf(varsta.getText())), checkBox.isChecked()));
         setResult(RESULT_OK, resultIntent);
         finish();
     }

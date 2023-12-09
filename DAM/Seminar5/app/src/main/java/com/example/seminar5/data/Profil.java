@@ -1,24 +1,24 @@
-package com.example.seminar5;
+package com.example.seminar5.data;
 
 import androidx.annotation.NonNull;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
 import java.io.Serializable;
 
 
-enum Gen {
-    MASCULIN,
-    FEMININ,
-    INDECIS
-}
-
+@Entity(tableName = "profile")
 public class Profil implements Serializable, Cloneable {
+    // @PrimaryKey(autogenerate = true)
+    // int id ;
+    @PrimaryKey @NonNull
     protected String email;
     protected String nume;
     protected int varsta;
 
     protected boolean eMajor;
 
-    protected Gen gen;
+//    protected Gen gen;
 
     public String getEmail() {
         return email;
@@ -36,13 +36,13 @@ public class Profil implements Serializable, Cloneable {
         this.eMajor = eMajor;
     }
 
-    public Gen getGen() {
-        return gen;
-    }
+//    public Gen getGen() {
+//        return gen;
+//    }
 
-    public void setGen(Gen gen) {
-        this.gen = gen;
-    }
+//    public void setGen(Gen gen) {
+//        this.gen = gen;
+//    }
 
     public String getNume() {
         return nume;
@@ -64,12 +64,12 @@ public class Profil implements Serializable, Cloneable {
 //        this.email=email;
 //    }
 
-    public Profil(String email, String nume, int varsta, boolean eMajor, Gen gen) {
+    public Profil(String email, String nume, int varsta, boolean eMajor) {
         this.email = email;
         this.nume = nume;
         this.varsta = varsta;
         this.eMajor = eMajor;
-        this.gen = gen;
+//        this.gen = gen;
     }
 
     @Override
@@ -79,7 +79,7 @@ public class Profil implements Serializable, Cloneable {
                 ", nume='" + nume + '\'' +
                 ", varsta=" + varsta +
                 ", eMajor=" + (eMajor ? "da" : "nu") +
-                ", gen=" + gen.toString() +
+//                ", gen=" + gen.toString() +
                 '}';
     }
 

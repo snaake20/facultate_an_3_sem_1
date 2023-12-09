@@ -1,7 +1,6 @@
 package com.example.seminar5;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +10,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
+import com.example.seminar5.data.Profil;
 
 import java.util.List;
 
@@ -37,17 +38,17 @@ public class ProfilAdapter extends ArrayAdapter<Profil> {
 
         Profil profil = getItem(position);
 
-        switch (profil.getGen()){
-            case FEMININ:
-                lvIvProfil.setImageResource(R.drawable.female);
-                break;
-            case MASCULIN:
-                lvIvProfil.setImageResource(R.drawable.male);
-                break;
-            case INDECIS:
-                lvIvProfil.setImageResource(R.drawable.idk);
-                break;
-        }
+//        switch (profil.getGen()){
+//            case FEMININ:
+//                lvIvProfil.setImageResource(R.drawable.female);
+//                break;
+//            case MASCULIN:
+//                lvIvProfil.setImageResource(R.drawable.male);
+//                break;
+//            case INDECIS:
+//                lvIvProfil.setImageResource(R.drawable.idk);
+//                break;
+//        }
 
 //        lvIvProfil.setImageDrawable();
 

@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.seminar5"
+    namespace = "ro.ase.semdam"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.seminar5"
-        minSdk = 24
+        applicationId = "ro.ase.semdam"
+        minSdk = 21
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"

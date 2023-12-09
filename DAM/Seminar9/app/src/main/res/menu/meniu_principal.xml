@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/optiune1"
+        android:title="@string/activitate_bnr">
+    </item>
+
+    <item android:id="@+id/optiune2"
+        android:title="@string/extrage_date_din_xml">
+    </item>
+
+    <item android:id="@+id/optiune3"
+        android:title="@string/extrage_date_din_json">
+    </item>
+
+    <item android:id="@+id/optiune4"
+        android:title="@string/vizualizare_baza_de_date">
+    </item>
+
+    <item android:id="@+id/optiune5"
+        android:title="@string/iesire">
+    </item>
+
+</menu>

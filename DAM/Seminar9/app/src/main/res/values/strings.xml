@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SemDAM_1085</string>
+    <string name="data">Data:</string>
+    <string name="eur">EUR:</string>
+    <string name="usd">USD:</string>
+    <string name="gbp">GBP:</string>
+    <string name="xau">XAU:</string>
+    <string name="afisare_curs_valutar">Afisare curs valutar</string>
+    <string name="inroduceti_marca">Introduceti marca!</string>
+    <string name="introduceti_data_fabricatiei">Introduceti data fabricatiei!</string>
+    <string name="introduceti_pretul">Introduceti pretul!</string>
+    <string name="adauga_masina">Adauga masina</string>
+    <string name="activitate_bnr">Activitate BNR</string>
+    <string name="extrage_date_din_xml">Extrage date din XML</string>
+    <string name="extrage_date_din_json">Extrage date din JSON</string>
+    <string name="vizualizare_baza_de_date">Vizualizare baza de date</string>
+    <string name="iesire">Iesire</string>
+    <string name="extragere_curs">Extragere curs</string>
+</resources>
