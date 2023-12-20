@@ -1,3 +1,4 @@
+/* Styles for drawing list */
 #drawings {
   margin-top: 15px;
   overflow-y: scroll;
@@ -5,11 +6,13 @@
   max-width: 250px;
 }
 
+/* Style for an element in the drawings list */
 .drawing {
   display: flex;
   flex-direction: column;
 }
 
+/* Styles for the type of the drawing and delete button */
 .drawing .main {
   display: flex;
   flex-direction: row;
@@ -18,20 +21,24 @@
   padding: 5px;
 }
 
+/* Styles for the delete button */
 .drawing .main button {
   height: 20px;
   cursor: pointer;
 }
 
+/* Styles for the type of the drawing */
 .drawing .main p {
   display: inline-block;
 }
 
+/* Styles for the modifiers of the drawing */
 .drawing .modifiers {
   display: flex;
   flex-direction: column;
 }
 
+/* Styles for each of the modifier (coords, width, height, radiuses) */
 .drawing .modifiers div {
   display: flex;
   flex-direction: row;

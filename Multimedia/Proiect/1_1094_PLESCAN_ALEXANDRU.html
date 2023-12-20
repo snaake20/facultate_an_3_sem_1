@@ -3,18 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./1_1094_PLESCAN_ALEXANDRU.css" />
     <title>Multimedia Project</title>
   </head>
   <body style="margin: 0; width: 100%; height: 100%">
+    <!-- UI -->
     <div style="display: flex; gap: 1.25rem; width: 100%; height: 100%">
+      <!-- Canvas -->
       <canvas
         style="border: 1px solid black; margin: 0.5rem"
         width="1280"
         height="720"
         id="canvas"
       ></canvas>
+      <!-- Options for drawing -->
       <div style="display: flex; flex-direction: column; margin: 0.5rem">
+        <!-- Thickness of the stroke -->
         <label for="thickness">Stroke thickness</label>
         <input
           type="range"
@@ -25,17 +29,21 @@
           max="10"
           value="1"
         />
+        <!-- Color of the stroke -->
         <div>
           <label for="color">Figure Stroke:</label>
           <input type="color" name="color" id="color" />
         </div>
+        <!-- Instrument Selection -->
         <label for="instruments">Instrument:</label>
         <select name="instruments" id="instruments">
           <option value="ellipse">Ellipse</option>
           <option value="rect">Rectangle</option>
           <option value="line">Line</option>
         </select>
+        <!-- Export Section -->
         <div>
+          <!-- File type export -->
           <label for="mime-type">Export:</label>
           <select name="mime-type" id="mime-type">
             <option id="mime-png" value="png">PNG</option>
@@ -43,19 +51,22 @@
             <option id="mime-bmp" value="bmp">BMP</option>
             <option id="mime-svg" value="svg">SVG</option>
           </select>
+          <!-- Transparency checkbox for png and svg -->
           <label for="is-transparent">Transparent:</label>
           <input type="checkbox" name="is-transparent" id="is-transparent">
+          <!-- Save button -->
           <button id="save" type="button">Save</button>
         </div>
+        <!-- Canvas Background Color Selection -->
         <div>
-          <label for="canvas-bg" title="Don't change if you want transparent background">Canvas Bg:</label>
+          <label for="canvas-bg">Canvas Bg:</label>
           <input value="#FFFFFF" type="color" name="canvas-bg" id="canvas-bg" />
         </div>
         <div id="drawings">
-          <!-- Lista de figuri -->
+          <!-- List of drawings (populated with js) -->
         </div>
       </div>
     </div>
-    <script src="./index.js"></script>
+    <script src="./1_1094_PLESCAN_ALEXANDRU.js"></script>
   </body>
 </html>
