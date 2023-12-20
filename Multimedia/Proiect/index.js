@@ -438,7 +438,7 @@ const saveFigure = () => {
       );
       break;
     case 'rect':
-      figure = new Rectangle(pivotX, pivotY, mouseX - pivotX, mouseY - pivotY);
+      figure = new Rectangle(Math.min(pivotX, mouseX), Math.min(pivotY, mouseY), Math.abs(mouseX - pivotX), Math.abs(mouseY - pivotY));
       break;
     case 'line':
       figure = new Line(pivotX, pivotY, mouseX, mouseY);
