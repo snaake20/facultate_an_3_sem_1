@@ -15,6 +15,7 @@
         id="canvas"
       ></canvas>
       <div style="display: flex; flex-direction: column; margin: 0.5rem">
+        <label for="thickness">Stroke thickness</label>
         <input
           type="range"
           name="thickness"
@@ -24,13 +25,18 @@
           max="10"
           value="1"
         />
-        <input type="color" name="color" id="color" />
+        <div>
+          <label for="color">Figure Stroke:</label>
+          <input type="color" name="color" id="color" />
+        </div>
+        <label for="instruments">Instrument:</label>
         <select name="instruments" id="instruments">
           <option value="ellipse">Ellipse</option>
-          <option value="rectangle">Rectangle</option>
+          <option value="rect">Rectangle</option>
           <option value="line">Line</option>
         </select>
         <div>
+          <label for="mime-type">Export:</label>
           <select name="mime-type" id="mime-type">
             <option value="png">PNG</option>
             <option value="jpeg">JPEG</option>
@@ -39,7 +45,10 @@
           </select>
           <button id="save" type="button">Save</button>
         </div>
-        <input type="color" name="canvas-bg" id="canvas-bg" />
+        <div>
+          <label for="canvas-bg" title="Don't change if you want transparent background">Canvas Bg:</label>
+          <input value="#FFFFFF" type="color" name="canvas-bg" id="canvas-bg" />
+        </div>
         <div id="drawings">
           <!-- Lista de figuri -->
         </div>

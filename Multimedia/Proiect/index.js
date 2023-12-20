@@ -1,3 +1,4 @@
+// classes start
 class Ellipse {
   constructor(x, y, radiusX, radiusY) {
     this.x = x;
@@ -24,6 +25,9 @@ class Line {
     this.y2 = y2;
   }
 }
+// classes end
+
+// start of variables
 
 const canvas = document.querySelector('#canvas');
 const ctx = canvas.getContext('2d');
@@ -31,6 +35,8 @@ const ctx = canvas.getContext('2d');
 const drawings = [];
 
 const listOfDrawings = document.querySelector('#drawings');
+
+// start of functions needed for proxy
 
 const renderMainInformation = (div, target, value) => {
   const p = document.createElement('p');
@@ -59,7 +65,7 @@ const getValueDimX = (value) => {
     case 'ellipse':
       labelDimX.textContent = 'radiusX:';
       break;
-    case 'rectangle':
+    case 'rect':
       labelDimX.textContent = 'width:';
       break;
     case 'line':
@@ -68,24 +74,38 @@ const getValueDimX = (value) => {
   }
   const inputDimX = document.createElement('input');
   inputDimX.type = 'number';
+  inputDimX.min = 0;
+  inputDimX.max = canvas.width;
   switch (value.type) {
     case 'ellipse':
       inputDimX.value = value.figure.radiusX;
+      inputDimX.placeholder = value.figure.radiusX;
       inputDimX.addEventListener('input', (e) => {
+        if (!e.target.value) return;
+        if (e.target.value < 0) e.target.value = 0;
+        if (e.target.value > canvas.width) e.target.value = canvas.width;
         value.figure.radiusX = e.target.value;
         showAllDrawings();
       });
       break;
-    case 'rectangle':
+    case 'rect':
       inputDimX.value = value.figure.width;
+      inputDimX.placeholder = value.figure.width;
       inputDimX.addEventListener('input', (e) => {
+        if (!e.target.value) return;
+        if (e.target.value < 0) e.target.value = 0;
+        if (e.target.value > canvas.width) e.target.value = canvas.width;
         value.figure.width = e.target.value;
         showAllDrawings();
       });
       break;
     case 'line':
       inputDimX.value = value.figure.x2;
+      inputDimX.placeholder = value.figure.x2;
       inputDimX.addEventListener('input', (e) => {
+        if (!e.target.value) return;
+        if (e.target.value < 0) e.target.value = 0;
+        if (e.target.value > canvas.width) e.target.value = canvas.width;
         value.figure.x2 = e.target.value;
         showAllDrawings();
       });
@@ -100,7 +120,7 @@ const getValueDimY = (value) => {
     case 'ellipse':
       labelDimY.textContent = 'radiusY:';
       break;
-    case 'rectangle':
+    case 'rect':
       labelDimY.textContent = 'height:';
       break;
     case 'line':
@@ -109,24 +129,38 @@ const getValueDimY = (value) => {
   }
   const inputDimY = document.createElement('input');
   inputDimY.type = 'number';
+  inputDimY.min = 0;
+  inputDimY.max = canvas.height;
   switch (value.type) {
     case 'ellipse':
       inputDimY.value = value.figure.radiusY;
+      inputDimY.placeholder = value.figure.radiusY;
       inputDimY.addEventListener('input', (e) => {
+        if (!e.target.value) return;
+        if (e.target.value < 0) e.target.value = 0;
+        if (e.target.value > canvas.height) e.target.value = canvas.height;
         value.figure.radiusY = e.target.value;
         showAllDrawings();
       });
       break;
-    case 'rectangle':
+    case 'rect':
       inputDimY.value = value.figure.height;
+      inputDimY.placeholder = value.figure.height;
       inputDimY.addEventListener('input', (e) => {
+        if (!e.target.value) return;
+        if (e.target.value < 0) e.target.value = 0;
+        if (e.target.value > canvas.height) e.target.value = canvas.height;
         value.figure.height = e.target.value;
         showAllDrawings();
       });
       break;
     case 'line':
       inputDimY.value = value.figure.y2;
+      inputDimY.placeholder = value.figure.y2;
       inputDimY.addEventListener('input', (e) => {
+        if (!e.target.value) return;
+        if (e.target.value < 0) e.target.value = 0;
+        if (e.target.value > canvas.height) e.target.value = canvas.height;
         value.figure.y2 = e.target.value;
         showAllDrawings();
       });
@@ -141,8 +175,14 @@ const renderModifiers = (div, value) => {
   labelInputX.textContent = 'x:';
   const inputX = document.createElement('input');
   inputX.type = 'number';
+  inputX.min = 0;
+  inputX.max = canvas.width;
   inputX.value = value.figure.x;
+  inputX.placeholder = value.figure.x;
   inputX.addEventListener('input', (e) => {
+    if (!e.target.value) return;
+    if (e.target.value < 0) e.target.value = 0;
+    if (e.target.value > canvas.width) e.target.value = canvas.width;
     value.figure.x = e.target.value;
     showAllDrawings();
   });
@@ -153,9 +193,15 @@ const renderModifiers = (div, value) => {
   const labelInputY = document.createElement('label');
   labelInputY.textContent = 'y:';
   const inputY = document.createElement('input');
+  inputY.min = 0;
+  inputY.max = canvas.height;
   inputY.type = 'number';
   inputY.value = value.figure.y;
+  inputY.placeholder = value.figure.y;
   inputY.addEventListener('input', (e) => {
+    if (!e.target.value) return;
+    if (e.target.value < 0) e.target.value = 0;
+    if (e.target.value > canvas.height) e.target.value = canvas.height;
     value.figure.y = e.target.value;
     showAllDrawings();
   });
@@ -191,74 +237,125 @@ const handlerSetter = (target, prop, value) => {
     renderMainInformation(div, target, value);
     // rendering modifiers
     renderModifiers(div, value);
+    // appending to the list
     div.className = 'drawing';
     listOfDrawings.appendChild(div);
   }
-  // returning true to indicate that the operation was successful
+  // default behavior
   return true;
 };
+
+// end of functions needed for proxy
 
 const handler = {
   set: handlerSetter,
 };
 
-const proxy = new Proxy(drawings, handler);
+const proxy = new Proxy(drawings, handler); // proxy for drawings to render list of drawings
 
-let pivotX, pivotY;
+let pivotX, pivotY; // for drawing
 
-let mouseX, mouseY;
+let mouseX, mouseY; // for drawing
 
-let inPreview = false;
+let inPreview = false; // for preview
 
 let instrument = document.querySelector('#instruments').value;
 
-let canvasColor = 'white';
+let canvasColor = 'transparent'; // for transparent png (canvas color changes when you change the input color)
 
-let saveMimeType = 'png';
+let saveMimeType = document.querySelector('#mime-type').value;
 
-const colorCanvas = () => {
-  ctx.fillStyle = canvasColor;
-  ctx.fillRect(0, 0, canvas.offsetWidth, canvas.offsetHeight);
-};
+// end of variables
 
 const saveToRaster = (mimeType) => {
-  const dataURL = canvas.toDataURL(`image/${mimeType}`);
-
   const link = document.createElement('a');
+  let dataURL = null;
+  if (canvasColor === 'transparent' && mimeType !== 'png') {
+    showAllDrawings('#fff');
+    dataURL = canvas.toDataURL(`image/${mimeType}`);
+    showAllDrawings();
+  } else {
+    dataURL = canvas.toDataURL(`image/${mimeType}`);
+  }
+  
   link.href = dataURL;
   link.download = `canvas.${mimeType}`;
   link.click();
 };
 
-const saveToSVG = () => {};
+const saveToSVG = () => {
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('width', canvas.width);
+  svg.setAttribute('height', canvas.height);
+  svg.setAttribute('viewBox', `0 0 ${canvas.width} ${canvas.height}`);
+  svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+
+  const background = document.createElementNS(
+    'http://www.w3.org/2000/svg',
+    'rect'
+  );
+  background.setAttribute('width', canvas.width);
+  background.setAttribute('height', canvas.height);
+  background.setAttribute('fill', canvasColor);
+  svg.appendChild(background);
+
+  proxy.forEach((d) => {
+    const figure = document.createElementNS(
+      'http://www.w3.org/2000/svg',
+      d.type
+    );
+    switch (d.type) {
+      case 'ellipse':
+        figure.setAttribute('cx', d.figure.x);
+        figure.setAttribute('cy', d.figure.y);
+        figure.setAttribute('rx', d.figure.radiusX);
+        figure.setAttribute('ry', d.figure.radiusY);
+        break;
+      case 'rect':
+        figure.setAttribute('x', d.figure.x);
+        figure.setAttribute('y', d.figure.y);
+        figure.setAttribute('width', d.figure.width);
+        figure.setAttribute('height', d.figure.height);
+        break;
+      case 'line':
+        figure.setAttribute('x1', d.figure.x);
+        figure.setAttribute('y1', d.figure.y);
+        figure.setAttribute('x2', d.figure.x2);
+        figure.setAttribute('y2', d.figure.y2);
+        break;
+    }
+    figure.setAttribute('stroke', d.stroke);
+    figure.setAttribute('stroke-width', d.lineWidth);
+    figure.setAttribute('fill', 'none');
+    svg.appendChild(figure);
+  });
+
+  const dataURL = `data:image/svg+xml;base64,${btoa(
+    new XMLSerializer().serializeToString(svg)
+  )}`;
+
+  const link = document.createElement('a');
+  link.href = dataURL;
+  link.download = `canvas.svg`;
+  link.click();
+};
 
 const changeInstrument = (e) => {
   instrument = e.target.value;
 };
 
-document
-  .querySelector('#instruments')
-  .addEventListener('change', changeInstrument);
-
 const changeMimeType = (e) => {
-  console.log(e.target.value);
   saveMimeType = e.target.value;
 };
 
-document.querySelector('#mime-type').addEventListener('input', changeMimeType);
+const colorCanvas = (color) => {
+  ctx.fillStyle = color ?? canvasColor;
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+};
 
-document.querySelector('#save').addEventListener('click', () => {
-  if (saveMimeType === 'svg') {
-    return saveToSVG();
-  }
-  return saveToRaster(saveMimeType);
-});
-// init ui
-(() => {})();
-
-const showAllDrawings = () => {
-  ctx.clearRect(0, 0, canvas.offsetWidth, canvas.offsetHeight);
-  colorCanvas();
+const showAllDrawings = (tempColor) => {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  colorCanvas(tempColor);
   proxy.forEach((d) => {
     ctx.lineWidth = d.lineWidth;
     ctx.strokeStyle = d.stroke;
@@ -275,7 +372,7 @@ const showAllDrawings = () => {
           2 * Math.PI
         );
         break;
-      case 'rectangle':
+      case 'rect':
         ctx.rect(d.figure.x, d.figure.y, d.figure.width, d.figure.height);
         break;
       case 'line':
@@ -310,7 +407,7 @@ const draw = () => {
         2 * Math.PI
       );
       break;
-    case 'rectangle':
+    case 'rect':
       ctx.rect(pivotX, pivotY, mouseX - pivotX, mouseY - pivotY);
       break;
     case 'line':
@@ -340,7 +437,7 @@ const saveFigure = () => {
         Math.abs(mouseY - pivotY)
       );
       break;
-    case 'rectangle':
+    case 'rect':
       figure = new Rectangle(pivotX, pivotY, mouseX - pivotX, mouseY - pivotY);
       break;
     case 'line':
@@ -352,7 +449,6 @@ const saveFigure = () => {
 
 const reset = (e) => {
   if (e.button != 0) return;
-  // if mouseX and mouseY are the same as pivotX and pivotY, or if the width or height is 0 or not enough to see the figure, don't save
   if (pivotX === mouseX && pivotY === mouseY) {
     showAllDrawings();
     inPreview = false;
@@ -371,6 +467,8 @@ const reset = (e) => {
   pivotX = pivotY = undefined;
 };
 
+// start of event listeners
+
 canvas.addEventListener('mouseup', reset);
 
 canvas.addEventListener('mousedown', (e) => {
@@ -387,7 +485,20 @@ canvas.addEventListener('mousemove', (e) => {
   if (inPreview) preview();
 });
 
-document.querySelector('#canvas-bg').addEventListener('change', (e) => {
+document.querySelector('#instruments').addEventListener('change', changeInstrument);
+
+document.querySelector('#mime-type').addEventListener('input', changeMimeType);
+
+document.querySelector('#save').addEventListener('click', () => {
+  if (saveMimeType === 'svg') {
+    return saveToSVG();
+  }
+  return saveToRaster(saveMimeType);
+});
+
+document.querySelector('#canvas-bg').addEventListener('input', (e) => {
   canvasColor = e.currentTarget.value;
   showAllDrawings();
 });
+
+// end of event listeners
