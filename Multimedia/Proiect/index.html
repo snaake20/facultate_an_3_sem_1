@@ -38,11 +38,13 @@
         <div>
           <label for="mime-type">Export:</label>
           <select name="mime-type" id="mime-type">
-            <option value="png">PNG</option>
-            <option value="jpeg">JPEG</option>
-            <option value="bmp">BMP</option>
-            <option value="svg">SVG</option>
+            <option id="mime-png" value="png">PNG</option>
+            <option id="mime-jpeg" value="jpeg">JPEG</option>
+            <option id="mime-bmp" value="bmp">BMP</option>
+            <option id="mime-svg" value="svg">SVG</option>
           </select>
+          <label for="is-transparent">Transparent:</label>
+          <input type="checkbox" name="is-transparent" id="is-transparent">
           <button id="save" type="button">Save</button>
         </div>
         <div>

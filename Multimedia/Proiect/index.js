@@ -29,21 +29,23 @@ class Line {
 
 // start of variables
 
-const canvas = document.querySelector('#canvas');
-const ctx = canvas.getContext('2d');
+const canvas = document.querySelector('#canvas'); // canvas element
+const ctx = canvas.getContext('2d'); // canvas context
 
-const drawings = [];
+const drawings = []; // array of drawings
 
-const listOfDrawings = document.querySelector('#drawings');
+const listOfDrawings = document.querySelector('#drawings'); // list of editable drawings 
 
 // start of functions needed for proxy
 
+// rendering main information such as the drawing type and the delete button
 const renderMainInformation = (div, target, value) => {
   const p = document.createElement('p');
   p.textContent = value.type;
   const button = document.createElement('button');
   button.type = 'button';
   button.textContent = 'delete';
+  // function for deleting the drawing (from the array of drawings, editable list and from the canvas)
   button.addEventListener('click', () => {
     target.splice(
       target.findIndex((d) => d.id === value.id),
@@ -59,6 +61,7 @@ const renderMainInformation = (div, target, value) => {
   div.appendChild(main);
 };
 
+// returns the label and the input for the dimension of the drawing based on the type of the drawing
 const getValueDimX = (value) => {
   const labelDimX = document.createElement('label');
   switch (value.type) {
@@ -80,10 +83,11 @@ const getValueDimX = (value) => {
     case 'ellipse':
       inputDimX.value = value.figure.radiusX;
       inputDimX.placeholder = value.figure.radiusX;
+      // event listener for changing the dimension of the drawing, redrawing drawing after changing the dimension
       inputDimX.addEventListener('input', (e) => {
-        if (!e.target.value) return;
-        if (e.target.value < 0) e.target.value = 0;
-        if (e.target.value > canvas.width) e.target.value = canvas.width;
+        if (!e.target.value) return; // if the input is empty, do nothing
+        if (e.target.value < 0) e.target.value = 0; // if the input is less than 0, set it to 0
+        if (e.target.value > canvas.width) e.target.value = canvas.width; // if the input is greater than the width of the canvas, set it to the width of the canvas
         value.figure.radiusX = e.target.value;
         showAllDrawings();
       });
@@ -91,10 +95,11 @@ const getValueDimX = (value) => {
     case 'rect':
       inputDimX.value = value.figure.width;
       inputDimX.placeholder = value.figure.width;
+      // event listener for changing the dimension of the drawing, redrawing drawing after changing the dimension
       inputDimX.addEventListener('input', (e) => {
-        if (!e.target.value) return;
-        if (e.target.value < 0) e.target.value = 0;
-        if (e.target.value > canvas.width) e.target.value = canvas.width;
+        if (!e.target.value) return; // if the input is empty, do nothing
+        if (e.target.value < 0) e.target.value = 0; // if the input is less than 0, set it to 0
+        if (e.target.value > canvas.width) e.target.value = canvas.width; // if the input is greater than the width of the canvas, set it to the width of the canvas
         value.figure.width = e.target.value;
         showAllDrawings();
       });
@@ -102,10 +107,11 @@ const getValueDimX = (value) => {
     case 'line':
       inputDimX.value = value.figure.x2;
       inputDimX.placeholder = value.figure.x2;
+      // event listener for changing the dimension of the drawing, redrawing drawing after changing the dimension
       inputDimX.addEventListener('input', (e) => {
-        if (!e.target.value) return;
-        if (e.target.value < 0) e.target.value = 0;
-        if (e.target.value > canvas.width) e.target.value = canvas.width;
+        if (!e.target.value) return; // if the input is empty, do nothing
+        if (e.target.value < 0) e.target.value = 0; // if the input is less than 0, set it to 0
+        if (e.target.value > canvas.width) e.target.value = canvas.width; // if the input is greater than the width of the canvas, set it to the width of the canvas
         value.figure.x2 = e.target.value;
         showAllDrawings();
       });
@@ -114,6 +120,7 @@ const getValueDimX = (value) => {
   return [labelDimX, inputDimX];
 };
 
+// same as getValueDimX, but for the Y dimension
 const getValueDimY = (value) => {
   const labelDimY = document.createElement('label');
   switch (value.type) {
@@ -135,6 +142,7 @@ const getValueDimY = (value) => {
     case 'ellipse':
       inputDimY.value = value.figure.radiusY;
       inputDimY.placeholder = value.figure.radiusY;
+      // same as in getValueDimX, same guard clauses
       inputDimY.addEventListener('input', (e) => {
         if (!e.target.value) return;
         if (e.target.value < 0) e.target.value = 0;
@@ -146,6 +154,7 @@ const getValueDimY = (value) => {
     case 'rect':
       inputDimY.value = value.figure.height;
       inputDimY.placeholder = value.figure.height;
+      // same as in getValueDimX, same guard clauses
       inputDimY.addEventListener('input', (e) => {
         if (!e.target.value) return;
         if (e.target.value < 0) e.target.value = 0;
@@ -157,6 +166,7 @@ const getValueDimY = (value) => {
     case 'line':
       inputDimY.value = value.figure.y2;
       inputDimY.placeholder = value.figure.y2;
+      // same as in getValueDimX, same guard clauses
       inputDimY.addEventListener('input', (e) => {
         if (!e.target.value) return;
         if (e.target.value < 0) e.target.value = 0;
@@ -169,6 +179,7 @@ const getValueDimY = (value) => {
   return [labelDimY, inputDimY];
 };
 
+// rendering modifiers such as the position of the drawing and the dimensions of the drawing
 const renderModifiers = (div, value) => {
   const divModX = document.createElement('div');
   const labelInputX = document.createElement('label');
@@ -179,10 +190,11 @@ const renderModifiers = (div, value) => {
   inputX.max = canvas.width;
   inputX.value = value.figure.x;
   inputX.placeholder = value.figure.x;
+  // event listener for changing the position of the drawing, redrawing drawing after changing the position
   inputX.addEventListener('input', (e) => {
-    if (!e.target.value) return;
-    if (e.target.value < 0) e.target.value = 0;
-    if (e.target.value > canvas.width) e.target.value = canvas.width;
+    if (!e.target.value) return; // if the input is empty, do nothing
+    if (e.target.value < 0) e.target.value = 0; // if the input is less than 0, set it to 0
+    if (e.target.value > canvas.width) e.target.value = canvas.width; // if the input is greater than the width of the canvas, set it to the width of the canvas
     value.figure.x = e.target.value;
     showAllDrawings();
   });
@@ -198,6 +210,7 @@ const renderModifiers = (div, value) => {
   inputY.type = 'number';
   inputY.value = value.figure.y;
   inputY.placeholder = value.figure.y;
+  // same as for inputX, same guard clauses
   inputY.addEventListener('input', (e) => {
     if (!e.target.value) return;
     if (e.target.value < 0) e.target.value = 0;
@@ -208,11 +221,13 @@ const renderModifiers = (div, value) => {
   divModY.appendChild(labelInputY);
   divModY.appendChild(inputY);
 
+  // rendering modifiers for the dimensions of the drawing (X axis)
   const divModDimX = document.createElement('div');
   const [labelDimX, inputDimX] = getValueDimX(value);
   divModDimX.appendChild(labelDimX);
   divModDimX.appendChild(inputDimX);
 
+  // rendering modifiers for the dimensions of the drawing (Y axis)
   const divModDimY = document.createElement('div');
   const [labelDimY, inputDimY] = getValueDimY(value);
   divModDimY.appendChild(labelDimY);
@@ -228,8 +243,9 @@ const renderModifiers = (div, value) => {
 };
 
 const handlerSetter = (target, prop, value) => {
+  // if the property is not length, instead the new element in the array of drawings, render the drawing in the list of drawings
   if (prop !== 'length') {
-    // default behavior
+    // default behavior of setting the new element in the array of drawings
     target[prop] = value;
     // adding to the list of drawings
     const div = document.createElement('div');
@@ -251,7 +267,7 @@ const handler = {
   set: handlerSetter,
 };
 
-const proxy = new Proxy(drawings, handler); // proxy for drawings to render list of drawings
+const proxy = new Proxy(drawings, handler); // proxy for drawings to render list of drawings based on changes on the array of drawings
 
 let pivotX, pivotY; // for drawing
 
@@ -259,46 +275,56 @@ let mouseX, mouseY; // for drawing
 
 let inPreview = false; // for preview
 
-let instrument = document.querySelector('#instruments').value;
+let instrument = document.querySelector('#instruments').value; // instrument for drawing (ellipse, rectangle, line)
 
-let canvasColor = 'transparent'; // for transparent png (canvas color changes when you change the input color)
+let canvasColor = '#fff'; // background color of the canvas
 
-let saveMimeType = document.querySelector('#mime-type').value;
+let isTransparent = false; // if the canvas bg should be transparent (for saving) available only on png and svg
+
+let saveMimeType = document.querySelector('#mime-type').value; // mime type for saving (png, jpeg, bmp, svg)
 
 // end of variables
 
+// start of functions
+
+// function for saving to raster (png, jpeg, bmp)
 const saveToRaster = (mimeType) => {
   const link = document.createElement('a');
   let dataURL = null;
-  if (canvasColor === 'transparent' && mimeType !== 'png') {
-    showAllDrawings('#fff');
+  // if the canvas bg should be transparent, redraw with transparent bg, get Data URL and redraw with the original bg
+  if (isTransparent) {
+    showAllDrawings('transparent');
     dataURL = canvas.toDataURL(`image/${mimeType}`);
     showAllDrawings();
-  } else {
+  } else { // if the canvas bg should not be transparent, get Data URL, (default behaviour)
     dataURL = canvas.toDataURL(`image/${mimeType}`);
   }
-  
+
   link.href = dataURL;
   link.download = `canvas.${mimeType}`;
   link.click();
 };
 
+// function for saving to svg
 const saveToSVG = () => {
+  // creating the svg document element
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
   svg.setAttribute('width', canvas.width);
   svg.setAttribute('height', canvas.height);
   svg.setAttribute('viewBox', `0 0 ${canvas.width} ${canvas.height}`);
   svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-
-  const background = document.createElementNS(
-    'http://www.w3.org/2000/svg',
-    'rect'
-  );
-  background.setAttribute('width', canvas.width);
-  background.setAttribute('height', canvas.height);
-  background.setAttribute('fill', canvasColor);
-  svg.appendChild(background);
-
+  // if the canvas bg should not be transparent, create a background for the svg
+  if (!isTransparent) {
+    const background = document.createElementNS(
+      'http://www.w3.org/2000/svg',
+      'rect'
+    );
+    background.setAttribute('width', canvas.width);
+    background.setAttribute('height', canvas.height);
+    background.setAttribute('fill', canvasColor);
+    svg.appendChild(background);
+  }
+  // creating the svg elements based on the drawings
   proxy.forEach((d) => {
     const figure = document.createElementNS(
       'http://www.w3.org/2000/svg',
@@ -329,9 +355,9 @@ const saveToSVG = () => {
     figure.setAttribute('fill', 'none');
     svg.appendChild(figure);
   });
-
+  // searched on MDN https://developer.mozilla.org/en-US/docs/Web/API/XMLSerializer, basically serializing the svg element to a string and then encoding it to base64
   const dataURL = `data:image/svg+xml;base64,${btoa(
-    new XMLSerializer().serializeToString(svg)
+    new XMLSerializer().serializeToString(svg) 
   )}`;
 
   const link = document.createElement('a');
@@ -340,19 +366,29 @@ const saveToSVG = () => {
   link.click();
 };
 
+// changing the instrument for drawing
 const changeInstrument = (e) => {
   instrument = e.target.value;
 };
 
+// changing the mime type for saving
 const changeMimeType = (e) => {
+  // if the mime type is jpeg or bmp, disable the transparent bg option
+  if (['jpeg', 'bmp'].includes(e.target.value)) {
+    document.querySelector('#is-transparent').disabled = true;
+  } else { // if the mime type is png or svg, enable the transparent bg option
+    document.querySelector('#is-transparent').disabled = false;
+  }
   saveMimeType = e.target.value;
 };
 
+// function for coloring the canvas with an optional parameter for the color (used when changing to transparent bg)
 const colorCanvas = (color) => {
   ctx.fillStyle = color ?? canvasColor;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 };
 
+// function for showing all drawings from the array of drawings with an optional parameter for the color (used when changing to transparent bg)
 const showAllDrawings = (tempColor) => {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   colorCanvas(tempColor);
@@ -384,13 +420,16 @@ const showAllDrawings = (tempColor) => {
   });
 };
 
+// function for drawing the preview of the drawing
 const draw = () => {
   ctx.lineWidth = document.querySelector('#thickness').value ?? 1;
   const colorHex = document.querySelector('#color').value;
+  // converting the hex color to rgb color for transparency
   const colorRGB = `rgba(${parseInt(colorHex.slice(1, 3), 16)},${parseInt(
     colorHex.slice(3, 5),
     16
   )},${parseInt(colorHex.slice(5), 16)},0.5)`;
+  // setting the dash array for the preview
   const dashArray = [6, 6];
   ctx.setLineDash(dashArray);
   ctx.strokeStyle = colorRGB ?? 'black';
@@ -416,9 +455,11 @@ const draw = () => {
       break;
   }
   ctx.stroke();
+  // resetting the dash array (don't want drawings to be dashed)
   ctx.setLineDash([]);
 };
 
+// function for drawing the preview of the drawing
 const preview = () => {
   showAllDrawings();
   if (pivotX && pivotY) {
@@ -426,6 +467,7 @@ const preview = () => {
   }
 };
 
+// function for saving the figure based on the instrument, using the pivot and the mouse position
 const saveFigure = () => {
   let figure = null;
   switch (instrument) {
@@ -438,7 +480,12 @@ const saveFigure = () => {
       );
       break;
     case 'rect':
-      figure = new Rectangle(Math.min(pivotX, mouseX), Math.min(pivotY, mouseY), Math.abs(mouseX - pivotX), Math.abs(mouseY - pivotY));
+      figure = new Rectangle(
+        Math.min(pivotX, mouseX),
+        Math.min(pivotY, mouseY),
+        Math.abs(mouseX - pivotX),
+        Math.abs(mouseY - pivotY)
+      );
       break;
     case 'line':
       figure = new Line(pivotX, pivotY, mouseX, mouseY);
@@ -447,8 +494,11 @@ const saveFigure = () => {
   return figure;
 };
 
+// function for resetting the pivot and the preview and pushing the new drawing to the array of drawings
 const reset = (e) => {
+  // guard clause for right click
   if (e.button != 0) return;
+  // guard clause when clicking but not moving the mouse (drawing a point)
   if (pivotX === mouseX && pivotY === mouseY) {
     showAllDrawings();
     inPreview = false;
@@ -456,7 +506,7 @@ const reset = (e) => {
     return;
   }
   proxy.push({
-    id: Math.random().toString(16).slice(2),
+    id: Math.random().toString(16).slice(2), // random id for the drawing (for deleting)
     type: instrument,
     lineWidth: document.querySelector('#thickness').value ?? 1,
     stroke: document.querySelector('#color').value ?? 'black',
@@ -467,28 +517,46 @@ const reset = (e) => {
   pivotX = pivotY = undefined;
 };
 
+// end of functions
+
 // start of event listeners
 
+// event listener for ending the preview and saving the drawing
 canvas.addEventListener('mouseup', reset);
 
+// event listener for start of the preview
 canvas.addEventListener('mousedown', (e) => {
+  // guard clause for right click
   if (e.button != 0) return;
+  // guard clause for preview (drawing in progress) shouldn't change the start of the drawing (pivotX, pivotY)
   if (inPreview) return;
   pivotX = e.offsetX;
   pivotY = e.offsetY;
   inPreview = true;
 });
 
-canvas.addEventListener('mousemove', (e) => {
+// event listener for preview
+canvas.addEventListener('mousemove', (e) => { // this function changes the values of mouseX and mouseY for the preview
   mouseX = e.offsetX;
   mouseY = e.offsetY;
   if (inPreview) preview();
 });
 
+// event listener for changing the instrument
 document.querySelector('#instruments').addEventListener('change', changeInstrument);
 
+// event listener for changing the mime type
 document.querySelector('#mime-type').addEventListener('input', changeMimeType);
 
+// event listener for having a transparent background when saving
+document.querySelector('#is-transparent').addEventListener('change', (e) => {
+  // disabling the mime types that don't support transparency
+  document.querySelector('#mime-jpeg').disabled = e.target.checked;
+  document.querySelector('#mime-bmp').disabled = e.target.checked;
+  isTransparent = e.target.checked;
+});
+
+// event listener for saving the canvas to raster or svg
 document.querySelector('#save').addEventListener('click', () => {
   if (saveMimeType === 'svg') {
     return saveToSVG();
@@ -496,6 +564,7 @@ document.querySelector('#save').addEventListener('click', () => {
   return saveToRaster(saveMimeType);
 });
 
+// event listener for changing the background color of the canvas
 document.querySelector('#canvas-bg').addEventListener('input', (e) => {
   canvasColor = e.currentTarget.value;
   showAllDrawings();
