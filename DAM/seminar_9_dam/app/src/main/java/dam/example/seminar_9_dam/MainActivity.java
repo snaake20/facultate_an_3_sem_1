@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
             runOnUiThread(() -> {
                 // COD EXECUTAT IN FIRUL PRINCIPAL
                 //tvLoc.setText(prognoza.localitate);
+                getString(R.string.app_name);
                 tvTempCrt.setText("Temperatura curenta este: " + String.valueOf(prognoza.tempCrt));
                 tvTempMin.setText("Temperatura minima este: " + String.valueOf(prognoza.tempMin));
                 tvTempMax.setText("Temperatura maxima este: " + String.valueOf(prognoza.tempMax));

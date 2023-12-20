@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     ArrayList<CustomItem> items = new ArrayList<CustomItem>();
     Executor executor = Executors.newSingleThreadExecutor();
-    Handler handler = new Handler(Looper.getMainLooper());
+    Handler handler = new Handler(Looper.getMainLooper()); // or new Handler(Looper.myLooper());
     ListView listView;
     ItemAdapter adapter;
 

@@ -29,7 +29,7 @@ public class ItemForm extends AppCompatActivity {
     EditText cod, denumire, inventarFaptic, url;
 
     Executor executor = Executors.newSingleThreadExecutor();
-    Handler handler = new Handler(Looper.myLooper());
+    Handler handler = new Handler(Looper.getMainLooper());
 
     private Bitmap downloadImage(String imageUrl) {
         Bitmap bitmap = null;

@@ -1,3 +1,40 @@
-.drawing p {
+#drawings {
+  overflow-y: scroll;
+  max-height: 550px;
+  max-width: 250px;
+}
+
+.drawing {
+  display: flex;
+  flex-direction: column;
+}
+
+.drawing .main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.drawing .main button {
+  height: 20px;
+  cursor: pointer;
+}
+
+.drawing .main p {
   display: inline-block;
+}
+
+.drawing .modifiers {
+  display: flex;
+  flex-direction: column;
+}
+
+.drawing .modifiers div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
 }
