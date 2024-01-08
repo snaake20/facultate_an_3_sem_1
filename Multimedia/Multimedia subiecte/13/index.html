@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animare Bila</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    #container {
+      width: 300px;
+      height: 300px;
+      position: relative;
+      border: 1px solid #ccc;
+    }
+
+    #bila {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: red;
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="bila"></div>
+  </div>
+
+  <script>
+    const container = document.getElementById('container');
+    const bila = document.getElementById('bila');
+
+    let x = 0;
+    let y = 0;
+    let directionX = 1;
+    let directionY = 1;
+
+    function animare() {
+      x += 2 * directionX;
+      y += 2 * directionY;
+
+      if (x >= container.offsetWidth - bila.offsetWidth || x <= 0) {
+        directionX *= -1;
+      }
+
+      if (y >= container.offsetHeight - bila.offsetHeight || y <= 0) {
+        directionY *= -1;
+      }
+
+      bila.style.transform = `translate(${x}px, ${y}px)`;
+      requestAnimationFrame(animare);
+    }
+
+    animare();
+  </script>
+</body>
+</html>

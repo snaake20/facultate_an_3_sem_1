@@ -1,0 +1,1 @@
+Scrieti aplicatia HTML5 si codul javascript care incarca in pagina harta orasului Constanta. La apasarea butonului dreapta mouse incarcati pe harta layerul trafic.

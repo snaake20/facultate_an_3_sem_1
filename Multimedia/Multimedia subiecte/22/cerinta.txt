@@ -1,0 +1,1 @@
+Scrieti aplicatia html5 si codul javascript care incarca in pagina harta orasului Cluj. La apasarea butonului dreapta mouse se va adauga un marker pe harta.

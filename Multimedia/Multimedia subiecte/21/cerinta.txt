@@ -1,0 +1,1 @@
+Scrieti aplicatia html5 si codul javascript care la click pe canvas inverseaza imaginea fata de axa OX si intensifica culorile rosu si verde

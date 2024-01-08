@@ -1,0 +1,1 @@
+Scrieti aplicatia html5 si codul javascript care deplaseaza un cerc de raza 15 pixeli orizontal de la stanga la dreapta intr-un obiect svg. Viteza de deplasare trebuie sa fie de 30 de pixeli pe secunda. Atunci cand cercul depaseste marginea din dreapta a svg-ului (fixed) trebuie repozitionat in partea stanga

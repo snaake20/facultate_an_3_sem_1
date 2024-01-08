@@ -1,0 +1,35 @@
+<html>
+  <body>
+    <button id="incarca" type="button">Incarca</button>
+    <canvas id="desen"></canvas>
+    <script>
+      const canvas = document.getElementById('desen');
+      const ctx = canvas.getContext('2d');
+      const button = document.querySelector('#incarca');
+      const image = new Image();
+      image.src = 'large-359725960.jpg';
+
+      function incarcaImagine(image) {
+        canvas.width = image.width;
+        canvas.height = image.height;
+        ctx.drawImage(image, 0, 0);
+        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < imageData.data.length; i += 4) {
+          const medie =
+            (imageData.data[i] * 0.3 +
+              imageData.data[i + 1] * 0.6 +
+              imageData.data[i + 2] * 0.11) /
+            3;
+          imageData.data[i] = medie;
+          imageData.data[i + 1] = medie;
+          imageData.data[i + 2] = medie;
+        }
+        ctx.putImageData(imageData, 0, 0);
+      }
+
+      button.addEventListener('click', () => {
+        incarcaImagine(image);
+      });
+    </script>
+  </body>
+</html>

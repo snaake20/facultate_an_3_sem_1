@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="position: relative">
+      <canvas style="position: absolute" id="image"></canvas>
+      <canvas style="position: absolute" id="canvas"></canvas>
+    </div>
+    <script>
+      const canvasImage = document.getElementById('image');
+      const contextImage = canvasImage.getContext('2d');
+      const canvas = document.getElementById('canvas');
+      const context = canvas.getContext('2d');
+
+      const image = new Image();
+      image.src = 'large-359725960.jpg';
+
+
+      image.onload = () => {
+        canvasImage.width = image.width;
+        canvasImage.height = image.height;
+        canvas.width = image.width;
+        canvas.height = image.height;
+        contextImage.drawImage(image, 0, 0, canvas.width, canvas.height);
+        context.fillStyle = 'black';
+        context.fillRect(0, 0, canvas.width, canvas.height);
+      };
+
+      const spotLight = (event) => {
+        if (event.button !== 0) return;
+        const x = event.offsetX;
+        const y = event.offsetY;
+        context.beginPath();
+        context.globalCompositeOperation = 'destination-out';
+        context.arc(x, y, 30, 0, 2 * Math.PI);
+        context.fill();
+        context.closePath();
+      };
+
+      canvas.addEventListener('mousedown', spotLight);
+      canvas.addEventListener('mouseup', () => {
+        context.globalCompositeOperation = 'source-over';
+        context.fillStyle = 'black';
+        context.fillRect(0, 0, canvas.width, canvas.height);
+      });
+    </script>
+  </body>
+</html>

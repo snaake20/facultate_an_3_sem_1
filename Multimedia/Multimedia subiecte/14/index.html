@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas id="canvas" width="200" height="200"></canvas>
+    <script>
+      const canvas = document.getElementById('canvas');
+      const context = canvas.getContext('2d');
+      let x = 0,
+        y = canvas.height;
+      let sensX = 1,
+        sensY = 1;
+
+      const desenareBila = (x, y) => {
+        context.beginPath();
+        context.arc(x, y, 20, 0, 2 * Math.PI);
+        context.fillStyle = 'red';
+        context.fill();
+        context.closePath();
+      };
+      setInterval(() => {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        console.log(x, y);
+        desenareBila(x, y);
+
+        x += 2 * sensX;
+
+        y -= 2 * sensY;
+
+        if (x <= 0 || x >= canvas.width) {
+          sensX *= -1;
+        }
+
+        if (y <= 0 || y >= canvas.height) {
+          sensY *= -1;
+        }
+      }, 0);
+    </script>
+  </body>
+</html>

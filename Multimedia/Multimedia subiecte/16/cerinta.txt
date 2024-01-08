@@ -1,0 +1,1 @@
+Scrieti aplicatia HTML5 si codul javascript care inverseaza intr-un canvas componentele de culoare rosu si albastru pe un patrat cu latura de 20 pixeli centrat pe pozitia mouseului. La miscarea mouseului in afara patratului imaginea revine la initial

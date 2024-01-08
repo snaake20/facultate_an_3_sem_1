@@ -1,0 +1,1 @@
+Scrieti aplicatia html5 si codul javascript care deplaseaza vertical sus in jos un patrat rosu cu latura de 10 pixeli intr-un canvas. Viteza de deplasare trebuie sa fie de 30 de pixeli pe secunda. Atunci cand patratul depaseste margina de jos a canvas-ului trebuie repozitionat in partea de sus a canvas-ului.

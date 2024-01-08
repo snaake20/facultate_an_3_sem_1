@@ -1,0 +1,1 @@
+Scrieti aplicatia html5 si codul javascript care deseneaza un patrat la primirea unei comenzi vocale. Dimensiunea laturii va fi inclusa in comanda. Demonstrati functionalitatea.

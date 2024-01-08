@@ -1,0 +1,1 @@
+scrieti aplicatia html5 si codul javascript care afiseaza in canvas imaginea din jurul coordonatelor mouseului pe o raza de 30 de pixeli la apasarea butonului stanga. Imaginea initiala este mascata cu negru.

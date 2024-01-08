@@ -1,0 +1,1 @@
+Scrieti aplicatia html5 si codul javascript cu css care animeaza o bila pe diagonala unui obiect div

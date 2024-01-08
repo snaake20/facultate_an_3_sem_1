@@ -1,0 +1,1 @@
+Scrieti o aplicatie html5 si o functie javascript care primeste ca parametru o imagine si o afiseaza in tonuri de gri (ponderi rgb vor fi 0.3,0.6,0.11) pe canvas-ul cu id-ul "desen" la coordonatele 0,0. Utilizati functia la apasarea unui buton.

@@ -1,0 +1,1 @@
+Scrieti aplicatia html5 si codul javascript care animeaza o bile pe diagonala secundara a unui obiect canvas

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <script>
+      const canvas = document.getElementById('canvas');
+      const context = canvas.getContext('2d');
+      const image = new Image();
+      image.src = 'large-359725960.jpg';
+      const patrat = {
+        x: 0,
+        y: 0,
+      };
+      let originalData;
+      image.onload = () => {
+        console.log(image);
+        canvas.width = image.width;
+        canvas.height = image.height;
+        context.drawImage(image, 0, 0, canvas.width, canvas.height);
+      };
+
+      const invert = (event) => {
+        if (
+          event.offsetX > patrat.x &&
+          event.offsetX <= patrat.x + 20 &&
+          event.offsetY > patrat.y &&
+          event.offsetY <= patrat.y + 20
+        ) {
+          const modified = context.getImageData(patrat.x, patrat.y, 20, 20);
+          const data = modified.data;
+          for (let i = 0; i < data.length; i += 4) {
+            data[i] = 255 - data[i];
+            data[i + 1] = 255 - data[i + 1];
+          }
+          context.putImageData(modified, patrat.x, patrat.y);
+        }
+      };
+
+      canvas.addEventListener('click', (event) => {
+        context.drawImage(image, 0, 0, canvas.width, canvas.height);
+        context.beginPath();
+        context.strokeStyle = 'green';
+        patrat.x = event.offsetX - 10;
+        patrat.y = event.offsetY - 10;
+        context.strokeRect(patrat.x, patrat.y, 20, 20);
+        context.closePath();
+        originalData = context.getImageData(patrat.x, patrat.y, 20, 20);
+        invert(event);
+      });
+
+      canvas.addEventListener('mousemove', (event) => {
+        if (originalData)
+          context.putImageData(originalData, patrat.x, patrat.y);
+        invert(event);
+      });
+    </script>
+  </body>
+</html>

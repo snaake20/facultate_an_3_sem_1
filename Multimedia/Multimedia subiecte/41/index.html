@@ -1,0 +1,30 @@
+<html>
+  <body>
+    <div id="map" style="height: 400px; width: 100%"></div>
+  </body>
+  <script
+    async
+    src="https://maps.googleapis.com/maps/api/js?key=API_KEY_BAIATU&callback=initMap"
+    defer
+  ></script>
+  <script>
+    let map;
+
+    function initMap() {
+      var geocoder = new google.maps.Geocoder();
+      var oras = 'Cluj, Romania';
+      geocoder.geocode({ address: oras }, function (results, status) {
+        if (status === 'OK') {
+          map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 12,
+            center: results[0].geometry.location,
+          });
+          map.addListener('rightclick', () => {
+            var traffic = new google.maps.TrafficLayer();
+            traffic.setMap(map);
+          });
+        }
+      });
+    }
+  </script>
+</html>

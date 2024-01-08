@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animare Bila pe Diagonala Secundara</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    canvas {
+      display: block;
+      background-color: #f0f0f0;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="myCanvas" width="400" height="400"></canvas>
+
+  <script>
+    const canvas = document.getElementById('myCanvas');
+    const context = canvas.getContext('2d');
+
+    // Set initial position and speed
+    let x = 0;
+    let y = canvas.height;
+    let speed = 2;
+
+    function animate() {
+      // Clear the canvas
+      context.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Update position on the diagonal
+      x += speed;
+      y -= speed;
+
+      // Draw the ball
+      context.beginPath();
+      context.arc(x, y, 20, 0, 2 * Math.PI);
+      context.fillStyle = 'blue';
+      context.fill();
+      context.closePath();
+
+      // Request next animation frame
+      requestAnimationFrame(animate);
+    }
+
+    // Start the animation
+    animate();
+  </script>
+</body>
+</html>

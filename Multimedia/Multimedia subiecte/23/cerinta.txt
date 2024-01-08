@@ -1,0 +1,1 @@
+Scrieti aplicatia html5 si codul javascript care deseneaza un cerc albastru la primerea unei comenzi vocale. Raza cercului va fi inclusa in comanda. Demonstrati functionalitatea

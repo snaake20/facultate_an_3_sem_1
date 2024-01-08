@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <svg id="svg" width="200" height="200">
+      <circle id="cerc" cx="0" cy="100" r="15" fill="red" />
+    </svg>
+    <script>
+      const circle = document.getElementById('cerc');
+      const svg = document.getElementById('svg');
+
+      setInterval(() => {
+        const x = Number(circle.getAttribute('cx'));
+        const r = Number(circle.getAttribute('r'));
+        if (x + r > 200) {
+          circle.setAttribute('cx', 0);
+        }
+        circle.setAttribute('cx', Number(circle.getAttribute('cx')) + 15);
+      }, 500);
+    </script>
+  </body>
+</html>

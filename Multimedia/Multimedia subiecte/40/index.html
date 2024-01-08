@@ -1,0 +1,44 @@
+<html>
+  <body>
+    <div style="position: relative">
+      <canvas style="position: absolute" id="img"></canvas>
+      <canvas style="position: absolute" id="g-img"></canvas>
+    </div>
+    <script>
+      const canvas = document.getElementById('img');
+      const ctx = canvas.getContext('2d');
+      const gCanvas = document.getElementById('g-img');
+      const gCtx = gCanvas.getContext('2d');
+
+      const image = new Image();
+      image.src = 'large-359725960.jpg';
+
+      image.onload = () => {
+        canvas.width = image.width;
+        canvas.height = image.height;
+        gCanvas.width = image.width;
+        gCanvas.height = image.height;
+        ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < imageData.data.length; i += 4) {
+          const r = imageData.data[i];
+          const g = imageData.data[i + 1];
+          const b = imageData.data[i + 2];
+          const gray = (r + g + b) / 3;
+          imageData.data[i] = gray;
+          imageData.data[i + 1] = gray;
+          imageData.data[i + 2] = gray;
+        }
+        gCtx.putImageData(imageData, 0, 0);
+      };
+
+      gCanvas.addEventListener('click', () => {
+        gCtx.beginPath();
+        gCtx.globalCompositeOperation = 'destination-out';
+        gCtx.arc(event.offsetX, event.offsetY, 30, 0, Math.PI * 2);
+        gCtx.fill();
+        gCtx.closePath();
+      });
+    </script>
+  </body>
+</html>
