@@ -1,0 +1,53 @@
+<html>
+  <body>
+    <canvas
+      id="cvs"
+      style="border: 2px solid black"
+      width="500"
+      height="500"
+    ></canvas>
+  </body>
+  <script>
+    var canvas = document.getElementById('cvs');
+    var context = cvs.getContext('2d');
+
+    const image = new Image();
+    image.src = 'Untitled.jpg';
+
+    image.onload = () => {
+      canvas.width = image.width;
+      canvas.height = image.height;
+      context.drawImage(image, 0, 0, canvas.width, canvas.height);
+      var imgData = context.getImageData(0, 0, canvas.width, canvas.height);
+      var data = imgData.data;
+      for (i = 0; i < canvas.height; i++)
+        for (j = 0; j < canvas.width; j++) {
+          //if (j % 2 === 0) {
+          const index = (i * canvas.width + j) * 4;
+          data[index] = 255 - data[index];
+          data[index + 1] = 255 - data[index + 1];
+          data[index + 2] = 255 - data[index + 2];
+          //data[(i * canvas.width + j) * 4 + 3] = 255;
+          //}
+        }
+      context.putImageData(imgData, 0, 0);
+    };
+
+    /* window.onload = () => {
+      ctx.fillStyle = 'red';
+      ctx.fillRect(10, 10, 10, 10);
+      ctx.fillStyle = 'yellow';
+      ctx.arc(40, 40, 20, 0, 2 * Math.PI);
+      ctx.fill();
+      ctx.fillStyle = 'blue';
+      ctx.fillRect(50, 50, 20, 10);
+      ctx.fillStyle = 'green';
+      ctx.fillRect(160, 100, 10, 10);
+      ctx.beginPath();
+      ctx.fillStyle = 'pink';
+      ctx.arc(100, 100, 30, 0, 2 * Math.PI);
+      ctx.fill();
+
+    };*/
+  </script>
+</html>

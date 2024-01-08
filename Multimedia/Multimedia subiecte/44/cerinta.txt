@@ -1,0 +1,1 @@
+Scrieti o aplicatie html5 si codul javascript care deseneaza 5 figuri geometrice si apoi schimba transparenta pentru primele 50 de linii

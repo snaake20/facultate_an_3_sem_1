@@ -1,0 +1,1 @@
+Scrieti o aplicatie html5 si codul javascript care deseneaza 5 figuri geometrice si apoi adauga transparenta random tuturor liniilor de pixeli cu index par intr-un canvas raster

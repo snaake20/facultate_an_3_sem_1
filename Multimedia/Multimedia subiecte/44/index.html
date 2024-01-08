@@ -1,0 +1,32 @@
+<html>
+  <body>
+    <canvas id="canvas"></canvas>
+    <script>
+      var canvas = document.getElementById('canvas');
+      var ctx = canvas.getContext('2d');
+      window.onload = () => {
+        ctx.fillStyle = 'red';
+        ctx.fillRect(10, 10, 10, 10);
+        ctx.fillStyle = 'yellow';
+        ctx.arc(40, 40, 20, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.fillStyle = 'blue';
+        ctx.fillRect(50, 50, 20, 10);
+        ctx.fillStyle = 'green';
+        ctx.fillRect(160, 100, 10, 10);
+        ctx.beginPath();
+        ctx.fillStyle = 'pink';
+        ctx.arc(100, 100, 30, 0, 2 * Math.PI);
+        ctx.fill();
+        var imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        var data = imgData.data;
+        for (i = 0; i < canvas.height; i++)
+          for (j = 0; j < canvas.width; j++)
+            if (i < 50) {
+              data[(i * canvas.width + j) * 4 + 3] = Math.floor(Math.random() * 255);
+            }
+        ctx.putImageData(imgData, 0, 0);
+      };
+    </script>
+  </body>
+</html>

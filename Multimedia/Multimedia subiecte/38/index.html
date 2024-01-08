@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      canvas {
+        border: 1px solid #000;
+      }
+    </style>
+    <title>Animatie Cerc pe Linie</title>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="500" height="500"></canvas>
+
+    <script>
+      // Obțineți elementul canvas și contextul 2D
+      var canvas = document.getElementById('myCanvas');
+      var ctx = canvas.getContext('2d');
+
+      // Poziția inițială a cercului
+      var x = 0;
+      var y = 0;
+
+      // Raza cercului
+      var radius = 20;
+
+      // Unghiul de rotație în grade
+      var angle = 30;
+
+      // Viteza animației
+
+      function draw() {
+        // Ștergeți canvas-ul pentru a desena frame-ul următor
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Calculați noile coordonate ale cercului pe linie
+        x += Math.cos((angle * Math.PI) / 180);
+        y += Math.sin((angle * Math.PI) / 180);
+
+        // Desenați linia
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.lineTo(
+          500 * Math.cos((angle * Math.PI) / 180),
+          500 * Math.cos((angle * Math.PI) / 180)
+        );
+        ctx.stroke();
+
+        // Desenați cercul
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, 2 * Math.PI);
+        ctx.fillStyle = 'blue';
+        ctx.fill();
+        ctx.stroke();
+
+        // Apelați recursiv funcția draw pentru a continua animația
+        requestAnimationFrame(draw);
+      }
+
+      // Apelați funcția draw pentru a începe animația
+      draw();
+    </script>
+  </body>
+</html>

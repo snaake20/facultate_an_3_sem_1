@@ -2,21 +2,25 @@
   <body>
     <canvas id="cvs"></canvas>
     <script>
-      const canvas = document.getElementById("cvs");
-      const ctx = canvas.getContext("2d");
+      const canvas = document.getElementById('cvs');
+      const ctx = canvas.getContext('2d');
       const image = new Image();
-      image.src = "large-359725960.jpg";
+      image.src = 'large-359725960.jpg';
       image.onload = () => {
         canvas.width = image.width;
         canvas.height = image.height;
         ctx.drawImage(image, 0, 0);
-      }
+      };
 
-      canvas.addEventListener("click", () => {
+      canvas.addEventListener('click', () => {
         ctx.translate(canvas.width, 0);
         ctx.scale(-1, 1);
-        ctx.drawImage(image, 0, 0);
-      })
+        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        for (let i = 0; i < imageData.data.length; i += 4) {
+          imageData.data[i] *= 20.5;
+          imageData.data[i + 1] *= 20.5;
+        }
+      });
     </script>
   </body>
 </html>

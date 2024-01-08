@@ -1,0 +1,1 @@
+Scrieti aplicatia html5 si codul javascript care animeaza un cerc pe o linie la aproximativ 30 de grade fata de OX intr-un obiect canvas.

@@ -1,0 +1,1 @@
+Scrieti aplicatia html5 si codul js care la click pe canvas inverseaza imaginea fata de axele ox si oy prin procesare la nivelul pixelilor

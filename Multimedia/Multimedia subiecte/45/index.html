@@ -1,0 +1,46 @@
+<html>
+  <body>
+    <canvas id="canvas"></canvas>
+    <script>
+      const canvas = document.getElementById('canvas');
+      const context = canvas.getContext('2d');
+
+      const image = new Image();
+      image.src = 'large-359725960.jpg';
+
+      image.onload = () => {
+        canvas.width = image.width;
+        canvas.height = image.height;
+        context.drawImage(image, 0, 0, canvas.width, canvas.height);
+      };
+
+      canvas.addEventListener('click', () => {
+        const imageData = context.getImageData(
+          0,
+          0,
+          canvas.width,
+          canvas.height
+        );
+        const data = imageData.data;
+        const newData = [];
+
+        for (var i = 0; i < canvas.height; i++) {
+          for (var j = 0; j < canvas.width; j++) {
+            var oldIndex = (i * canvas.width + j) * 4;
+            var newIndex =
+              ((canvas.height - 1 - i) * canvas.width +
+                (canvas.width - 1 - j)) *
+              4;
+            newData[newIndex] = data[oldIndex];
+            newData[newIndex + 1] = data[oldIndex + 1];
+            newData[newIndex + 2] = data[oldIndex + 2];
+            newData[newIndex + 3] = data[oldIndex + 3];
+          }
+        }
+
+        imageData.data.set(newData);
+        context.putImageData(imageData, 0, 0);
+      });
+    </script>
+  </body>
+</html>
